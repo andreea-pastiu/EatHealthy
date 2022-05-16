@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" GroupingSetting="Alphabetical">
+  <Class Name="EatHealthy.Models.Administrator">
+    <Position X="8.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Administrator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EatHealthy.Models.Appointment">
+    <Position X="14" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAQAAAAAAAAAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Appointment.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Nutritionist" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="EatHealthy.Models.FoodDiary">
+    <Position X="8" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAQAAAAAAAAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Models\FoodDiary.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EatHealthy.Models.Ingredient">
+    <Position X="5.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAQAAAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>Models\Ingredient.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EatHealthy.Models.Meal">
+    <Position X="8.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAACAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Meal.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Ingredients" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="EatHealthy.Models.MealPlan">
+    <Position X="14.25" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Models\MealPlan.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="MealPlanDays" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="EatHealthy.Models.MealPlanDay">
+    <Position X="11.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAIAAAgAAAAAAAAAAAAAAAAAAAAAAAAIAAAAA=</HashCode>
+      <FileName>Models\MealPlanDay.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Meals" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="EatHealthy.Models.Nutritionist">
+    <Position X="13.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAQAAAAAgAAAACBAAAAAAAAAA=</HashCode>
+      <FileName>Models\Nutritionist.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="MealPlans" />
+      <Property Name="Patients" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="EatHealthy.Models.Patient">
+    <Position X="11" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAQAAIAAAAAAQCAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Patient.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="FoodDiaries" />
+      <Property Name="Appointments" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="EatHealthy.Models.User">
+    <Position X="11" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAgAAAAAAAAAQAAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>Models\User.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Collections.Generic.List&lt;T&gt;" Collapsed="true">
+    <Position X="16.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

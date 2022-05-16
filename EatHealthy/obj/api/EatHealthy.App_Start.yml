@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: EatHealthy.App_Start
+  commentId: N:EatHealthy.App_Start
+  id: EatHealthy.App_Start
+  children:
+  - EatHealthy.App_Start.WebApiConfig
+  langs:
+  - csharp
+  - vb
+  name: EatHealthy.App_Start
+  nameWithType: EatHealthy.App_Start
+  fullName: EatHealthy.App_Start
+  type: Namespace
+  assemblies:
+  - EatHealthy
+references:
+- uid: EatHealthy.App_Start.WebApiConfig
+  commentId: T:EatHealthy.App_Start.WebApiConfig
+  name: WebApiConfig
+  nameWithType: WebApiConfig
+  fullName: EatHealthy.App_Start.WebApiConfig

@@ -1,0 +1,5445 @@
+### YamlMime:ManagedReference
+items:
+- uid: EatHealthy.Migrations.Added_Appointment_Status
+  commentId: T:EatHealthy.Migrations.Added_Appointment_Status
+  id: Added_Appointment_Status
+  parent: EatHealthy.Migrations
+  children:
+  - EatHealthy.Migrations.Added_Appointment_Status.Down
+  - EatHealthy.Migrations.Added_Appointment_Status.System#Data#Entity#Migrations#Infrastructure#IMigrationMetadata#Id
+  - EatHealthy.Migrations.Added_Appointment_Status.System#Data#Entity#Migrations#Infrastructure#IMigrationMetadata#Source
+  - EatHealthy.Migrations.Added_Appointment_Status.System#Data#Entity#Migrations#Infrastructure#IMigrationMetadata#Target
+  - EatHealthy.Migrations.Added_Appointment_Status.Up
+  langs:
+  - csharp
+  - vb
+  name: Added_Appointment_Status
+  nameWithType: Added_Appointment_Status
+  fullName: EatHealthy.Migrations.Added_Appointment_Status
+  type: Class
+  source:
+    remote:
+      path: D:/documente scoala/Facultate/Anul 3/Sem2/SD/EatHealthy/EatHealthy/Migrations/202205152050589_Added_Appointment_Status.designer.cs
+    id: Added_Appointment_Status
+    path: Migrations/202205152050589_Added_Appointment_Status.designer.cs
+    startLine: 8
+  assemblies:
+  - EatHealthy
+  namespace: EatHealthy.Migrations
+  syntax:
+    content: 'public sealed class Added_Appointment_Status : DbMigration, IDbMigration, IMigrationMetadata'
+    content.vb: >-
+      Public NotInheritable Class Added_Appointment_Status
+          Inherits DbMigration
+          Implements IDbMigration, IMigrationMetadata
+  inheritance:
+  - System.Object
+  - System.Data.Entity.Migrations.DbMigration
+  implements:
+  - System.Data.Entity.Migrations.Infrastructure.IDbMigration
+  - System.Data.Entity.Migrations.Infrastructure.IMigrationMetadata
+  inheritedMembers:
+  - System.Data.Entity.Migrations.DbMigration.CreateStoredProcedure(System.String,System.String,System.Object)
+  - System.Data.Entity.Migrations.DbMigration.CreateStoredProcedure``1(System.String,System.Func{System.Data.Entity.Migrations.Builders.ParameterBuilder,{TParameters}},System.String,System.Object)
+  - System.Data.Entity.Migrations.DbMigration.AlterStoredProcedure(System.String,System.String,System.Object)
+  - System.Data.Entity.Migrations.DbMigration.AlterStoredProcedure``1(System.String,System.Func{System.Data.Entity.Migrations.Builders.ParameterBuilder,{TParameters}},System.String,System.Object)
+  - System.Data.Entity.Migrations.DbMigration.DropStoredProcedure(System.String,System.Object)
+  - System.Data.Entity.Migrations.DbMigration.CreateTable``1(System.String,System.Func{System.Data.Entity.Migrations.Builders.ColumnBuilder,{TColumns}},System.Object)
+  - System.Data.Entity.Migrations.DbMigration.CreateTable``1(System.String,System.Func{System.Data.Entity.Migrations.Builders.ColumnBuilder,{TColumns}},System.Collections.Generic.IDictionary{System.String,System.Object},System.Object)
+  - System.Data.Entity.Migrations.DbMigration.AlterTableAnnotations``1(System.String,System.Func{System.Data.Entity.Migrations.Builders.ColumnBuilder,{TColumns}},System.Collections.Generic.IDictionary{System.String,System.Data.Entity.Infrastructure.Annotations.AnnotationValues},System.Object)
+  - System.Data.Entity.Migrations.DbMigration.AddForeignKey(System.String,System.String,System.String,System.String,System.Boolean,System.String,System.Object)
+  - System.Data.Entity.Migrations.DbMigration.AddForeignKey(System.String,System.String[],System.String,System.String[],System.Boolean,System.String,System.Object)
+  - System.Data.Entity.Migrations.DbMigration.DropForeignKey(System.String,System.String,System.Object)
+  - System.Data.Entity.Migrations.DbMigration.DropForeignKey(System.String,System.String,System.String,System.Object)
+  - System.Data.Entity.Migrations.DbMigration.DropForeignKey(System.String,System.String,System.String,System.String,System.Object)
+  - System.Data.Entity.Migrations.DbMigration.DropForeignKey(System.String,System.String[],System.String,System.Object)
+  - System.Data.Entity.Migrations.DbMigration.DropTable(System.String,System.Object)
+  - System.Data.Entity.Migrations.DbMigration.DropTable(System.String,System.Collections.Generic.IDictionary{System.String,System.Collections.Generic.IDictionary{System.String,System.Object}},System.Object)
+  - System.Data.Entity.Migrations.DbMigration.DropTable(System.String,System.Collections.Generic.IDictionary{System.String,System.Object},System.Object)
+  - System.Data.Entity.Migrations.DbMigration.DropTable(System.String,System.Collections.Generic.IDictionary{System.String,System.Object},System.Collections.Generic.IDictionary{System.String,System.Collections.Generic.IDictionary{System.String,System.Object}},System.Object)
+  - System.Data.Entity.Migrations.DbMigration.MoveTable(System.String,System.String,System.Object)
+  - System.Data.Entity.Migrations.DbMigration.MoveStoredProcedure(System.String,System.String,System.Object)
+  - System.Data.Entity.Migrations.DbMigration.RenameTable(System.String,System.String,System.Object)
+  - System.Data.Entity.Migrations.DbMigration.RenameStoredProcedure(System.String,System.String,System.Object)
+  - System.Data.Entity.Migrations.DbMigration.RenameColumn(System.String,System.String,System.String,System.Object)
+  - System.Data.Entity.Migrations.DbMigration.AddColumn(System.String,System.String,System.Func{System.Data.Entity.Migrations.Builders.ColumnBuilder,System.Data.Entity.Migrations.Model.ColumnModel},System.Object)
+  - System.Data.Entity.Migrations.DbMigration.DropColumn(System.String,System.String,System.Object)
+  - System.Data.Entity.Migrations.DbMigration.DropColumn(System.String,System.String,System.Collections.Generic.IDictionary{System.String,System.Object},System.Object)
+  - System.Data.Entity.Migrations.DbMigration.AlterColumn(System.String,System.String,System.Func{System.Data.Entity.Migrations.Builders.ColumnBuilder,System.Data.Entity.Migrations.Model.ColumnModel},System.Object)
+  - System.Data.Entity.Migrations.DbMigration.AddPrimaryKey(System.String,System.String,System.String,System.Boolean,System.Object)
+  - System.Data.Entity.Migrations.DbMigration.AddPrimaryKey(System.String,System.String[],System.String,System.Boolean,System.Object)
+  - System.Data.Entity.Migrations.DbMigration.DropPrimaryKey(System.String,System.String,System.Object)
+  - System.Data.Entity.Migrations.DbMigration.DropPrimaryKey(System.String,System.Object)
+  - System.Data.Entity.Migrations.DbMigration.CreateIndex(System.String,System.String,System.Boolean,System.String,System.Boolean,System.Object)
+  - System.Data.Entity.Migrations.DbMigration.CreateIndex(System.String,System.String[],System.Boolean,System.String,System.Boolean,System.Object)
+  - System.Data.Entity.Migrations.DbMigration.DropIndex(System.String,System.String,System.Object)
+  - System.Data.Entity.Migrations.DbMigration.DropIndex(System.String,System.String[],System.Object)
+  - System.Data.Entity.Migrations.DbMigration.RenameIndex(System.String,System.String,System.String,System.Object)
+  - System.Data.Entity.Migrations.DbMigration.Sql(System.String,System.Boolean,System.Object)
+  - System.Data.Entity.Migrations.DbMigration.SqlFile(System.String,System.Boolean,System.Object)
+  - System.Data.Entity.Migrations.DbMigration.SqlResource(System.String,System.Reflection.Assembly,System.Boolean,System.Object)
+  - System.Data.Entity.Migrations.DbMigration.System#Data#Entity#Migrations#Infrastructure#IDbMigration#AddOperation(System.Data.Entity.Migrations.Model.MigrationOperation)
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: EatHealthy.Migrations.Added_Appointment_Status.Up
+  commentId: M:EatHealthy.Migrations.Added_Appointment_Status.Up
+  id: Up
+  parent: EatHealthy.Migrations.Added_Appointment_Status
+  langs:
+  - csharp
+  - vb
+  name: Up()
+  nameWithType: Added_Appointment_Status.Up()
+  fullName: EatHealthy.Migrations.Added_Appointment_Status.Up()
+  type: Method
+  source:
+    remote:
+      path: D:/documente scoala/Facultate/Anul 3/Sem2/SD/EatHealthy/EatHealthy/Migrations/202205152050589_Added_Appointment_Status.cs
+    id: Up
+    path: Migrations/202205152050589_Added_Appointment_Status.cs
+    startLine: 7
+  assemblies:
+  - EatHealthy
+  namespace: EatHealthy.Migrations
+  syntax:
+    content: public override void Up()
+    content.vb: Public Overrides Sub Up
+  overridden: System.Data.Entity.Migrations.DbMigration.Up
+  overload: EatHealthy.Migrations.Added_Appointment_Status.Up*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: EatHealthy.Migrations.Added_Appointment_Status.Down
+  commentId: M:EatHealthy.Migrations.Added_Appointment_Status.Down
+  id: Down
+  parent: EatHealthy.Migrations.Added_Appointment_Status
+  langs:
+  - csharp
+  - vb
+  name: Down()
+  nameWithType: Added_Appointment_Status.Down()
+  fullName: EatHealthy.Migrations.Added_Appointment_Status.Down()
+  type: Method
+  source:
+    remote:
+      path: D:/documente scoala/Facultate/Anul 3/Sem2/SD/EatHealthy/EatHealthy/Migrations/202205152050589_Added_Appointment_Status.cs
+    id: Down
+    path: Migrations/202205152050589_Added_Appointment_Status.cs
+    startLine: 12
+  assemblies:
+  - EatHealthy
+  namespace: EatHealthy.Migrations
+  syntax:
+    content: public override void Down()
+    content.vb: Public Overrides Sub Down
+  overridden: System.Data.Entity.Migrations.DbMigration.Down
+  overload: EatHealthy.Migrations.Added_Appointment_Status.Down*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: EatHealthy.Migrations.Added_Appointment_Status.System#Data#Entity#Migrations#Infrastructure#IMigrationMetadata#Id
+  commentId: P:EatHealthy.Migrations.Added_Appointment_Status.System#Data#Entity#Migrations#Infrastructure#IMigrationMetadata#Id
+  id: System#Data#Entity#Migrations#Infrastructure#IMigrationMetadata#Id
+  isEii: true
+  parent: EatHealthy.Migrations.Added_Appointment_Status
+  langs:
+  - csharp
+  - vb
+  name: IMigrationMetadata.Id
+  nameWithType: Added_Appointment_Status.IMigrationMetadata.Id
+  fullName: EatHealthy.Migrations.Added_Appointment_Status.System.Data.Entity.Migrations.Infrastructure.IMigrationMetadata.Id
+  type: Property
+  source:
+    remote:
+      path: D:/documente scoala/Facultate/Anul 3/Sem2/SD/EatHealthy/EatHealthy/Migrations/202205152050589_Added_Appointment_Status.designer.cs
+    id: System.Data.Entity.Migrations.Infrastructure.IMigrationMetadata.Id
+    path: Migrations/202205152050589_Added_Appointment_Status.designer.cs
+    startLine: 13
+  assemblies:
+  - EatHealthy
+  namespace: EatHealthy.Migrations
+  syntax:
+    content: string IMigrationMetadata.Id { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly WriteOnly Property System.Data.Entity.Migrations.Infrastructure.IMigrationMetadata.Id As String Implements IMigrationMetadata.Id
+  overload: EatHealthy.Migrations.Added_Appointment_Status.System#Data#Entity#Migrations#Infrastructure#IMigrationMetadata#Id*
+  implements:
+  - System.Data.Entity.Migrations.Infrastructure.IMigrationMetadata.Id
+  nameWithType.vb: Added_Appointment_Status.System.Data.Entity.Migrations.Infrastructure.IMigrationMetadata.Id
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+  name.vb: System.Data.Entity.Migrations.Infrastructure.IMigrationMetadata.Id
+- uid: EatHealthy.Migrations.Added_Appointment_Status.System#Data#Entity#Migrations#Infrastructure#IMigrationMetadata#Source
+  commentId: P:EatHealthy.Migrations.Added_Appointment_Status.System#Data#Entity#Migrations#Infrastructure#IMigrationMetadata#Source
+  id: System#Data#Entity#Migrations#Infrastructure#IMigrationMetadata#Source
+  isEii: true
+  parent: EatHealthy.Migrations.Added_Appointment_Status
+  langs:
+  - csharp
+  - vb
+  name: IMigrationMetadata.Source
+  nameWithType: Added_Appointment_Status.IMigrationMetadata.Source
+  fullName: EatHealthy.Migrations.Added_Appointment_Status.System.Data.Entity.Migrations.Infrastructure.IMigrationMetadata.Source
+  type: Property
+  source:
+    remote:
+      path: D:/documente scoala/Facultate/Anul 3/Sem2/SD/EatHealthy/EatHealthy/Migrations/202205152050589_Added_Appointment_Status.designer.cs
+    id: System.Data.Entity.Migrations.Infrastructure.IMigrationMetadata.Source
+    path: Migrations/202205152050589_Added_Appointment_Status.designer.cs
+    startLine: 18
+  assemblies:
+  - EatHealthy
+  namespace: EatHealthy.Migrations
+  syntax:
+    content: string IMigrationMetadata.Source { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly WriteOnly Property System.Data.Entity.Migrations.Infrastructure.IMigrationMetadata.Source As String Implements IMigrationMetadata.Source
+  overload: EatHealthy.Migrations.Added_Appointment_Status.System#Data#Entity#Migrations#Infrastructure#IMigrationMetadata#Source*
+  implements:
+  - System.Data.Entity.Migrations.Infrastructure.IMigrationMetadata.Source
+  nameWithType.vb: Added_Appointment_Status.System.Data.Entity.Migrations.Infrastructure.IMigrationMetadata.Source
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+  name.vb: System.Data.Entity.Migrations.Infrastructure.IMigrationMetadata.Source
+- uid: EatHealthy.Migrations.Added_Appointment_Status.System#Data#Entity#Migrations#Infrastructure#IMigrationMetadata#Target
+  commentId: P:EatHealthy.Migrations.Added_Appointment_Status.System#Data#Entity#Migrations#Infrastructure#IMigrationMetadata#Target
+  id: System#Data#Entity#Migrations#Infrastructure#IMigrationMetadata#Target
+  isEii: true
+  parent: EatHealthy.Migrations.Added_Appointment_Status
+  langs:
+  - csharp
+  - vb
+  name: IMigrationMetadata.Target
+  nameWithType: Added_Appointment_Status.IMigrationMetadata.Target
+  fullName: EatHealthy.Migrations.Added_Appointment_Status.System.Data.Entity.Migrations.Infrastructure.IMigrationMetadata.Target
+  type: Property
+  source:
+    remote:
+      path: D:/documente scoala/Facultate/Anul 3/Sem2/SD/EatHealthy/EatHealthy/Migrations/202205152050589_Added_Appointment_Status.designer.cs
+    id: System.Data.Entity.Migrations.Infrastructure.IMigrationMetadata.Target
+    path: Migrations/202205152050589_Added_Appointment_Status.designer.cs
+    startLine: 23
+  assemblies:
+  - EatHealthy
+  namespace: EatHealthy.Migrations
+  syntax:
+    content: string IMigrationMetadata.Target { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly WriteOnly Property System.Data.Entity.Migrations.Infrastructure.IMigrationMetadata.Target As String Implements IMigrationMetadata.Target
+  overload: EatHealthy.Migrations.Added_Appointment_Status.System#Data#Entity#Migrations#Infrastructure#IMigrationMetadata#Target*
+  implements:
+  - System.Data.Entity.Migrations.Infrastructure.IMigrationMetadata.Target
+  nameWithType.vb: Added_Appointment_Status.System.Data.Entity.Migrations.Infrastructure.IMigrationMetadata.Target
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+  name.vb: System.Data.Entity.Migrations.Infrastructure.IMigrationMetadata.Target
+references:
+- uid: EatHealthy.Migrations
+  commentId: N:EatHealthy.Migrations
+  name: EatHealthy.Migrations
+  nameWithType: EatHealthy.Migrations
+  fullName: EatHealthy.Migrations
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Data.Entity.Migrations.DbMigration
+  commentId: T:System.Data.Entity.Migrations.DbMigration
+  parent: System.Data.Entity.Migrations
+  isExternal: true
+  name: DbMigration
+  nameWithType: DbMigration
+  fullName: System.Data.Entity.Migrations.DbMigration
+- uid: System.Data.Entity.Migrations.Infrastructure.IDbMigration
+  commentId: T:System.Data.Entity.Migrations.Infrastructure.IDbMigration
+  parent: System.Data.Entity.Migrations.Infrastructure
+  isExternal: true
+  name: IDbMigration
+  nameWithType: IDbMigration
+  fullName: System.Data.Entity.Migrations.Infrastructure.IDbMigration
+- uid: System.Data.Entity.Migrations.Infrastructure.IMigrationMetadata
+  commentId: T:System.Data.Entity.Migrations.Infrastructure.IMigrationMetadata
+  parent: System.Data.Entity.Migrations.Infrastructure
+  isExternal: true
+  name: IMigrationMetadata
+  nameWithType: IMigrationMetadata
+  fullName: System.Data.Entity.Migrations.Infrastructure.IMigrationMetadata
+- uid: System.Data.Entity.Migrations.DbMigration.CreateStoredProcedure(System.String,System.String,System.Object)
+  commentId: M:System.Data.Entity.Migrations.DbMigration.CreateStoredProcedure(System.String,System.String,System.Object)
+  parent: System.Data.Entity.Migrations.DbMigration
+  isExternal: true
+  name: CreateStoredProcedure(String, String, Object)
+  nameWithType: DbMigration.CreateStoredProcedure(String, String, Object)
+  fullName: System.Data.Entity.Migrations.DbMigration.CreateStoredProcedure(System.String, System.String, System.Object)
+  spec.csharp:
+  - uid: System.Data.Entity.Migrations.DbMigration.CreateStoredProcedure(System.String,System.String,System.Object)
+    name: CreateStoredProcedure
+    nameWithType: DbMigration.CreateStoredProcedure
+    fullName: System.Data.Entity.Migrations.DbMigration.CreateStoredProcedure
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Data.Entity.Migrations.DbMigration.CreateStoredProcedure(System.String,System.String,System.Object)
+    name: CreateStoredProcedure
+    nameWithType: DbMigration.CreateStoredProcedure
+    fullName: System.Data.Entity.Migrations.DbMigration.CreateStoredProcedure
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Data.Entity.Migrations.DbMigration.CreateStoredProcedure``1(System.String,System.Func{System.Data.Entity.Migrations.Builders.ParameterBuilder,{TParameters}},System.String,System.Object)
+  commentId: M:System.Data.Entity.Migrations.DbMigration.CreateStoredProcedure``1(System.String,System.Func{System.Data.Entity.Migrations.Builders.ParameterBuilder,``0},System.String,System.Object)
+  parent: System.Data.Entity.Migrations.DbMigration
+  definition: System.Data.Entity.Migrations.DbMigration.CreateStoredProcedure``1(System.String,System.Func{System.Data.Entity.Migrations.Builders.ParameterBuilder,``0},System.String,System.Object)
+  name: CreateStoredProcedure<TParameters>(String, Func<ParameterBuilder, TParameters>, String, Object)
+  nameWithType: DbMigration.CreateStoredProcedure<TParameters>(String, Func<ParameterBuilder, TParameters>, String, Object)
+  fullName: System.Data.Entity.Migrations.DbMigration.CreateStoredProcedure<TParameters>(System.String, System.Func<System.Data.Entity.Migrations.Builders.ParameterBuilder, TParameters>, System.String, System.Object)
+  nameWithType.vb: DbMigration.CreateStoredProcedure(Of TParameters)(String, Func(Of ParameterBuilder, TParameters), String, Object)
+  fullName.vb: System.Data.Entity.Migrations.DbMigration.CreateStoredProcedure(Of TParameters)(System.String, System.Func(Of System.Data.Entity.Migrations.Builders.ParameterBuilder, TParameters), System.String, System.Object)
+  name.vb: CreateStoredProcedure(Of TParameters)(String, Func(Of ParameterBuilder, TParameters), String, Object)
+  spec.csharp:
+  - uid: System.Data.Entity.Migrations.DbMigration.CreateStoredProcedure``1(System.String,System.Func{System.Data.Entity.Migrations.Builders.ParameterBuilder,``0},System.String,System.Object)
+    name: CreateStoredProcedure<TParameters>
+    nameWithType: DbMigration.CreateStoredProcedure<TParameters>
+    fullName: System.Data.Entity.Migrations.DbMigration.CreateStoredProcedure<TParameters>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Data.Entity.Migrations.Builders.ParameterBuilder
+    name: ParameterBuilder
+    nameWithType: ParameterBuilder
+    fullName: System.Data.Entity.Migrations.Builders.ParameterBuilder
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TParameters
+    nameWithType: TParameters
+    fullName: TParameters
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Data.Entity.Migrations.DbMigration.CreateStoredProcedure``1(System.String,System.Func{System.Data.Entity.Migrations.Builders.ParameterBuilder,``0},System.String,System.Object)
+    name: CreateStoredProcedure(Of TParameters)
+    nameWithType: DbMigration.CreateStoredProcedure(Of TParameters)
+    fullName: System.Data.Entity.Migrations.DbMigration.CreateStoredProcedure(Of TParameters)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Data.Entity.Migrations.Builders.ParameterBuilder
+    name: ParameterBuilder
+    nameWithType: ParameterBuilder
+    fullName: System.Data.Entity.Migrations.Builders.ParameterBuilder
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TParameters
+    nameWithType: TParameters
+    fullName: TParameters
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Data.Entity.Migrations.DbMigration.AlterStoredProcedure(System.String,System.String,System.Object)
+  commentId: M:System.Data.Entity.Migrations.DbMigration.AlterStoredProcedure(System.String,System.String,System.Object)
+  parent: System.Data.Entity.Migrations.DbMigration
+  isExternal: true
+  name: AlterStoredProcedure(String, String, Object)
+  nameWithType: DbMigration.AlterStoredProcedure(String, String, Object)
+  fullName: System.Data.Entity.Migrations.DbMigration.AlterStoredProcedure(System.String, System.String, System.Object)
+  spec.csharp:
+  - uid: System.Data.Entity.Migrations.DbMigration.AlterStoredProcedure(System.String,System.String,System.Object)
+    name: AlterStoredProcedure
+    nameWithType: DbMigration.AlterStoredProcedure
+    fullName: System.Data.Entity.Migrations.DbMigration.AlterStoredProcedure
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Data.Entity.Migrations.DbMigration.AlterStoredProcedure(System.String,System.String,System.Object)
+    name: AlterStoredProcedure
+    nameWithType: DbMigration.AlterStoredProcedure
+    fullName: System.Data.Entity.Migrations.DbMigration.AlterStoredProcedure
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Data.Entity.Migrations.DbMigration.AlterStoredProcedure``1(System.String,System.Func{System.Data.Entity.Migrations.Builders.ParameterBuilder,{TParameters}},System.String,System.Object)
+  commentId: M:System.Data.Entity.Migrations.DbMigration.AlterStoredProcedure``1(System.String,System.Func{System.Data.Entity.Migrations.Builders.ParameterBuilder,``0},System.String,System.Object)
+  parent: System.Data.Entity.Migrations.DbMigration
+  definition: System.Data.Entity.Migrations.DbMigration.AlterStoredProcedure``1(System.String,System.Func{System.Data.Entity.Migrations.Builders.ParameterBuilder,``0},System.String,System.Object)
+  name: AlterStoredProcedure<TParameters>(String, Func<ParameterBuilder, TParameters>, String, Object)
+  nameWithType: DbMigration.AlterStoredProcedure<TParameters>(String, Func<ParameterBuilder, TParameters>, String, Object)
+  fullName: System.Data.Entity.Migrations.DbMigration.AlterStoredProcedure<TParameters>(System.String, System.Func<System.Data.Entity.Migrations.Builders.ParameterBuilder, TParameters>, System.String, System.Object)
+  nameWithType.vb: DbMigration.AlterStoredProcedure(Of TParameters)(String, Func(Of ParameterBuilder, TParameters), String, Object)
+  fullName.vb: System.Data.Entity.Migrations.DbMigration.AlterStoredProcedure(Of TParameters)(System.String, System.Func(Of System.Data.Entity.Migrations.Builders.ParameterBuilder, TParameters), System.String, System.Object)
+  name.vb: AlterStoredProcedure(Of TParameters)(String, Func(Of ParameterBuilder, TParameters), String, Object)
+  spec.csharp:
+  - uid: System.Data.Entity.Migrations.DbMigration.AlterStoredProcedure``1(System.String,System.Func{System.Data.Entity.Migrations.Builders.ParameterBuilder,``0},System.String,System.Object)
+    name: AlterStoredProcedure<TParameters>
+    nameWithType: DbMigration.AlterStoredProcedure<TParameters>
+    fullName: System.Data.Entity.Migrations.DbMigration.AlterStoredProcedure<TParameters>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Data.Entity.Migrations.Builders.ParameterBuilder
+    name: ParameterBuilder
+    nameWithType: ParameterBuilder
+    fullName: System.Data.Entity.Migrations.Builders.ParameterBuilder
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TParameters
+    nameWithType: TParameters
+    fullName: TParameters
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Data.Entity.Migrations.DbMigration.AlterStoredProcedure``1(System.String,System.Func{System.Data.Entity.Migrations.Builders.ParameterBuilder,``0},System.String,System.Object)
+    name: AlterStoredProcedure(Of TParameters)
+    nameWithType: DbMigration.AlterStoredProcedure(Of TParameters)
+    fullName: System.Data.Entity.Migrations.DbMigration.AlterStoredProcedure(Of TParameters)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Data.Entity.Migrations.Builders.ParameterBuilder
+    name: ParameterBuilder
+    nameWithType: ParameterBuilder
+    fullName: System.Data.Entity.Migrations.Builders.ParameterBuilder
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TParameters
+    nameWithType: TParameters
+    fullName: TParameters
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Data.Entity.Migrations.DbMigration.DropStoredProcedure(System.String,System.Object)
+  commentId: M:System.Data.Entity.Migrations.DbMigration.DropStoredProcedure(System.String,System.Object)
+  parent: System.Data.Entity.Migrations.DbMigration
+  isExternal: true
+  name: DropStoredProcedure(String, Object)
+  nameWithType: DbMigration.DropStoredProcedure(String, Object)
+  fullName: System.Data.Entity.Migrations.DbMigration.DropStoredProcedure(System.String, System.Object)
+  spec.csharp:
+  - uid: System.Data.Entity.Migrations.DbMigration.DropStoredProcedure(System.String,System.Object)
+    name: DropStoredProcedure
+    nameWithType: DbMigration.DropStoredProcedure
+    fullName: System.Data.Entity.Migrations.DbMigration.DropStoredProcedure
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Data.Entity.Migrations.DbMigration.DropStoredProcedure(System.String,System.Object)
+    name: DropStoredProcedure
+    nameWithType: DbMigration.DropStoredProcedure
+    fullName: System.Data.Entity.Migrations.DbMigration.DropStoredProcedure
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Data.Entity.Migrations.DbMigration.CreateTable``1(System.String,System.Func{System.Data.Entity.Migrations.Builders.ColumnBuilder,{TColumns}},System.Object)
+  commentId: M:System.Data.Entity.Migrations.DbMigration.CreateTable``1(System.String,System.Func{System.Data.Entity.Migrations.Builders.ColumnBuilder,``0},System.Object)
+  parent: System.Data.Entity.Migrations.DbMigration
+  definition: System.Data.Entity.Migrations.DbMigration.CreateTable``1(System.String,System.Func{System.Data.Entity.Migrations.Builders.ColumnBuilder,``0},System.Object)
+  name: CreateTable<TColumns>(String, Func<ColumnBuilder, TColumns>, Object)
+  nameWithType: DbMigration.CreateTable<TColumns>(String, Func<ColumnBuilder, TColumns>, Object)
+  fullName: System.Data.Entity.Migrations.DbMigration.CreateTable<TColumns>(System.String, System.Func<System.Data.Entity.Migrations.Builders.ColumnBuilder, TColumns>, System.Object)
+  nameWithType.vb: DbMigration.CreateTable(Of TColumns)(String, Func(Of ColumnBuilder, TColumns), Object)
+  fullName.vb: System.Data.Entity.Migrations.DbMigration.CreateTable(Of TColumns)(System.String, System.Func(Of System.Data.Entity.Migrations.Builders.ColumnBuilder, TColumns), System.Object)
+  name.vb: CreateTable(Of TColumns)(String, Func(Of ColumnBuilder, TColumns), Object)
+  spec.csharp:
+  - uid: System.Data.Entity.Migrations.DbMigration.CreateTable``1(System.String,System.Func{System.Data.Entity.Migrations.Builders.ColumnBuilder,``0},System.Object)
+    name: CreateTable<TColumns>
+    nameWithType: DbMigration.CreateTable<TColumns>
+    fullName: System.Data.Entity.Migrations.DbMigration.CreateTable<TColumns>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Data.Entity.Migrations.Builders.ColumnBuilder
+    name: ColumnBuilder
+    nameWithType: ColumnBuilder
+    fullName: System.Data.Entity.Migrations.Builders.ColumnBuilder
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TColumns
+    nameWithType: TColumns
+    fullName: TColumns
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Data.Entity.Migrations.DbMigration.CreateTable``1(System.String,System.Func{System.Data.Entity.Migrations.Builders.ColumnBuilder,``0},System.Object)
+    name: CreateTable(Of TColumns)
+    nameWithType: DbMigration.CreateTable(Of TColumns)
+    fullName: System.Data.Entity.Migrations.DbMigration.CreateTable(Of TColumns)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Data.Entity.Migrations.Builders.ColumnBuilder
+    name: ColumnBuilder
+    nameWithType: ColumnBuilder
+    fullName: System.Data.Entity.Migrations.Builders.ColumnBuilder
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TColumns
+    nameWithType: TColumns
+    fullName: TColumns
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Data.Entity.Migrations.DbMigration.CreateTable``1(System.String,System.Func{System.Data.Entity.Migrations.Builders.ColumnBuilder,{TColumns}},System.Collections.Generic.IDictionary{System.String,System.Object},System.Object)
+  commentId: M:System.Data.Entity.Migrations.DbMigration.CreateTable``1(System.String,System.Func{System.Data.Entity.Migrations.Builders.ColumnBuilder,``0},System.Collections.Generic.IDictionary{System.String,System.Object},System.Object)
+  parent: System.Data.Entity.Migrations.DbMigration
+  definition: System.Data.Entity.Migrations.DbMigration.CreateTable``1(System.String,System.Func{System.Data.Entity.Migrations.Builders.ColumnBuilder,``0},System.Collections.Generic.IDictionary{System.String,System.Object},System.Object)
+  name: CreateTable<TColumns>(String, Func<ColumnBuilder, TColumns>, IDictionary<String, Object>, Object)
+  nameWithType: DbMigration.CreateTable<TColumns>(String, Func<ColumnBuilder, TColumns>, IDictionary<String, Object>, Object)
+  fullName: System.Data.Entity.Migrations.DbMigration.CreateTable<TColumns>(System.String, System.Func<System.Data.Entity.Migrations.Builders.ColumnBuilder, TColumns>, System.Collections.Generic.IDictionary<System.String, System.Object>, System.Object)
+  nameWithType.vb: DbMigration.CreateTable(Of TColumns)(String, Func(Of ColumnBuilder, TColumns), IDictionary(Of String, Object), Object)
+  fullName.vb: System.Data.Entity.Migrations.DbMigration.CreateTable(Of TColumns)(System.String, System.Func(Of System.Data.Entity.Migrations.Builders.ColumnBuilder, TColumns), System.Collections.Generic.IDictionary(Of System.String, System.Object), System.Object)
+  name.vb: CreateTable(Of TColumns)(String, Func(Of ColumnBuilder, TColumns), IDictionary(Of String, Object), Object)
+  spec.csharp:
+  - uid: System.Data.Entity.Migrations.DbMigration.CreateTable``1(System.String,System.Func{System.Data.Entity.Migrations.Builders.ColumnBuilder,``0},System.Collections.Generic.IDictionary{System.String,System.Object},System.Object)
+    name: CreateTable<TColumns>
+    nameWithType: DbMigration.CreateTable<TColumns>
+    fullName: System.Data.Entity.Migrations.DbMigration.CreateTable<TColumns>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Data.Entity.Migrations.Builders.ColumnBuilder
+    name: ColumnBuilder
+    nameWithType: ColumnBuilder
+    fullName: System.Data.Entity.Migrations.Builders.ColumnBuilder
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TColumns
+    nameWithType: TColumns
+    fullName: TColumns
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: System.Collections.Generic.IDictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Data.Entity.Migrations.DbMigration.CreateTable``1(System.String,System.Func{System.Data.Entity.Migrations.Builders.ColumnBuilder,``0},System.Collections.Generic.IDictionary{System.String,System.Object},System.Object)
+    name: CreateTable(Of TColumns)
+    nameWithType: DbMigration.CreateTable(Of TColumns)
+    fullName: System.Data.Entity.Migrations.DbMigration.CreateTable(Of TColumns)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Data.Entity.Migrations.Builders.ColumnBuilder
+    name: ColumnBuilder
+    nameWithType: ColumnBuilder
+    fullName: System.Data.Entity.Migrations.Builders.ColumnBuilder
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TColumns
+    nameWithType: TColumns
+    fullName: TColumns
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: System.Collections.Generic.IDictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Data.Entity.Migrations.DbMigration.AlterTableAnnotations``1(System.String,System.Func{System.Data.Entity.Migrations.Builders.ColumnBuilder,{TColumns}},System.Collections.Generic.IDictionary{System.String,System.Data.Entity.Infrastructure.Annotations.AnnotationValues},System.Object)
+  commentId: M:System.Data.Entity.Migrations.DbMigration.AlterTableAnnotations``1(System.String,System.Func{System.Data.Entity.Migrations.Builders.ColumnBuilder,``0},System.Collections.Generic.IDictionary{System.String,System.Data.Entity.Infrastructure.Annotations.AnnotationValues},System.Object)
+  parent: System.Data.Entity.Migrations.DbMigration
+  definition: System.Data.Entity.Migrations.DbMigration.AlterTableAnnotations``1(System.String,System.Func{System.Data.Entity.Migrations.Builders.ColumnBuilder,``0},System.Collections.Generic.IDictionary{System.String,System.Data.Entity.Infrastructure.Annotations.AnnotationValues},System.Object)
+  name: AlterTableAnnotations<TColumns>(String, Func<ColumnBuilder, TColumns>, IDictionary<String, AnnotationValues>, Object)
+  nameWithType: DbMigration.AlterTableAnnotations<TColumns>(String, Func<ColumnBuilder, TColumns>, IDictionary<String, AnnotationValues>, Object)
+  fullName: System.Data.Entity.Migrations.DbMigration.AlterTableAnnotations<TColumns>(System.String, System.Func<System.Data.Entity.Migrations.Builders.ColumnBuilder, TColumns>, System.Collections.Generic.IDictionary<System.String, System.Data.Entity.Infrastructure.Annotations.AnnotationValues>, System.Object)
+  nameWithType.vb: DbMigration.AlterTableAnnotations(Of TColumns)(String, Func(Of ColumnBuilder, TColumns), IDictionary(Of String, AnnotationValues), Object)
+  fullName.vb: System.Data.Entity.Migrations.DbMigration.AlterTableAnnotations(Of TColumns)(System.String, System.Func(Of System.Data.Entity.Migrations.Builders.ColumnBuilder, TColumns), System.Collections.Generic.IDictionary(Of System.String, System.Data.Entity.Infrastructure.Annotations.AnnotationValues), System.Object)
+  name.vb: AlterTableAnnotations(Of TColumns)(String, Func(Of ColumnBuilder, TColumns), IDictionary(Of String, AnnotationValues), Object)
+  spec.csharp:
+  - uid: System.Data.Entity.Migrations.DbMigration.AlterTableAnnotations``1(System.String,System.Func{System.Data.Entity.Migrations.Builders.ColumnBuilder,``0},System.Collections.Generic.IDictionary{System.String,System.Data.Entity.Infrastructure.Annotations.AnnotationValues},System.Object)
+    name: AlterTableAnnotations<TColumns>
+    nameWithType: DbMigration.AlterTableAnnotations<TColumns>
+    fullName: System.Data.Entity.Migrations.DbMigration.AlterTableAnnotations<TColumns>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Data.Entity.Migrations.Builders.ColumnBuilder
+    name: ColumnBuilder
+    nameWithType: ColumnBuilder
+    fullName: System.Data.Entity.Migrations.Builders.ColumnBuilder
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TColumns
+    nameWithType: TColumns
+    fullName: TColumns
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: System.Collections.Generic.IDictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Data.Entity.Infrastructure.Annotations.AnnotationValues
+    name: AnnotationValues
+    nameWithType: AnnotationValues
+    fullName: System.Data.Entity.Infrastructure.Annotations.AnnotationValues
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Data.Entity.Migrations.DbMigration.AlterTableAnnotations``1(System.String,System.Func{System.Data.Entity.Migrations.Builders.ColumnBuilder,``0},System.Collections.Generic.IDictionary{System.String,System.Data.Entity.Infrastructure.Annotations.AnnotationValues},System.Object)
+    name: AlterTableAnnotations(Of TColumns)
+    nameWithType: DbMigration.AlterTableAnnotations(Of TColumns)
+    fullName: System.Data.Entity.Migrations.DbMigration.AlterTableAnnotations(Of TColumns)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Data.Entity.Migrations.Builders.ColumnBuilder
+    name: ColumnBuilder
+    nameWithType: ColumnBuilder
+    fullName: System.Data.Entity.Migrations.Builders.ColumnBuilder
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TColumns
+    nameWithType: TColumns
+    fullName: TColumns
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: System.Collections.Generic.IDictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Data.Entity.Infrastructure.Annotations.AnnotationValues
+    name: AnnotationValues
+    nameWithType: AnnotationValues
+    fullName: System.Data.Entity.Infrastructure.Annotations.AnnotationValues
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Data.Entity.Migrations.DbMigration.AddForeignKey(System.String,System.String,System.String,System.String,System.Boolean,System.String,System.Object)
+  commentId: M:System.Data.Entity.Migrations.DbMigration.AddForeignKey(System.String,System.String,System.String,System.String,System.Boolean,System.String,System.Object)
+  parent: System.Data.Entity.Migrations.DbMigration
+  isExternal: true
+  name: AddForeignKey(String, String, String, String, Boolean, String, Object)
+  nameWithType: DbMigration.AddForeignKey(String, String, String, String, Boolean, String, Object)
+  fullName: System.Data.Entity.Migrations.DbMigration.AddForeignKey(System.String, System.String, System.String, System.String, System.Boolean, System.String, System.Object)
+  spec.csharp:
+  - uid: System.Data.Entity.Migrations.DbMigration.AddForeignKey(System.String,System.String,System.String,System.String,System.Boolean,System.String,System.Object)
+    name: AddForeignKey
+    nameWithType: DbMigration.AddForeignKey
+    fullName: System.Data.Entity.Migrations.DbMigration.AddForeignKey
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Data.Entity.Migrations.DbMigration.AddForeignKey(System.String,System.String,System.String,System.String,System.Boolean,System.String,System.Object)
+    name: AddForeignKey
+    nameWithType: DbMigration.AddForeignKey
+    fullName: System.Data.Entity.Migrations.DbMigration.AddForeignKey
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Data.Entity.Migrations.DbMigration.AddForeignKey(System.String,System.String[],System.String,System.String[],System.Boolean,System.String,System.Object)
+  commentId: M:System.Data.Entity.Migrations.DbMigration.AddForeignKey(System.String,System.String[],System.String,System.String[],System.Boolean,System.String,System.Object)
+  parent: System.Data.Entity.Migrations.DbMigration
+  isExternal: true
+  name: AddForeignKey(String, String[], String, String[], Boolean, String, Object)
+  nameWithType: DbMigration.AddForeignKey(String, String[], String, String[], Boolean, String, Object)
+  fullName: System.Data.Entity.Migrations.DbMigration.AddForeignKey(System.String, System.String[], System.String, System.String[], System.Boolean, System.String, System.Object)
+  nameWithType.vb: DbMigration.AddForeignKey(String, String(), String, String(), Boolean, String, Object)
+  fullName.vb: System.Data.Entity.Migrations.DbMigration.AddForeignKey(System.String, System.String(), System.String, System.String(), System.Boolean, System.String, System.Object)
+  name.vb: AddForeignKey(String, String(), String, String(), Boolean, String, Object)
+  spec.csharp:
+  - uid: System.Data.Entity.Migrations.DbMigration.AddForeignKey(System.String,System.String[],System.String,System.String[],System.Boolean,System.String,System.Object)
+    name: AddForeignKey
+    nameWithType: DbMigration.AddForeignKey
+    fullName: System.Data.Entity.Migrations.DbMigration.AddForeignKey
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Data.Entity.Migrations.DbMigration.AddForeignKey(System.String,System.String[],System.String,System.String[],System.Boolean,System.String,System.Object)
+    name: AddForeignKey
+    nameWithType: DbMigration.AddForeignKey
+    fullName: System.Data.Entity.Migrations.DbMigration.AddForeignKey
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Data.Entity.Migrations.DbMigration.DropForeignKey(System.String,System.String,System.Object)
+  commentId: M:System.Data.Entity.Migrations.DbMigration.DropForeignKey(System.String,System.String,System.Object)
+  parent: System.Data.Entity.Migrations.DbMigration
+  isExternal: true
+  name: DropForeignKey(String, String, Object)
+  nameWithType: DbMigration.DropForeignKey(String, String, Object)
+  fullName: System.Data.Entity.Migrations.DbMigration.DropForeignKey(System.String, System.String, System.Object)
+  spec.csharp:
+  - uid: System.Data.Entity.Migrations.DbMigration.DropForeignKey(System.String,System.String,System.Object)
+    name: DropForeignKey
+    nameWithType: DbMigration.DropForeignKey
+    fullName: System.Data.Entity.Migrations.DbMigration.DropForeignKey
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Data.Entity.Migrations.DbMigration.DropForeignKey(System.String,System.String,System.Object)
+    name: DropForeignKey
+    nameWithType: DbMigration.DropForeignKey
+    fullName: System.Data.Entity.Migrations.DbMigration.DropForeignKey
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Data.Entity.Migrations.DbMigration.DropForeignKey(System.String,System.String,System.String,System.Object)
+  commentId: M:System.Data.Entity.Migrations.DbMigration.DropForeignKey(System.String,System.String,System.String,System.Object)
+  parent: System.Data.Entity.Migrations.DbMigration
+  isExternal: true
+  name: DropForeignKey(String, String, String, Object)
+  nameWithType: DbMigration.DropForeignKey(String, String, String, Object)
+  fullName: System.Data.Entity.Migrations.DbMigration.DropForeignKey(System.String, System.String, System.String, System.Object)
+  spec.csharp:
+  - uid: System.Data.Entity.Migrations.DbMigration.DropForeignKey(System.String,System.String,System.String,System.Object)
+    name: DropForeignKey
+    nameWithType: DbMigration.DropForeignKey
+    fullName: System.Data.Entity.Migrations.DbMigration.DropForeignKey
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Data.Entity.Migrations.DbMigration.DropForeignKey(System.String,System.String,System.String,System.Object)
+    name: DropForeignKey
+    nameWithType: DbMigration.DropForeignKey
+    fullName: System.Data.Entity.Migrations.DbMigration.DropForeignKey
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Data.Entity.Migrations.DbMigration.DropForeignKey(System.String,System.String,System.String,System.String,System.Object)
+  commentId: M:System.Data.Entity.Migrations.DbMigration.DropForeignKey(System.String,System.String,System.String,System.String,System.Object)
+  parent: System.Data.Entity.Migrations.DbMigration
+  isExternal: true
+  name: DropForeignKey(String, String, String, String, Object)
+  nameWithType: DbMigration.DropForeignKey(String, String, String, String, Object)
+  fullName: System.Data.Entity.Migrations.DbMigration.DropForeignKey(System.String, System.String, System.String, System.String, System.Object)
+  spec.csharp:
+  - uid: System.Data.Entity.Migrations.DbMigration.DropForeignKey(System.String,System.String,System.String,System.String,System.Object)
+    name: DropForeignKey
+    nameWithType: DbMigration.DropForeignKey
+    fullName: System.Data.Entity.Migrations.DbMigration.DropForeignKey
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Data.Entity.Migrations.DbMigration.DropForeignKey(System.String,System.String,System.String,System.String,System.Object)
+    name: DropForeignKey
+    nameWithType: DbMigration.DropForeignKey
+    fullName: System.Data.Entity.Migrations.DbMigration.DropForeignKey
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Data.Entity.Migrations.DbMigration.DropForeignKey(System.String,System.String[],System.String,System.Object)
+  commentId: M:System.Data.Entity.Migrations.DbMigration.DropForeignKey(System.String,System.String[],System.String,System.Object)
+  parent: System.Data.Entity.Migrations.DbMigration
+  isExternal: true
+  name: DropForeignKey(String, String[], String, Object)
+  nameWithType: DbMigration.DropForeignKey(String, String[], String, Object)
+  fullName: System.Data.Entity.Migrations.DbMigration.DropForeignKey(System.String, System.String[], System.String, System.Object)
+  nameWithType.vb: DbMigration.DropForeignKey(String, String(), String, Object)
+  fullName.vb: System.Data.Entity.Migrations.DbMigration.DropForeignKey(System.String, System.String(), System.String, System.Object)
+  name.vb: DropForeignKey(String, String(), String, Object)
+  spec.csharp:
+  - uid: System.Data.Entity.Migrations.DbMigration.DropForeignKey(System.String,System.String[],System.String,System.Object)
+    name: DropForeignKey
+    nameWithType: DbMigration.DropForeignKey
+    fullName: System.Data.Entity.Migrations.DbMigration.DropForeignKey
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Data.Entity.Migrations.DbMigration.DropForeignKey(System.String,System.String[],System.String,System.Object)
+    name: DropForeignKey
+    nameWithType: DbMigration.DropForeignKey
+    fullName: System.Data.Entity.Migrations.DbMigration.DropForeignKey
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Data.Entity.Migrations.DbMigration.DropTable(System.String,System.Object)
+  commentId: M:System.Data.Entity.Migrations.DbMigration.DropTable(System.String,System.Object)
+  parent: System.Data.Entity.Migrations.DbMigration
+  isExternal: true
+  name: DropTable(String, Object)
+  nameWithType: DbMigration.DropTable(String, Object)
+  fullName: System.Data.Entity.Migrations.DbMigration.DropTable(System.String, System.Object)
+  spec.csharp:
+  - uid: System.Data.Entity.Migrations.DbMigration.DropTable(System.String,System.Object)
+    name: DropTable
+    nameWithType: DbMigration.DropTable
+    fullName: System.Data.Entity.Migrations.DbMigration.DropTable
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Data.Entity.Migrations.DbMigration.DropTable(System.String,System.Object)
+    name: DropTable
+    nameWithType: DbMigration.DropTable
+    fullName: System.Data.Entity.Migrations.DbMigration.DropTable
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Data.Entity.Migrations.DbMigration.DropTable(System.String,System.Collections.Generic.IDictionary{System.String,System.Collections.Generic.IDictionary{System.String,System.Object}},System.Object)
+  commentId: M:System.Data.Entity.Migrations.DbMigration.DropTable(System.String,System.Collections.Generic.IDictionary{System.String,System.Collections.Generic.IDictionary{System.String,System.Object}},System.Object)
+  parent: System.Data.Entity.Migrations.DbMigration
+  isExternal: true
+  name: DropTable(String, IDictionary<String, IDictionary<String, Object>>, Object)
+  nameWithType: DbMigration.DropTable(String, IDictionary<String, IDictionary<String, Object>>, Object)
+  fullName: System.Data.Entity.Migrations.DbMigration.DropTable(System.String, System.Collections.Generic.IDictionary<System.String, System.Collections.Generic.IDictionary<System.String, System.Object>>, System.Object)
+  nameWithType.vb: DbMigration.DropTable(String, IDictionary(Of String, IDictionary(Of String, Object)), Object)
+  fullName.vb: System.Data.Entity.Migrations.DbMigration.DropTable(System.String, System.Collections.Generic.IDictionary(Of System.String, System.Collections.Generic.IDictionary(Of System.String, System.Object)), System.Object)
+  name.vb: DropTable(String, IDictionary(Of String, IDictionary(Of String, Object)), Object)
+  spec.csharp:
+  - uid: System.Data.Entity.Migrations.DbMigration.DropTable(System.String,System.Collections.Generic.IDictionary{System.String,System.Collections.Generic.IDictionary{System.String,System.Object}},System.Object)
+    name: DropTable
+    nameWithType: DbMigration.DropTable
+    fullName: System.Data.Entity.Migrations.DbMigration.DropTable
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: System.Collections.Generic.IDictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: System.Collections.Generic.IDictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Data.Entity.Migrations.DbMigration.DropTable(System.String,System.Collections.Generic.IDictionary{System.String,System.Collections.Generic.IDictionary{System.String,System.Object}},System.Object)
+    name: DropTable
+    nameWithType: DbMigration.DropTable
+    fullName: System.Data.Entity.Migrations.DbMigration.DropTable
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: System.Collections.Generic.IDictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: System.Collections.Generic.IDictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Data.Entity.Migrations.DbMigration.DropTable(System.String,System.Collections.Generic.IDictionary{System.String,System.Object},System.Object)
+  commentId: M:System.Data.Entity.Migrations.DbMigration.DropTable(System.String,System.Collections.Generic.IDictionary{System.String,System.Object},System.Object)
+  parent: System.Data.Entity.Migrations.DbMigration
+  isExternal: true
+  name: DropTable(String, IDictionary<String, Object>, Object)
+  nameWithType: DbMigration.DropTable(String, IDictionary<String, Object>, Object)
+  fullName: System.Data.Entity.Migrations.DbMigration.DropTable(System.String, System.Collections.Generic.IDictionary<System.String, System.Object>, System.Object)
+  nameWithType.vb: DbMigration.DropTable(String, IDictionary(Of String, Object), Object)
+  fullName.vb: System.Data.Entity.Migrations.DbMigration.DropTable(System.String, System.Collections.Generic.IDictionary(Of System.String, System.Object), System.Object)
+  name.vb: DropTable(String, IDictionary(Of String, Object), Object)
+  spec.csharp:
+  - uid: System.Data.Entity.Migrations.DbMigration.DropTable(System.String,System.Collections.Generic.IDictionary{System.String,System.Object},System.Object)
+    name: DropTable
+    nameWithType: DbMigration.DropTable
+    fullName: System.Data.Entity.Migrations.DbMigration.DropTable
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: System.Collections.Generic.IDictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Data.Entity.Migrations.DbMigration.DropTable(System.String,System.Collections.Generic.IDictionary{System.String,System.Object},System.Object)
+    name: DropTable
+    nameWithType: DbMigration.DropTable
+    fullName: System.Data.Entity.Migrations.DbMigration.DropTable
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: System.Collections.Generic.IDictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Data.Entity.Migrations.DbMigration.DropTable(System.String,System.Collections.Generic.IDictionary{System.String,System.Object},System.Collections.Generic.IDictionary{System.String,System.Collections.Generic.IDictionary{System.String,System.Object}},System.Object)
+  commentId: M:System.Data.Entity.Migrations.DbMigration.DropTable(System.String,System.Collections.Generic.IDictionary{System.String,System.Object},System.Collections.Generic.IDictionary{System.String,System.Collections.Generic.IDictionary{System.String,System.Object}},System.Object)
+  parent: System.Data.Entity.Migrations.DbMigration
+  isExternal: true
+  name: DropTable(String, IDictionary<String, Object>, IDictionary<String, IDictionary<String, Object>>, Object)
+  nameWithType: DbMigration.DropTable(String, IDictionary<String, Object>, IDictionary<String, IDictionary<String, Object>>, Object)
+  fullName: System.Data.Entity.Migrations.DbMigration.DropTable(System.String, System.Collections.Generic.IDictionary<System.String, System.Object>, System.Collections.Generic.IDictionary<System.String, System.Collections.Generic.IDictionary<System.String, System.Object>>, System.Object)
+  nameWithType.vb: DbMigration.DropTable(String, IDictionary(Of String, Object), IDictionary(Of String, IDictionary(Of String, Object)), Object)
+  fullName.vb: System.Data.Entity.Migrations.DbMigration.DropTable(System.String, System.Collections.Generic.IDictionary(Of System.String, System.Object), System.Collections.Generic.IDictionary(Of System.String, System.Collections.Generic.IDictionary(Of System.String, System.Object)), System.Object)
+  name.vb: DropTable(String, IDictionary(Of String, Object), IDictionary(Of String, IDictionary(Of String, Object)), Object)
+  spec.csharp:
+  - uid: System.Data.Entity.Migrations.DbMigration.DropTable(System.String,System.Collections.Generic.IDictionary{System.String,System.Object},System.Collections.Generic.IDictionary{System.String,System.Collections.Generic.IDictionary{System.String,System.Object}},System.Object)
+    name: DropTable
+    nameWithType: DbMigration.DropTable
+    fullName: System.Data.Entity.Migrations.DbMigration.DropTable
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: System.Collections.Generic.IDictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: System.Collections.Generic.IDictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: System.Collections.Generic.IDictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Data.Entity.Migrations.DbMigration.DropTable(System.String,System.Collections.Generic.IDictionary{System.String,System.Object},System.Collections.Generic.IDictionary{System.String,System.Collections.Generic.IDictionary{System.String,System.Object}},System.Object)
+    name: DropTable
+    nameWithType: DbMigration.DropTable
+    fullName: System.Data.Entity.Migrations.DbMigration.DropTable
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: System.Collections.Generic.IDictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: System.Collections.Generic.IDictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: System.Collections.Generic.IDictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Data.Entity.Migrations.DbMigration.MoveTable(System.String,System.String,System.Object)
+  commentId: M:System.Data.Entity.Migrations.DbMigration.MoveTable(System.String,System.String,System.Object)
+  parent: System.Data.Entity.Migrations.DbMigration
+  isExternal: true
+  name: MoveTable(String, String, Object)
+  nameWithType: DbMigration.MoveTable(String, String, Object)
+  fullName: System.Data.Entity.Migrations.DbMigration.MoveTable(System.String, System.String, System.Object)
+  spec.csharp:
+  - uid: System.Data.Entity.Migrations.DbMigration.MoveTable(System.String,System.String,System.Object)
+    name: MoveTable
+    nameWithType: DbMigration.MoveTable
+    fullName: System.Data.Entity.Migrations.DbMigration.MoveTable
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Data.Entity.Migrations.DbMigration.MoveTable(System.String,System.String,System.Object)
+    name: MoveTable
+    nameWithType: DbMigration.MoveTable
+    fullName: System.Data.Entity.Migrations.DbMigration.MoveTable
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Data.Entity.Migrations.DbMigration.MoveStoredProcedure(System.String,System.String,System.Object)
+  commentId: M:System.Data.Entity.Migrations.DbMigration.MoveStoredProcedure(System.String,System.String,System.Object)
+  parent: System.Data.Entity.Migrations.DbMigration
+  isExternal: true
+  name: MoveStoredProcedure(String, String, Object)
+  nameWithType: DbMigration.MoveStoredProcedure(String, String, Object)
+  fullName: System.Data.Entity.Migrations.DbMigration.MoveStoredProcedure(System.String, System.String, System.Object)
+  spec.csharp:
+  - uid: System.Data.Entity.Migrations.DbMigration.MoveStoredProcedure(System.String,System.String,System.Object)
+    name: MoveStoredProcedure
+    nameWithType: DbMigration.MoveStoredProcedure
+    fullName: System.Data.Entity.Migrations.DbMigration.MoveStoredProcedure
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Data.Entity.Migrations.DbMigration.MoveStoredProcedure(System.String,System.String,System.Object)
+    name: MoveStoredProcedure
+    nameWithType: DbMigration.MoveStoredProcedure
+    fullName: System.Data.Entity.Migrations.DbMigration.MoveStoredProcedure
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Data.Entity.Migrations.DbMigration.RenameTable(System.String,System.String,System.Object)
+  commentId: M:System.Data.Entity.Migrations.DbMigration.RenameTable(System.String,System.String,System.Object)
+  parent: System.Data.Entity.Migrations.DbMigration
+  isExternal: true
+  name: RenameTable(String, String, Object)
+  nameWithType: DbMigration.RenameTable(String, String, Object)
+  fullName: System.Data.Entity.Migrations.DbMigration.RenameTable(System.String, System.String, System.Object)
+  spec.csharp:
+  - uid: System.Data.Entity.Migrations.DbMigration.RenameTable(System.String,System.String,System.Object)
+    name: RenameTable
+    nameWithType: DbMigration.RenameTable
+    fullName: System.Data.Entity.Migrations.DbMigration.RenameTable
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Data.Entity.Migrations.DbMigration.RenameTable(System.String,System.String,System.Object)
+    name: RenameTable
+    nameWithType: DbMigration.RenameTable
+    fullName: System.Data.Entity.Migrations.DbMigration.RenameTable
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Data.Entity.Migrations.DbMigration.RenameStoredProcedure(System.String,System.String,System.Object)
+  commentId: M:System.Data.Entity.Migrations.DbMigration.RenameStoredProcedure(System.String,System.String,System.Object)
+  parent: System.Data.Entity.Migrations.DbMigration
+  isExternal: true
+  name: RenameStoredProcedure(String, String, Object)
+  nameWithType: DbMigration.RenameStoredProcedure(String, String, Object)
+  fullName: System.Data.Entity.Migrations.DbMigration.RenameStoredProcedure(System.String, System.String, System.Object)
+  spec.csharp:
+  - uid: System.Data.Entity.Migrations.DbMigration.RenameStoredProcedure(System.String,System.String,System.Object)
+    name: RenameStoredProcedure
+    nameWithType: DbMigration.RenameStoredProcedure
+    fullName: System.Data.Entity.Migrations.DbMigration.RenameStoredProcedure
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Data.Entity.Migrations.DbMigration.RenameStoredProcedure(System.String,System.String,System.Object)
+    name: RenameStoredProcedure
+    nameWithType: DbMigration.RenameStoredProcedure
+    fullName: System.Data.Entity.Migrations.DbMigration.RenameStoredProcedure
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Data.Entity.Migrations.DbMigration.RenameColumn(System.String,System.String,System.String,System.Object)
+  commentId: M:System.Data.Entity.Migrations.DbMigration.RenameColumn(System.String,System.String,System.String,System.Object)
+  parent: System.Data.Entity.Migrations.DbMigration
+  isExternal: true
+  name: RenameColumn(String, String, String, Object)
+  nameWithType: DbMigration.RenameColumn(String, String, String, Object)
+  fullName: System.Data.Entity.Migrations.DbMigration.RenameColumn(System.String, System.String, System.String, System.Object)
+  spec.csharp:
+  - uid: System.Data.Entity.Migrations.DbMigration.RenameColumn(System.String,System.String,System.String,System.Object)
+    name: RenameColumn
+    nameWithType: DbMigration.RenameColumn
+    fullName: System.Data.Entity.Migrations.DbMigration.RenameColumn
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Data.Entity.Migrations.DbMigration.RenameColumn(System.String,System.String,System.String,System.Object)
+    name: RenameColumn
+    nameWithType: DbMigration.RenameColumn
+    fullName: System.Data.Entity.Migrations.DbMigration.RenameColumn
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Data.Entity.Migrations.DbMigration.AddColumn(System.String,System.String,System.Func{System.Data.Entity.Migrations.Builders.ColumnBuilder,System.Data.Entity.Migrations.Model.ColumnModel},System.Object)
+  commentId: M:System.Data.Entity.Migrations.DbMigration.AddColumn(System.String,System.String,System.Func{System.Data.Entity.Migrations.Builders.ColumnBuilder,System.Data.Entity.Migrations.Model.ColumnModel},System.Object)
+  parent: System.Data.Entity.Migrations.DbMigration
+  isExternal: true
+  name: AddColumn(String, String, Func<ColumnBuilder, ColumnModel>, Object)
+  nameWithType: DbMigration.AddColumn(String, String, Func<ColumnBuilder, ColumnModel>, Object)
+  fullName: System.Data.Entity.Migrations.DbMigration.AddColumn(System.String, System.String, System.Func<System.Data.Entity.Migrations.Builders.ColumnBuilder, System.Data.Entity.Migrations.Model.ColumnModel>, System.Object)
+  nameWithType.vb: DbMigration.AddColumn(String, String, Func(Of ColumnBuilder, ColumnModel), Object)
+  fullName.vb: System.Data.Entity.Migrations.DbMigration.AddColumn(System.String, System.String, System.Func(Of System.Data.Entity.Migrations.Builders.ColumnBuilder, System.Data.Entity.Migrations.Model.ColumnModel), System.Object)
+  name.vb: AddColumn(String, String, Func(Of ColumnBuilder, ColumnModel), Object)
+  spec.csharp:
+  - uid: System.Data.Entity.Migrations.DbMigration.AddColumn(System.String,System.String,System.Func{System.Data.Entity.Migrations.Builders.ColumnBuilder,System.Data.Entity.Migrations.Model.ColumnModel},System.Object)
+    name: AddColumn
+    nameWithType: DbMigration.AddColumn
+    fullName: System.Data.Entity.Migrations.DbMigration.AddColumn
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Data.Entity.Migrations.Builders.ColumnBuilder
+    name: ColumnBuilder
+    nameWithType: ColumnBuilder
+    fullName: System.Data.Entity.Migrations.Builders.ColumnBuilder
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Data.Entity.Migrations.Model.ColumnModel
+    name: ColumnModel
+    nameWithType: ColumnModel
+    fullName: System.Data.Entity.Migrations.Model.ColumnModel
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Data.Entity.Migrations.DbMigration.AddColumn(System.String,System.String,System.Func{System.Data.Entity.Migrations.Builders.ColumnBuilder,System.Data.Entity.Migrations.Model.ColumnModel},System.Object)
+    name: AddColumn
+    nameWithType: DbMigration.AddColumn
+    fullName: System.Data.Entity.Migrations.DbMigration.AddColumn
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Data.Entity.Migrations.Builders.ColumnBuilder
+    name: ColumnBuilder
+    nameWithType: ColumnBuilder
+    fullName: System.Data.Entity.Migrations.Builders.ColumnBuilder
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Data.Entity.Migrations.Model.ColumnModel
+    name: ColumnModel
+    nameWithType: ColumnModel
+    fullName: System.Data.Entity.Migrations.Model.ColumnModel
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Data.Entity.Migrations.DbMigration.DropColumn(System.String,System.String,System.Object)
+  commentId: M:System.Data.Entity.Migrations.DbMigration.DropColumn(System.String,System.String,System.Object)
+  parent: System.Data.Entity.Migrations.DbMigration
+  isExternal: true
+  name: DropColumn(String, String, Object)
+  nameWithType: DbMigration.DropColumn(String, String, Object)
+  fullName: System.Data.Entity.Migrations.DbMigration.DropColumn(System.String, System.String, System.Object)
+  spec.csharp:
+  - uid: System.Data.Entity.Migrations.DbMigration.DropColumn(System.String,System.String,System.Object)
+    name: DropColumn
+    nameWithType: DbMigration.DropColumn
+    fullName: System.Data.Entity.Migrations.DbMigration.DropColumn
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Data.Entity.Migrations.DbMigration.DropColumn(System.String,System.String,System.Object)
+    name: DropColumn
+    nameWithType: DbMigration.DropColumn
+    fullName: System.Data.Entity.Migrations.DbMigration.DropColumn
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Data.Entity.Migrations.DbMigration.DropColumn(System.String,System.String,System.Collections.Generic.IDictionary{System.String,System.Object},System.Object)
+  commentId: M:System.Data.Entity.Migrations.DbMigration.DropColumn(System.String,System.String,System.Collections.Generic.IDictionary{System.String,System.Object},System.Object)
+  parent: System.Data.Entity.Migrations.DbMigration
+  isExternal: true
+  name: DropColumn(String, String, IDictionary<String, Object>, Object)
+  nameWithType: DbMigration.DropColumn(String, String, IDictionary<String, Object>, Object)
+  fullName: System.Data.Entity.Migrations.DbMigration.DropColumn(System.String, System.String, System.Collections.Generic.IDictionary<System.String, System.Object>, System.Object)
+  nameWithType.vb: DbMigration.DropColumn(String, String, IDictionary(Of String, Object), Object)
+  fullName.vb: System.Data.Entity.Migrations.DbMigration.DropColumn(System.String, System.String, System.Collections.Generic.IDictionary(Of System.String, System.Object), System.Object)
+  name.vb: DropColumn(String, String, IDictionary(Of String, Object), Object)
+  spec.csharp:
+  - uid: System.Data.Entity.Migrations.DbMigration.DropColumn(System.String,System.String,System.Collections.Generic.IDictionary{System.String,System.Object},System.Object)
+    name: DropColumn
+    nameWithType: DbMigration.DropColumn
+    fullName: System.Data.Entity.Migrations.DbMigration.DropColumn
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: System.Collections.Generic.IDictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Data.Entity.Migrations.DbMigration.DropColumn(System.String,System.String,System.Collections.Generic.IDictionary{System.String,System.Object},System.Object)
+    name: DropColumn
+    nameWithType: DbMigration.DropColumn
+    fullName: System.Data.Entity.Migrations.DbMigration.DropColumn
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: System.Collections.Generic.IDictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Data.Entity.Migrations.DbMigration.AlterColumn(System.String,System.String,System.Func{System.Data.Entity.Migrations.Builders.ColumnBuilder,System.Data.Entity.Migrations.Model.ColumnModel},System.Object)
+  commentId: M:System.Data.Entity.Migrations.DbMigration.AlterColumn(System.String,System.String,System.Func{System.Data.Entity.Migrations.Builders.ColumnBuilder,System.Data.Entity.Migrations.Model.ColumnModel},System.Object)
+  parent: System.Data.Entity.Migrations.DbMigration
+  isExternal: true
+  name: AlterColumn(String, String, Func<ColumnBuilder, ColumnModel>, Object)
+  nameWithType: DbMigration.AlterColumn(String, String, Func<ColumnBuilder, ColumnModel>, Object)
+  fullName: System.Data.Entity.Migrations.DbMigration.AlterColumn(System.String, System.String, System.Func<System.Data.Entity.Migrations.Builders.ColumnBuilder, System.Data.Entity.Migrations.Model.ColumnModel>, System.Object)
+  nameWithType.vb: DbMigration.AlterColumn(String, String, Func(Of ColumnBuilder, ColumnModel), Object)
+  fullName.vb: System.Data.Entity.Migrations.DbMigration.AlterColumn(System.String, System.String, System.Func(Of System.Data.Entity.Migrations.Builders.ColumnBuilder, System.Data.Entity.Migrations.Model.ColumnModel), System.Object)
+  name.vb: AlterColumn(String, String, Func(Of ColumnBuilder, ColumnModel), Object)
+  spec.csharp:
+  - uid: System.Data.Entity.Migrations.DbMigration.AlterColumn(System.String,System.String,System.Func{System.Data.Entity.Migrations.Builders.ColumnBuilder,System.Data.Entity.Migrations.Model.ColumnModel},System.Object)
+    name: AlterColumn
+    nameWithType: DbMigration.AlterColumn
+    fullName: System.Data.Entity.Migrations.DbMigration.AlterColumn
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Data.Entity.Migrations.Builders.ColumnBuilder
+    name: ColumnBuilder
+    nameWithType: ColumnBuilder
+    fullName: System.Data.Entity.Migrations.Builders.ColumnBuilder
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Data.Entity.Migrations.Model.ColumnModel
+    name: ColumnModel
+    nameWithType: ColumnModel
+    fullName: System.Data.Entity.Migrations.Model.ColumnModel
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Data.Entity.Migrations.DbMigration.AlterColumn(System.String,System.String,System.Func{System.Data.Entity.Migrations.Builders.ColumnBuilder,System.Data.Entity.Migrations.Model.ColumnModel},System.Object)
+    name: AlterColumn
+    nameWithType: DbMigration.AlterColumn
+    fullName: System.Data.Entity.Migrations.DbMigration.AlterColumn
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Data.Entity.Migrations.Builders.ColumnBuilder
+    name: ColumnBuilder
+    nameWithType: ColumnBuilder
+    fullName: System.Data.Entity.Migrations.Builders.ColumnBuilder
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Data.Entity.Migrations.Model.ColumnModel
+    name: ColumnModel
+    nameWithType: ColumnModel
+    fullName: System.Data.Entity.Migrations.Model.ColumnModel
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Data.Entity.Migrations.DbMigration.AddPrimaryKey(System.String,System.String,System.String,System.Boolean,System.Object)
+  commentId: M:System.Data.Entity.Migrations.DbMigration.AddPrimaryKey(System.String,System.String,System.String,System.Boolean,System.Object)
+  parent: System.Data.Entity.Migrations.DbMigration
+  isExternal: true
+  name: AddPrimaryKey(String, String, String, Boolean, Object)
+  nameWithType: DbMigration.AddPrimaryKey(String, String, String, Boolean, Object)
+  fullName: System.Data.Entity.Migrations.DbMigration.AddPrimaryKey(System.String, System.String, System.String, System.Boolean, System.Object)
+  spec.csharp:
+  - uid: System.Data.Entity.Migrations.DbMigration.AddPrimaryKey(System.String,System.String,System.String,System.Boolean,System.Object)
+    name: AddPrimaryKey
+    nameWithType: DbMigration.AddPrimaryKey
+    fullName: System.Data.Entity.Migrations.DbMigration.AddPrimaryKey
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Data.Entity.Migrations.DbMigration.AddPrimaryKey(System.String,System.String,System.String,System.Boolean,System.Object)
+    name: AddPrimaryKey
+    nameWithType: DbMigration.AddPrimaryKey
+    fullName: System.Data.Entity.Migrations.DbMigration.AddPrimaryKey
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Data.Entity.Migrations.DbMigration.AddPrimaryKey(System.String,System.String[],System.String,System.Boolean,System.Object)
+  commentId: M:System.Data.Entity.Migrations.DbMigration.AddPrimaryKey(System.String,System.String[],System.String,System.Boolean,System.Object)
+  parent: System.Data.Entity.Migrations.DbMigration
+  isExternal: true
+  name: AddPrimaryKey(String, String[], String, Boolean, Object)
+  nameWithType: DbMigration.AddPrimaryKey(String, String[], String, Boolean, Object)
+  fullName: System.Data.Entity.Migrations.DbMigration.AddPrimaryKey(System.String, System.String[], System.String, System.Boolean, System.Object)
+  nameWithType.vb: DbMigration.AddPrimaryKey(String, String(), String, Boolean, Object)
+  fullName.vb: System.Data.Entity.Migrations.DbMigration.AddPrimaryKey(System.String, System.String(), System.String, System.Boolean, System.Object)
+  name.vb: AddPrimaryKey(String, String(), String, Boolean, Object)
+  spec.csharp:
+  - uid: System.Data.Entity.Migrations.DbMigration.AddPrimaryKey(System.String,System.String[],System.String,System.Boolean,System.Object)
+    name: AddPrimaryKey
+    nameWithType: DbMigration.AddPrimaryKey
+    fullName: System.Data.Entity.Migrations.DbMigration.AddPrimaryKey
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Data.Entity.Migrations.DbMigration.AddPrimaryKey(System.String,System.String[],System.String,System.Boolean,System.Object)
+    name: AddPrimaryKey
+    nameWithType: DbMigration.AddPrimaryKey
+    fullName: System.Data.Entity.Migrations.DbMigration.AddPrimaryKey
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Data.Entity.Migrations.DbMigration.DropPrimaryKey(System.String,System.String,System.Object)
+  commentId: M:System.Data.Entity.Migrations.DbMigration.DropPrimaryKey(System.String,System.String,System.Object)
+  parent: System.Data.Entity.Migrations.DbMigration
+  isExternal: true
+  name: DropPrimaryKey(String, String, Object)
+  nameWithType: DbMigration.DropPrimaryKey(String, String, Object)
+  fullName: System.Data.Entity.Migrations.DbMigration.DropPrimaryKey(System.String, System.String, System.Object)
+  spec.csharp:
+  - uid: System.Data.Entity.Migrations.DbMigration.DropPrimaryKey(System.String,System.String,System.Object)
+    name: DropPrimaryKey
+    nameWithType: DbMigration.DropPrimaryKey
+    fullName: System.Data.Entity.Migrations.DbMigration.DropPrimaryKey
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Data.Entity.Migrations.DbMigration.DropPrimaryKey(System.String,System.String,System.Object)
+    name: DropPrimaryKey
+    nameWithType: DbMigration.DropPrimaryKey
+    fullName: System.Data.Entity.Migrations.DbMigration.DropPrimaryKey
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Data.Entity.Migrations.DbMigration.DropPrimaryKey(System.String,System.Object)
+  commentId: M:System.Data.Entity.Migrations.DbMigration.DropPrimaryKey(System.String,System.Object)
+  parent: System.Data.Entity.Migrations.DbMigration
+  isExternal: true
+  name: DropPrimaryKey(String, Object)
+  nameWithType: DbMigration.DropPrimaryKey(String, Object)
+  fullName: System.Data.Entity.Migrations.DbMigration.DropPrimaryKey(System.String, System.Object)
+  spec.csharp:
+  - uid: System.Data.Entity.Migrations.DbMigration.DropPrimaryKey(System.String,System.Object)
+    name: DropPrimaryKey
+    nameWithType: DbMigration.DropPrimaryKey
+    fullName: System.Data.Entity.Migrations.DbMigration.DropPrimaryKey
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Data.Entity.Migrations.DbMigration.DropPrimaryKey(System.String,System.Object)
+    name: DropPrimaryKey
+    nameWithType: DbMigration.DropPrimaryKey
+    fullName: System.Data.Entity.Migrations.DbMigration.DropPrimaryKey
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Data.Entity.Migrations.DbMigration.CreateIndex(System.String,System.String,System.Boolean,System.String,System.Boolean,System.Object)
+  commentId: M:System.Data.Entity.Migrations.DbMigration.CreateIndex(System.String,System.String,System.Boolean,System.String,System.Boolean,System.Object)
+  parent: System.Data.Entity.Migrations.DbMigration
+  isExternal: true
+  name: CreateIndex(String, String, Boolean, String, Boolean, Object)
+  nameWithType: DbMigration.CreateIndex(String, String, Boolean, String, Boolean, Object)
+  fullName: System.Data.Entity.Migrations.DbMigration.CreateIndex(System.String, System.String, System.Boolean, System.String, System.Boolean, System.Object)
+  spec.csharp:
+  - uid: System.Data.Entity.Migrations.DbMigration.CreateIndex(System.String,System.String,System.Boolean,System.String,System.Boolean,System.Object)
+    name: CreateIndex
+    nameWithType: DbMigration.CreateIndex
+    fullName: System.Data.Entity.Migrations.DbMigration.CreateIndex
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Data.Entity.Migrations.DbMigration.CreateIndex(System.String,System.String,System.Boolean,System.String,System.Boolean,System.Object)
+    name: CreateIndex
+    nameWithType: DbMigration.CreateIndex
+    fullName: System.Data.Entity.Migrations.DbMigration.CreateIndex
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Data.Entity.Migrations.DbMigration.CreateIndex(System.String,System.String[],System.Boolean,System.String,System.Boolean,System.Object)
+  commentId: M:System.Data.Entity.Migrations.DbMigration.CreateIndex(System.String,System.String[],System.Boolean,System.String,System.Boolean,System.Object)
+  parent: System.Data.Entity.Migrations.DbMigration
+  isExternal: true
+  name: CreateIndex(String, String[], Boolean, String, Boolean, Object)
+  nameWithType: DbMigration.CreateIndex(String, String[], Boolean, String, Boolean, Object)
+  fullName: System.Data.Entity.Migrations.DbMigration.CreateIndex(System.String, System.String[], System.Boolean, System.String, System.Boolean, System.Object)
+  nameWithType.vb: DbMigration.CreateIndex(String, String(), Boolean, String, Boolean, Object)
+  fullName.vb: System.Data.Entity.Migrations.DbMigration.CreateIndex(System.String, System.String(), System.Boolean, System.String, System.Boolean, System.Object)
+  name.vb: CreateIndex(String, String(), Boolean, String, Boolean, Object)
+  spec.csharp:
+  - uid: System.Data.Entity.Migrations.DbMigration.CreateIndex(System.String,System.String[],System.Boolean,System.String,System.Boolean,System.Object)
+    name: CreateIndex
+    nameWithType: DbMigration.CreateIndex
+    fullName: System.Data.Entity.Migrations.DbMigration.CreateIndex
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Data.Entity.Migrations.DbMigration.CreateIndex(System.String,System.String[],System.Boolean,System.String,System.Boolean,System.Object)
+    name: CreateIndex
+    nameWithType: DbMigration.CreateIndex
+    fullName: System.Data.Entity.Migrations.DbMigration.CreateIndex
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Data.Entity.Migrations.DbMigration.DropIndex(System.String,System.String,System.Object)
+  commentId: M:System.Data.Entity.Migrations.DbMigration.DropIndex(System.String,System.String,System.Object)
+  parent: System.Data.Entity.Migrations.DbMigration
+  isExternal: true
+  name: DropIndex(String, String, Object)
+  nameWithType: DbMigration.DropIndex(String, String, Object)
+  fullName: System.Data.Entity.Migrations.DbMigration.DropIndex(System.String, System.String, System.Object)
+  spec.csharp:
+  - uid: System.Data.Entity.Migrations.DbMigration.DropIndex(System.String,System.String,System.Object)
+    name: DropIndex
+    nameWithType: DbMigration.DropIndex
+    fullName: System.Data.Entity.Migrations.DbMigration.DropIndex
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Data.Entity.Migrations.DbMigration.DropIndex(System.String,System.String,System.Object)
+    name: DropIndex
+    nameWithType: DbMigration.DropIndex
+    fullName: System.Data.Entity.Migrations.DbMigration.DropIndex
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Data.Entity.Migrations.DbMigration.DropIndex(System.String,System.String[],System.Object)
+  commentId: M:System.Data.Entity.Migrations.DbMigration.DropIndex(System.String,System.String[],System.Object)
+  parent: System.Data.Entity.Migrations.DbMigration
+  isExternal: true
+  name: DropIndex(String, String[], Object)
+  nameWithType: DbMigration.DropIndex(String, String[], Object)
+  fullName: System.Data.Entity.Migrations.DbMigration.DropIndex(System.String, System.String[], System.Object)
+  nameWithType.vb: DbMigration.DropIndex(String, String(), Object)
+  fullName.vb: System.Data.Entity.Migrations.DbMigration.DropIndex(System.String, System.String(), System.Object)
+  name.vb: DropIndex(String, String(), Object)
+  spec.csharp:
+  - uid: System.Data.Entity.Migrations.DbMigration.DropIndex(System.String,System.String[],System.Object)
+    name: DropIndex
+    nameWithType: DbMigration.DropIndex
+    fullName: System.Data.Entity.Migrations.DbMigration.DropIndex
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Data.Entity.Migrations.DbMigration.DropIndex(System.String,System.String[],System.Object)
+    name: DropIndex
+    nameWithType: DbMigration.DropIndex
+    fullName: System.Data.Entity.Migrations.DbMigration.DropIndex
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Data.Entity.Migrations.DbMigration.RenameIndex(System.String,System.String,System.String,System.Object)
+  commentId: M:System.Data.Entity.Migrations.DbMigration.RenameIndex(System.String,System.String,System.String,System.Object)
+  parent: System.Data.Entity.Migrations.DbMigration
+  isExternal: true
+  name: RenameIndex(String, String, String, Object)
+  nameWithType: DbMigration.RenameIndex(String, String, String, Object)
+  fullName: System.Data.Entity.Migrations.DbMigration.RenameIndex(System.String, System.String, System.String, System.Object)
+  spec.csharp:
+  - uid: System.Data.Entity.Migrations.DbMigration.RenameIndex(System.String,System.String,System.String,System.Object)
+    name: RenameIndex
+    nameWithType: DbMigration.RenameIndex
+    fullName: System.Data.Entity.Migrations.DbMigration.RenameIndex
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Data.Entity.Migrations.DbMigration.RenameIndex(System.String,System.String,System.String,System.Object)
+    name: RenameIndex
+    nameWithType: DbMigration.RenameIndex
+    fullName: System.Data.Entity.Migrations.DbMigration.RenameIndex
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Data.Entity.Migrations.DbMigration.Sql(System.String,System.Boolean,System.Object)
+  commentId: M:System.Data.Entity.Migrations.DbMigration.Sql(System.String,System.Boolean,System.Object)
+  parent: System.Data.Entity.Migrations.DbMigration
+  isExternal: true
+  name: Sql(String, Boolean, Object)
+  nameWithType: DbMigration.Sql(String, Boolean, Object)
+  fullName: System.Data.Entity.Migrations.DbMigration.Sql(System.String, System.Boolean, System.Object)
+  spec.csharp:
+  - uid: System.Data.Entity.Migrations.DbMigration.Sql(System.String,System.Boolean,System.Object)
+    name: Sql
+    nameWithType: DbMigration.Sql
+    fullName: System.Data.Entity.Migrations.DbMigration.Sql
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Data.Entity.Migrations.DbMigration.Sql(System.String,System.Boolean,System.Object)
+    name: Sql
+    nameWithType: DbMigration.Sql
+    fullName: System.Data.Entity.Migrations.DbMigration.Sql
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Data.Entity.Migrations.DbMigration.SqlFile(System.String,System.Boolean,System.Object)
+  commentId: M:System.Data.Entity.Migrations.DbMigration.SqlFile(System.String,System.Boolean,System.Object)
+  parent: System.Data.Entity.Migrations.DbMigration
+  isExternal: true
+  name: SqlFile(String, Boolean, Object)
+  nameWithType: DbMigration.SqlFile(String, Boolean, Object)
+  fullName: System.Data.Entity.Migrations.DbMigration.SqlFile(System.String, System.Boolean, System.Object)
+  spec.csharp:
+  - uid: System.Data.Entity.Migrations.DbMigration.SqlFile(System.String,System.Boolean,System.Object)
+    name: SqlFile
+    nameWithType: DbMigration.SqlFile
+    fullName: System.Data.Entity.Migrations.DbMigration.SqlFile
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Data.Entity.Migrations.DbMigration.SqlFile(System.String,System.Boolean,System.Object)
+    name: SqlFile
+    nameWithType: DbMigration.SqlFile
+    fullName: System.Data.Entity.Migrations.DbMigration.SqlFile
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Data.Entity.Migrations.DbMigration.SqlResource(System.String,System.Reflection.Assembly,System.Boolean,System.Object)
+  commentId: M:System.Data.Entity.Migrations.DbMigration.SqlResource(System.String,System.Reflection.Assembly,System.Boolean,System.Object)
+  parent: System.Data.Entity.Migrations.DbMigration
+  isExternal: true
+  name: SqlResource(String, Assembly, Boolean, Object)
+  nameWithType: DbMigration.SqlResource(String, Assembly, Boolean, Object)
+  fullName: System.Data.Entity.Migrations.DbMigration.SqlResource(System.String, System.Reflection.Assembly, System.Boolean, System.Object)
+  spec.csharp:
+  - uid: System.Data.Entity.Migrations.DbMigration.SqlResource(System.String,System.Reflection.Assembly,System.Boolean,System.Object)
+    name: SqlResource
+    nameWithType: DbMigration.SqlResource
+    fullName: System.Data.Entity.Migrations.DbMigration.SqlResource
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Reflection.Assembly
+    name: Assembly
+    nameWithType: Assembly
+    fullName: System.Reflection.Assembly
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Data.Entity.Migrations.DbMigration.SqlResource(System.String,System.Reflection.Assembly,System.Boolean,System.Object)
+    name: SqlResource
+    nameWithType: DbMigration.SqlResource
+    fullName: System.Data.Entity.Migrations.DbMigration.SqlResource
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Reflection.Assembly
+    name: Assembly
+    nameWithType: Assembly
+    fullName: System.Reflection.Assembly
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Data.Entity.Migrations.DbMigration.System#Data#Entity#Migrations#Infrastructure#IDbMigration#AddOperation(System.Data.Entity.Migrations.Model.MigrationOperation)
+  commentId: M:System.Data.Entity.Migrations.DbMigration.System#Data#Entity#Migrations#Infrastructure#IDbMigration#AddOperation(System.Data.Entity.Migrations.Model.MigrationOperation)
+  parent: System.Data.Entity.Migrations.DbMigration
+  isExternal: true
+  name: IDbMigration.AddOperation(MigrationOperation)
+  nameWithType: DbMigration.IDbMigration.AddOperation(MigrationOperation)
+  fullName: System.Data.Entity.Migrations.DbMigration.System.Data.Entity.Migrations.Infrastructure.IDbMigration.AddOperation(System.Data.Entity.Migrations.Model.MigrationOperation)
+  nameWithType.vb: DbMigration.System.Data.Entity.Migrations.Infrastructure.IDbMigration.AddOperation(MigrationOperation)
+  name.vb: System.Data.Entity.Migrations.Infrastructure.IDbMigration.AddOperation(MigrationOperation)
+  spec.csharp:
+  - uid: System.Data.Entity.Migrations.DbMigration.System#Data#Entity#Migrations#Infrastructure#IDbMigration#AddOperation(System.Data.Entity.Migrations.Model.MigrationOperation)
+    name: IDbMigration.AddOperation
+    nameWithType: DbMigration.IDbMigration.AddOperation
+    fullName: System.Data.Entity.Migrations.DbMigration.System.Data.Entity.Migrations.Infrastructure.IDbMigration.AddOperation
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Data.Entity.Migrations.Model.MigrationOperation
+    name: MigrationOperation
+    nameWithType: MigrationOperation
+    fullName: System.Data.Entity.Migrations.Model.MigrationOperation
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Data.Entity.Migrations.DbMigration.System#Data#Entity#Migrations#Infrastructure#IDbMigration#AddOperation(System.Data.Entity.Migrations.Model.MigrationOperation)
+    name: System.Data.Entity.Migrations.Infrastructure.IDbMigration.AddOperation
+    nameWithType: DbMigration.System.Data.Entity.Migrations.Infrastructure.IDbMigration.AddOperation
+    fullName: System.Data.Entity.Migrations.DbMigration.System.Data.Entity.Migrations.Infrastructure.IDbMigration.AddOperation
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Data.Entity.Migrations.Model.MigrationOperation
+    name: MigrationOperation
+    nameWithType: MigrationOperation
+    fullName: System.Data.Entity.Migrations.Model.MigrationOperation
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Data.Entity.Migrations
+  commentId: N:System.Data.Entity.Migrations
+  isExternal: true
+  name: System.Data.Entity.Migrations
+  nameWithType: System.Data.Entity.Migrations
+  fullName: System.Data.Entity.Migrations
+- uid: System.Data.Entity.Migrations.Infrastructure
+  commentId: N:System.Data.Entity.Migrations.Infrastructure
+  isExternal: true
+  name: System.Data.Entity.Migrations.Infrastructure
+  nameWithType: System.Data.Entity.Migrations.Infrastructure
+  fullName: System.Data.Entity.Migrations.Infrastructure
+- uid: System.Data.Entity.Migrations.DbMigration.CreateStoredProcedure``1(System.String,System.Func{System.Data.Entity.Migrations.Builders.ParameterBuilder,``0},System.String,System.Object)
+  commentId: M:System.Data.Entity.Migrations.DbMigration.CreateStoredProcedure``1(System.String,System.Func{System.Data.Entity.Migrations.Builders.ParameterBuilder,``0},System.String,System.Object)
+  isExternal: true
+  name: CreateStoredProcedure<TParameters>(String, Func<ParameterBuilder, TParameters>, String, Object)
+  nameWithType: DbMigration.CreateStoredProcedure<TParameters>(String, Func<ParameterBuilder, TParameters>, String, Object)
+  fullName: System.Data.Entity.Migrations.DbMigration.CreateStoredProcedure<TParameters>(System.String, System.Func<System.Data.Entity.Migrations.Builders.ParameterBuilder, TParameters>, System.String, System.Object)
+  nameWithType.vb: DbMigration.CreateStoredProcedure(Of TParameters)(String, Func(Of ParameterBuilder, TParameters), String, Object)
+  fullName.vb: System.Data.Entity.Migrations.DbMigration.CreateStoredProcedure(Of TParameters)(System.String, System.Func(Of System.Data.Entity.Migrations.Builders.ParameterBuilder, TParameters), System.String, System.Object)
+  name.vb: CreateStoredProcedure(Of TParameters)(String, Func(Of ParameterBuilder, TParameters), String, Object)
+  spec.csharp:
+  - uid: System.Data.Entity.Migrations.DbMigration.CreateStoredProcedure``1(System.String,System.Func{System.Data.Entity.Migrations.Builders.ParameterBuilder,``0},System.String,System.Object)
+    name: CreateStoredProcedure<TParameters>
+    nameWithType: DbMigration.CreateStoredProcedure<TParameters>
+    fullName: System.Data.Entity.Migrations.DbMigration.CreateStoredProcedure<TParameters>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Data.Entity.Migrations.Builders.ParameterBuilder
+    name: ParameterBuilder
+    nameWithType: ParameterBuilder
+    fullName: System.Data.Entity.Migrations.Builders.ParameterBuilder
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TParameters
+    nameWithType: TParameters
+    fullName: TParameters
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Data.Entity.Migrations.DbMigration.CreateStoredProcedure``1(System.String,System.Func{System.Data.Entity.Migrations.Builders.ParameterBuilder,``0},System.String,System.Object)
+    name: CreateStoredProcedure(Of TParameters)
+    nameWithType: DbMigration.CreateStoredProcedure(Of TParameters)
+    fullName: System.Data.Entity.Migrations.DbMigration.CreateStoredProcedure(Of TParameters)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Data.Entity.Migrations.Builders.ParameterBuilder
+    name: ParameterBuilder
+    nameWithType: ParameterBuilder
+    fullName: System.Data.Entity.Migrations.Builders.ParameterBuilder
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TParameters
+    nameWithType: TParameters
+    fullName: TParameters
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Data.Entity.Migrations.DbMigration.AlterStoredProcedure``1(System.String,System.Func{System.Data.Entity.Migrations.Builders.ParameterBuilder,``0},System.String,System.Object)
+  commentId: M:System.Data.Entity.Migrations.DbMigration.AlterStoredProcedure``1(System.String,System.Func{System.Data.Entity.Migrations.Builders.ParameterBuilder,``0},System.String,System.Object)
+  isExternal: true
+  name: AlterStoredProcedure<TParameters>(String, Func<ParameterBuilder, TParameters>, String, Object)
+  nameWithType: DbMigration.AlterStoredProcedure<TParameters>(String, Func<ParameterBuilder, TParameters>, String, Object)
+  fullName: System.Data.Entity.Migrations.DbMigration.AlterStoredProcedure<TParameters>(System.String, System.Func<System.Data.Entity.Migrations.Builders.ParameterBuilder, TParameters>, System.String, System.Object)
+  nameWithType.vb: DbMigration.AlterStoredProcedure(Of TParameters)(String, Func(Of ParameterBuilder, TParameters), String, Object)
+  fullName.vb: System.Data.Entity.Migrations.DbMigration.AlterStoredProcedure(Of TParameters)(System.String, System.Func(Of System.Data.Entity.Migrations.Builders.ParameterBuilder, TParameters), System.String, System.Object)
+  name.vb: AlterStoredProcedure(Of TParameters)(String, Func(Of ParameterBuilder, TParameters), String, Object)
+  spec.csharp:
+  - uid: System.Data.Entity.Migrations.DbMigration.AlterStoredProcedure``1(System.String,System.Func{System.Data.Entity.Migrations.Builders.ParameterBuilder,``0},System.String,System.Object)
+    name: AlterStoredProcedure<TParameters>
+    nameWithType: DbMigration.AlterStoredProcedure<TParameters>
+    fullName: System.Data.Entity.Migrations.DbMigration.AlterStoredProcedure<TParameters>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Data.Entity.Migrations.Builders.ParameterBuilder
+    name: ParameterBuilder
+    nameWithType: ParameterBuilder
+    fullName: System.Data.Entity.Migrations.Builders.ParameterBuilder
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TParameters
+    nameWithType: TParameters
+    fullName: TParameters
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Data.Entity.Migrations.DbMigration.AlterStoredProcedure``1(System.String,System.Func{System.Data.Entity.Migrations.Builders.ParameterBuilder,``0},System.String,System.Object)
+    name: AlterStoredProcedure(Of TParameters)
+    nameWithType: DbMigration.AlterStoredProcedure(Of TParameters)
+    fullName: System.Data.Entity.Migrations.DbMigration.AlterStoredProcedure(Of TParameters)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Data.Entity.Migrations.Builders.ParameterBuilder
+    name: ParameterBuilder
+    nameWithType: ParameterBuilder
+    fullName: System.Data.Entity.Migrations.Builders.ParameterBuilder
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TParameters
+    nameWithType: TParameters
+    fullName: TParameters
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Data.Entity.Migrations.DbMigration.CreateTable``1(System.String,System.Func{System.Data.Entity.Migrations.Builders.ColumnBuilder,``0},System.Object)
+  commentId: M:System.Data.Entity.Migrations.DbMigration.CreateTable``1(System.String,System.Func{System.Data.Entity.Migrations.Builders.ColumnBuilder,``0},System.Object)
+  isExternal: true
+  name: CreateTable<TColumns>(String, Func<ColumnBuilder, TColumns>, Object)
+  nameWithType: DbMigration.CreateTable<TColumns>(String, Func<ColumnBuilder, TColumns>, Object)
+  fullName: System.Data.Entity.Migrations.DbMigration.CreateTable<TColumns>(System.String, System.Func<System.Data.Entity.Migrations.Builders.ColumnBuilder, TColumns>, System.Object)
+  nameWithType.vb: DbMigration.CreateTable(Of TColumns)(String, Func(Of ColumnBuilder, TColumns), Object)
+  fullName.vb: System.Data.Entity.Migrations.DbMigration.CreateTable(Of TColumns)(System.String, System.Func(Of System.Data.Entity.Migrations.Builders.ColumnBuilder, TColumns), System.Object)
+  name.vb: CreateTable(Of TColumns)(String, Func(Of ColumnBuilder, TColumns), Object)
+  spec.csharp:
+  - uid: System.Data.Entity.Migrations.DbMigration.CreateTable``1(System.String,System.Func{System.Data.Entity.Migrations.Builders.ColumnBuilder,``0},System.Object)
+    name: CreateTable<TColumns>
+    nameWithType: DbMigration.CreateTable<TColumns>
+    fullName: System.Data.Entity.Migrations.DbMigration.CreateTable<TColumns>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Data.Entity.Migrations.Builders.ColumnBuilder
+    name: ColumnBuilder
+    nameWithType: ColumnBuilder
+    fullName: System.Data.Entity.Migrations.Builders.ColumnBuilder
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TColumns
+    nameWithType: TColumns
+    fullName: TColumns
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Data.Entity.Migrations.DbMigration.CreateTable``1(System.String,System.Func{System.Data.Entity.Migrations.Builders.ColumnBuilder,``0},System.Object)
+    name: CreateTable(Of TColumns)
+    nameWithType: DbMigration.CreateTable(Of TColumns)
+    fullName: System.Data.Entity.Migrations.DbMigration.CreateTable(Of TColumns)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Data.Entity.Migrations.Builders.ColumnBuilder
+    name: ColumnBuilder
+    nameWithType: ColumnBuilder
+    fullName: System.Data.Entity.Migrations.Builders.ColumnBuilder
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TColumns
+    nameWithType: TColumns
+    fullName: TColumns
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Data.Entity.Migrations.DbMigration.CreateTable``1(System.String,System.Func{System.Data.Entity.Migrations.Builders.ColumnBuilder,``0},System.Collections.Generic.IDictionary{System.String,System.Object},System.Object)
+  commentId: M:System.Data.Entity.Migrations.DbMigration.CreateTable``1(System.String,System.Func{System.Data.Entity.Migrations.Builders.ColumnBuilder,``0},System.Collections.Generic.IDictionary{System.String,System.Object},System.Object)
+  isExternal: true
+  name: CreateTable<TColumns>(String, Func<ColumnBuilder, TColumns>, IDictionary<String, Object>, Object)
+  nameWithType: DbMigration.CreateTable<TColumns>(String, Func<ColumnBuilder, TColumns>, IDictionary<String, Object>, Object)
+  fullName: System.Data.Entity.Migrations.DbMigration.CreateTable<TColumns>(System.String, System.Func<System.Data.Entity.Migrations.Builders.ColumnBuilder, TColumns>, System.Collections.Generic.IDictionary<System.String, System.Object>, System.Object)
+  nameWithType.vb: DbMigration.CreateTable(Of TColumns)(String, Func(Of ColumnBuilder, TColumns), IDictionary(Of String, Object), Object)
+  fullName.vb: System.Data.Entity.Migrations.DbMigration.CreateTable(Of TColumns)(System.String, System.Func(Of System.Data.Entity.Migrations.Builders.ColumnBuilder, TColumns), System.Collections.Generic.IDictionary(Of System.String, System.Object), System.Object)
+  name.vb: CreateTable(Of TColumns)(String, Func(Of ColumnBuilder, TColumns), IDictionary(Of String, Object), Object)
+  spec.csharp:
+  - uid: System.Data.Entity.Migrations.DbMigration.CreateTable``1(System.String,System.Func{System.Data.Entity.Migrations.Builders.ColumnBuilder,``0},System.Collections.Generic.IDictionary{System.String,System.Object},System.Object)
+    name: CreateTable<TColumns>
+    nameWithType: DbMigration.CreateTable<TColumns>
+    fullName: System.Data.Entity.Migrations.DbMigration.CreateTable<TColumns>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Data.Entity.Migrations.Builders.ColumnBuilder
+    name: ColumnBuilder
+    nameWithType: ColumnBuilder
+    fullName: System.Data.Entity.Migrations.Builders.ColumnBuilder
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TColumns
+    nameWithType: TColumns
+    fullName: TColumns
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: System.Collections.Generic.IDictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Data.Entity.Migrations.DbMigration.CreateTable``1(System.String,System.Func{System.Data.Entity.Migrations.Builders.ColumnBuilder,``0},System.Collections.Generic.IDictionary{System.String,System.Object},System.Object)
+    name: CreateTable(Of TColumns)
+    nameWithType: DbMigration.CreateTable(Of TColumns)
+    fullName: System.Data.Entity.Migrations.DbMigration.CreateTable(Of TColumns)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Data.Entity.Migrations.Builders.ColumnBuilder
+    name: ColumnBuilder
+    nameWithType: ColumnBuilder
+    fullName: System.Data.Entity.Migrations.Builders.ColumnBuilder
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TColumns
+    nameWithType: TColumns
+    fullName: TColumns
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: System.Collections.Generic.IDictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Data.Entity.Migrations.DbMigration.AlterTableAnnotations``1(System.String,System.Func{System.Data.Entity.Migrations.Builders.ColumnBuilder,``0},System.Collections.Generic.IDictionary{System.String,System.Data.Entity.Infrastructure.Annotations.AnnotationValues},System.Object)
+  commentId: M:System.Data.Entity.Migrations.DbMigration.AlterTableAnnotations``1(System.String,System.Func{System.Data.Entity.Migrations.Builders.ColumnBuilder,``0},System.Collections.Generic.IDictionary{System.String,System.Data.Entity.Infrastructure.Annotations.AnnotationValues},System.Object)
+  isExternal: true
+  name: AlterTableAnnotations<TColumns>(String, Func<ColumnBuilder, TColumns>, IDictionary<String, AnnotationValues>, Object)
+  nameWithType: DbMigration.AlterTableAnnotations<TColumns>(String, Func<ColumnBuilder, TColumns>, IDictionary<String, AnnotationValues>, Object)
+  fullName: System.Data.Entity.Migrations.DbMigration.AlterTableAnnotations<TColumns>(System.String, System.Func<System.Data.Entity.Migrations.Builders.ColumnBuilder, TColumns>, System.Collections.Generic.IDictionary<System.String, System.Data.Entity.Infrastructure.Annotations.AnnotationValues>, System.Object)
+  nameWithType.vb: DbMigration.AlterTableAnnotations(Of TColumns)(String, Func(Of ColumnBuilder, TColumns), IDictionary(Of String, AnnotationValues), Object)
+  fullName.vb: System.Data.Entity.Migrations.DbMigration.AlterTableAnnotations(Of TColumns)(System.String, System.Func(Of System.Data.Entity.Migrations.Builders.ColumnBuilder, TColumns), System.Collections.Generic.IDictionary(Of System.String, System.Data.Entity.Infrastructure.Annotations.AnnotationValues), System.Object)
+  name.vb: AlterTableAnnotations(Of TColumns)(String, Func(Of ColumnBuilder, TColumns), IDictionary(Of String, AnnotationValues), Object)
+  spec.csharp:
+  - uid: System.Data.Entity.Migrations.DbMigration.AlterTableAnnotations``1(System.String,System.Func{System.Data.Entity.Migrations.Builders.ColumnBuilder,``0},System.Collections.Generic.IDictionary{System.String,System.Data.Entity.Infrastructure.Annotations.AnnotationValues},System.Object)
+    name: AlterTableAnnotations<TColumns>
+    nameWithType: DbMigration.AlterTableAnnotations<TColumns>
+    fullName: System.Data.Entity.Migrations.DbMigration.AlterTableAnnotations<TColumns>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Data.Entity.Migrations.Builders.ColumnBuilder
+    name: ColumnBuilder
+    nameWithType: ColumnBuilder
+    fullName: System.Data.Entity.Migrations.Builders.ColumnBuilder
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TColumns
+    nameWithType: TColumns
+    fullName: TColumns
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: System.Collections.Generic.IDictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Data.Entity.Infrastructure.Annotations.AnnotationValues
+    name: AnnotationValues
+    nameWithType: AnnotationValues
+    fullName: System.Data.Entity.Infrastructure.Annotations.AnnotationValues
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Data.Entity.Migrations.DbMigration.AlterTableAnnotations``1(System.String,System.Func{System.Data.Entity.Migrations.Builders.ColumnBuilder,``0},System.Collections.Generic.IDictionary{System.String,System.Data.Entity.Infrastructure.Annotations.AnnotationValues},System.Object)
+    name: AlterTableAnnotations(Of TColumns)
+    nameWithType: DbMigration.AlterTableAnnotations(Of TColumns)
+    fullName: System.Data.Entity.Migrations.DbMigration.AlterTableAnnotations(Of TColumns)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Data.Entity.Migrations.Builders.ColumnBuilder
+    name: ColumnBuilder
+    nameWithType: ColumnBuilder
+    fullName: System.Data.Entity.Migrations.Builders.ColumnBuilder
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TColumns
+    nameWithType: TColumns
+    fullName: TColumns
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: System.Collections.Generic.IDictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Data.Entity.Infrastructure.Annotations.AnnotationValues
+    name: AnnotationValues
+    nameWithType: AnnotationValues
+    fullName: System.Data.Entity.Infrastructure.Annotations.AnnotationValues
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Data.Entity.Migrations.DbMigration.Up
+  commentId: M:System.Data.Entity.Migrations.DbMigration.Up
+  parent: System.Data.Entity.Migrations.DbMigration
+  isExternal: true
+  name: Up()
+  nameWithType: DbMigration.Up()
+  fullName: System.Data.Entity.Migrations.DbMigration.Up()
+  spec.csharp:
+  - uid: System.Data.Entity.Migrations.DbMigration.Up
+    name: Up
+    nameWithType: DbMigration.Up
+    fullName: System.Data.Entity.Migrations.DbMigration.Up
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Data.Entity.Migrations.DbMigration.Up
+    name: Up
+    nameWithType: DbMigration.Up
+    fullName: System.Data.Entity.Migrations.DbMigration.Up
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EatHealthy.Migrations.Added_Appointment_Status.Up*
+  commentId: Overload:EatHealthy.Migrations.Added_Appointment_Status.Up
+  name: Up
+  nameWithType: Added_Appointment_Status.Up
+  fullName: EatHealthy.Migrations.Added_Appointment_Status.Up
+- uid: System.Data.Entity.Migrations.DbMigration.Down
+  commentId: M:System.Data.Entity.Migrations.DbMigration.Down
+  parent: System.Data.Entity.Migrations.DbMigration
+  isExternal: true
+  name: Down()
+  nameWithType: DbMigration.Down()
+  fullName: System.Data.Entity.Migrations.DbMigration.Down()
+  spec.csharp:
+  - uid: System.Data.Entity.Migrations.DbMigration.Down
+    name: Down
+    nameWithType: DbMigration.Down
+    fullName: System.Data.Entity.Migrations.DbMigration.Down
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Data.Entity.Migrations.DbMigration.Down
+    name: Down
+    nameWithType: DbMigration.Down
+    fullName: System.Data.Entity.Migrations.DbMigration.Down
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EatHealthy.Migrations.Added_Appointment_Status.Down*
+  commentId: Overload:EatHealthy.Migrations.Added_Appointment_Status.Down
+  name: Down
+  nameWithType: Added_Appointment_Status.Down
+  fullName: EatHealthy.Migrations.Added_Appointment_Status.Down
+- uid: EatHealthy.Migrations.Added_Appointment_Status.System#Data#Entity#Migrations#Infrastructure#IMigrationMetadata#Id*
+  commentId: Overload:EatHealthy.Migrations.Added_Appointment_Status.System#Data#Entity#Migrations#Infrastructure#IMigrationMetadata#Id
+  name: IMigrationMetadata.Id
+  nameWithType: Added_Appointment_Status.IMigrationMetadata.Id
+  fullName: EatHealthy.Migrations.Added_Appointment_Status.System.Data.Entity.Migrations.Infrastructure.IMigrationMetadata.Id
+  nameWithType.vb: Added_Appointment_Status.System.Data.Entity.Migrations.Infrastructure.IMigrationMetadata.Id
+  name.vb: System.Data.Entity.Migrations.Infrastructure.IMigrationMetadata.Id
+- uid: System.Data.Entity.Migrations.Infrastructure.IMigrationMetadata.Id
+  commentId: P:System.Data.Entity.Migrations.Infrastructure.IMigrationMetadata.Id
+  parent: System.Data.Entity.Migrations.Infrastructure.IMigrationMetadata
+  isExternal: true
+  name: Id
+  nameWithType: IMigrationMetadata.Id
+  fullName: System.Data.Entity.Migrations.Infrastructure.IMigrationMetadata.Id
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: EatHealthy.Migrations.Added_Appointment_Status.System#Data#Entity#Migrations#Infrastructure#IMigrationMetadata#Source*
+  commentId: Overload:EatHealthy.Migrations.Added_Appointment_Status.System#Data#Entity#Migrations#Infrastructure#IMigrationMetadata#Source
+  name: IMigrationMetadata.Source
+  nameWithType: Added_Appointment_Status.IMigrationMetadata.Source
+  fullName: EatHealthy.Migrations.Added_Appointment_Status.System.Data.Entity.Migrations.Infrastructure.IMigrationMetadata.Source
+  nameWithType.vb: Added_Appointment_Status.System.Data.Entity.Migrations.Infrastructure.IMigrationMetadata.Source
+  name.vb: System.Data.Entity.Migrations.Infrastructure.IMigrationMetadata.Source
+- uid: System.Data.Entity.Migrations.Infrastructure.IMigrationMetadata.Source
+  commentId: P:System.Data.Entity.Migrations.Infrastructure.IMigrationMetadata.Source
+  parent: System.Data.Entity.Migrations.Infrastructure.IMigrationMetadata
+  isExternal: true
+  name: Source
+  nameWithType: IMigrationMetadata.Source
+  fullName: System.Data.Entity.Migrations.Infrastructure.IMigrationMetadata.Source
+- uid: EatHealthy.Migrations.Added_Appointment_Status.System#Data#Entity#Migrations#Infrastructure#IMigrationMetadata#Target*
+  commentId: Overload:EatHealthy.Migrations.Added_Appointment_Status.System#Data#Entity#Migrations#Infrastructure#IMigrationMetadata#Target
+  name: IMigrationMetadata.Target
+  nameWithType: Added_Appointment_Status.IMigrationMetadata.Target
+  fullName: EatHealthy.Migrations.Added_Appointment_Status.System.Data.Entity.Migrations.Infrastructure.IMigrationMetadata.Target
+  nameWithType.vb: Added_Appointment_Status.System.Data.Entity.Migrations.Infrastructure.IMigrationMetadata.Target
+  name.vb: System.Data.Entity.Migrations.Infrastructure.IMigrationMetadata.Target
+- uid: System.Data.Entity.Migrations.Infrastructure.IMigrationMetadata.Target
+  commentId: P:System.Data.Entity.Migrations.Infrastructure.IMigrationMetadata.Target
+  parent: System.Data.Entity.Migrations.Infrastructure.IMigrationMetadata
+  isExternal: true
+  name: Target
+  nameWithType: IMigrationMetadata.Target
+  fullName: System.Data.Entity.Migrations.Infrastructure.IMigrationMetadata.Target

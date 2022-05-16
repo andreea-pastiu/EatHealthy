@@ -1,0 +1,1957 @@
+### YamlMime:ManagedReference
+items:
+- uid: EatHealthy.EatHealthyContext
+  commentId: T:EatHealthy.EatHealthyContext
+  id: EatHealthyContext
+  parent: EatHealthy
+  children:
+  - EatHealthy.EatHealthyContext.#ctor
+  - EatHealthy.EatHealthyContext.Administrators
+  - EatHealthy.EatHealthyContext.Appointments
+  - EatHealthy.EatHealthyContext.FoodDiaries
+  - EatHealthy.EatHealthyContext.Ingredients
+  - EatHealthy.EatHealthyContext.MealPlanDays
+  - EatHealthy.EatHealthyContext.MealPlans
+  - EatHealthy.EatHealthyContext.Meals
+  - EatHealthy.EatHealthyContext.Nutritionists
+  - EatHealthy.EatHealthyContext.OnModelCreating(System.Data.Entity.DbModelBuilder)
+  - EatHealthy.EatHealthyContext.Patients
+  - EatHealthy.EatHealthyContext.Users
+  langs:
+  - csharp
+  - vb
+  name: EatHealthyContext
+  nameWithType: EatHealthyContext
+  fullName: EatHealthy.EatHealthyContext
+  type: Class
+  source:
+    remote:
+      path: D:/documente scoala/Facultate/Anul 3/Sem2/SD/EatHealthy/EatHealthy/EatHealthyContext.cs
+    id: EatHealthyContext
+    path: EatHealthyContext.cs
+    startLine: 9
+  assemblies:
+  - EatHealthy
+  namespace: EatHealthy
+  syntax:
+    content: 'public class EatHealthyContext : DbContext, IDisposable, IObjectContextAdapter'
+    content.vb: >-
+      Public Class EatHealthyContext
+          Inherits DbContext
+          Implements IDisposable, IObjectContextAdapter
+  inheritance:
+  - System.Object
+  - System.Data.Entity.DbContext
+  implements:
+  - System.IDisposable
+  - System.Data.Entity.Infrastructure.IObjectContextAdapter
+  inheritedMembers:
+  - System.Data.Entity.DbContext.Set``1
+  - System.Data.Entity.DbContext.Set(System.Type)
+  - System.Data.Entity.DbContext.SaveChanges
+  - System.Data.Entity.DbContext.SaveChangesAsync
+  - System.Data.Entity.DbContext.SaveChangesAsync(System.Threading.CancellationToken)
+  - System.Data.Entity.DbContext.GetValidationErrors
+  - System.Data.Entity.DbContext.ShouldValidateEntity(System.Data.Entity.Infrastructure.DbEntityEntry)
+  - System.Data.Entity.DbContext.ValidateEntity(System.Data.Entity.Infrastructure.DbEntityEntry,System.Collections.Generic.IDictionary{System.Object,System.Object})
+  - System.Data.Entity.DbContext.Entry``1({TEntity})
+  - System.Data.Entity.DbContext.Entry(System.Object)
+  - System.Data.Entity.DbContext.Dispose
+  - System.Data.Entity.DbContext.Dispose(System.Boolean)
+  - System.Data.Entity.DbContext.Database
+  - System.Data.Entity.DbContext.System#Data#Entity#Infrastructure#IObjectContextAdapter#ObjectContext
+  - System.Data.Entity.DbContext.ChangeTracker
+  - System.Data.Entity.DbContext.Configuration
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: EatHealthy.EatHealthyContext.#ctor
+  commentId: M:EatHealthy.EatHealthyContext.#ctor
+  id: '#ctor'
+  parent: EatHealthy.EatHealthyContext
+  langs:
+  - csharp
+  - vb
+  name: EatHealthyContext()
+  nameWithType: EatHealthyContext.EatHealthyContext()
+  fullName: EatHealthy.EatHealthyContext.EatHealthyContext()
+  type: Constructor
+  source:
+    remote:
+      path: D:/documente scoala/Facultate/Anul 3/Sem2/SD/EatHealthy/EatHealthy/EatHealthyContext.cs
+    id: .ctor
+    path: EatHealthyContext.cs
+    startLine: 11
+  assemblies:
+  - EatHealthy
+  namespace: EatHealthy
+  syntax:
+    content: public EatHealthyContext()
+    content.vb: Public Sub New
+  overload: EatHealthy.EatHealthyContext.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: EatHealthy.EatHealthyContext.Administrators
+  commentId: P:EatHealthy.EatHealthyContext.Administrators
+  id: Administrators
+  parent: EatHealthy.EatHealthyContext
+  langs:
+  - csharp
+  - vb
+  name: Administrators
+  nameWithType: EatHealthyContext.Administrators
+  fullName: EatHealthy.EatHealthyContext.Administrators
+  type: Property
+  source:
+    remote:
+      path: D:/documente scoala/Facultate/Anul 3/Sem2/SD/EatHealthy/EatHealthy/EatHealthyContext.cs
+    id: Administrators
+    path: EatHealthyContext.cs
+    startLine: 15
+  assemblies:
+  - EatHealthy
+  namespace: EatHealthy
+  syntax:
+    content: public virtual DbSet<Administrator> Administrators { get; set; }
+    parameters: []
+    return:
+      type: System.Data.Entity.DbSet{EatHealthy.Models.Administrator}
+    content.vb: Public Overridable Property Administrators As DbSet(Of Administrator)
+  overload: EatHealthy.EatHealthyContext.Administrators*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: EatHealthy.EatHealthyContext.Appointments
+  commentId: P:EatHealthy.EatHealthyContext.Appointments
+  id: Appointments
+  parent: EatHealthy.EatHealthyContext
+  langs:
+  - csharp
+  - vb
+  name: Appointments
+  nameWithType: EatHealthyContext.Appointments
+  fullName: EatHealthy.EatHealthyContext.Appointments
+  type: Property
+  source:
+    remote:
+      path: D:/documente scoala/Facultate/Anul 3/Sem2/SD/EatHealthy/EatHealthy/EatHealthyContext.cs
+    id: Appointments
+    path: EatHealthyContext.cs
+    startLine: 16
+  assemblies:
+  - EatHealthy
+  namespace: EatHealthy
+  syntax:
+    content: public virtual DbSet<Appointment> Appointments { get; set; }
+    parameters: []
+    return:
+      type: System.Data.Entity.DbSet{EatHealthy.Models.Appointment}
+    content.vb: Public Overridable Property Appointments As DbSet(Of Appointment)
+  overload: EatHealthy.EatHealthyContext.Appointments*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: EatHealthy.EatHealthyContext.FoodDiaries
+  commentId: P:EatHealthy.EatHealthyContext.FoodDiaries
+  id: FoodDiaries
+  parent: EatHealthy.EatHealthyContext
+  langs:
+  - csharp
+  - vb
+  name: FoodDiaries
+  nameWithType: EatHealthyContext.FoodDiaries
+  fullName: EatHealthy.EatHealthyContext.FoodDiaries
+  type: Property
+  source:
+    remote:
+      path: D:/documente scoala/Facultate/Anul 3/Sem2/SD/EatHealthy/EatHealthy/EatHealthyContext.cs
+    id: FoodDiaries
+    path: EatHealthyContext.cs
+    startLine: 17
+  assemblies:
+  - EatHealthy
+  namespace: EatHealthy
+  syntax:
+    content: public virtual DbSet<FoodDiary> FoodDiaries { get; set; }
+    parameters: []
+    return:
+      type: System.Data.Entity.DbSet{EatHealthy.Models.FoodDiary}
+    content.vb: Public Overridable Property FoodDiaries As DbSet(Of FoodDiary)
+  overload: EatHealthy.EatHealthyContext.FoodDiaries*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: EatHealthy.EatHealthyContext.Ingredients
+  commentId: P:EatHealthy.EatHealthyContext.Ingredients
+  id: Ingredients
+  parent: EatHealthy.EatHealthyContext
+  langs:
+  - csharp
+  - vb
+  name: Ingredients
+  nameWithType: EatHealthyContext.Ingredients
+  fullName: EatHealthy.EatHealthyContext.Ingredients
+  type: Property
+  source:
+    remote:
+      path: D:/documente scoala/Facultate/Anul 3/Sem2/SD/EatHealthy/EatHealthy/EatHealthyContext.cs
+    id: Ingredients
+    path: EatHealthyContext.cs
+    startLine: 18
+  assemblies:
+  - EatHealthy
+  namespace: EatHealthy
+  syntax:
+    content: public virtual DbSet<Ingredient> Ingredients { get; set; }
+    parameters: []
+    return:
+      type: System.Data.Entity.DbSet{EatHealthy.Models.Ingredient}
+    content.vb: Public Overridable Property Ingredients As DbSet(Of Ingredient)
+  overload: EatHealthy.EatHealthyContext.Ingredients*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: EatHealthy.EatHealthyContext.Meals
+  commentId: P:EatHealthy.EatHealthyContext.Meals
+  id: Meals
+  parent: EatHealthy.EatHealthyContext
+  langs:
+  - csharp
+  - vb
+  name: Meals
+  nameWithType: EatHealthyContext.Meals
+  fullName: EatHealthy.EatHealthyContext.Meals
+  type: Property
+  source:
+    remote:
+      path: D:/documente scoala/Facultate/Anul 3/Sem2/SD/EatHealthy/EatHealthy/EatHealthyContext.cs
+    id: Meals
+    path: EatHealthyContext.cs
+    startLine: 19
+  assemblies:
+  - EatHealthy
+  namespace: EatHealthy
+  syntax:
+    content: public virtual DbSet<Meal> Meals { get; set; }
+    parameters: []
+    return:
+      type: System.Data.Entity.DbSet{EatHealthy.Models.Meal}
+    content.vb: Public Overridable Property Meals As DbSet(Of Meal)
+  overload: EatHealthy.EatHealthyContext.Meals*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: EatHealthy.EatHealthyContext.MealPlans
+  commentId: P:EatHealthy.EatHealthyContext.MealPlans
+  id: MealPlans
+  parent: EatHealthy.EatHealthyContext
+  langs:
+  - csharp
+  - vb
+  name: MealPlans
+  nameWithType: EatHealthyContext.MealPlans
+  fullName: EatHealthy.EatHealthyContext.MealPlans
+  type: Property
+  source:
+    remote:
+      path: D:/documente scoala/Facultate/Anul 3/Sem2/SD/EatHealthy/EatHealthy/EatHealthyContext.cs
+    id: MealPlans
+    path: EatHealthyContext.cs
+    startLine: 20
+  assemblies:
+  - EatHealthy
+  namespace: EatHealthy
+  syntax:
+    content: public virtual DbSet<MealPlan> MealPlans { get; set; }
+    parameters: []
+    return:
+      type: System.Data.Entity.DbSet{EatHealthy.Models.MealPlan}
+    content.vb: Public Overridable Property MealPlans As DbSet(Of MealPlan)
+  overload: EatHealthy.EatHealthyContext.MealPlans*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: EatHealthy.EatHealthyContext.MealPlanDays
+  commentId: P:EatHealthy.EatHealthyContext.MealPlanDays
+  id: MealPlanDays
+  parent: EatHealthy.EatHealthyContext
+  langs:
+  - csharp
+  - vb
+  name: MealPlanDays
+  nameWithType: EatHealthyContext.MealPlanDays
+  fullName: EatHealthy.EatHealthyContext.MealPlanDays
+  type: Property
+  source:
+    remote:
+      path: D:/documente scoala/Facultate/Anul 3/Sem2/SD/EatHealthy/EatHealthy/EatHealthyContext.cs
+    id: MealPlanDays
+    path: EatHealthyContext.cs
+    startLine: 21
+  assemblies:
+  - EatHealthy
+  namespace: EatHealthy
+  syntax:
+    content: public virtual DbSet<MealPlanDay> MealPlanDays { get; set; }
+    parameters: []
+    return:
+      type: System.Data.Entity.DbSet{EatHealthy.Models.MealPlanDay}
+    content.vb: Public Overridable Property MealPlanDays As DbSet(Of MealPlanDay)
+  overload: EatHealthy.EatHealthyContext.MealPlanDays*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: EatHealthy.EatHealthyContext.Nutritionists
+  commentId: P:EatHealthy.EatHealthyContext.Nutritionists
+  id: Nutritionists
+  parent: EatHealthy.EatHealthyContext
+  langs:
+  - csharp
+  - vb
+  name: Nutritionists
+  nameWithType: EatHealthyContext.Nutritionists
+  fullName: EatHealthy.EatHealthyContext.Nutritionists
+  type: Property
+  source:
+    remote:
+      path: D:/documente scoala/Facultate/Anul 3/Sem2/SD/EatHealthy/EatHealthy/EatHealthyContext.cs
+    id: Nutritionists
+    path: EatHealthyContext.cs
+    startLine: 22
+  assemblies:
+  - EatHealthy
+  namespace: EatHealthy
+  syntax:
+    content: public virtual DbSet<Nutritionist> Nutritionists { get; set; }
+    parameters: []
+    return:
+      type: System.Data.Entity.DbSet{EatHealthy.Models.Nutritionist}
+    content.vb: Public Overridable Property Nutritionists As DbSet(Of Nutritionist)
+  overload: EatHealthy.EatHealthyContext.Nutritionists*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: EatHealthy.EatHealthyContext.Patients
+  commentId: P:EatHealthy.EatHealthyContext.Patients
+  id: Patients
+  parent: EatHealthy.EatHealthyContext
+  langs:
+  - csharp
+  - vb
+  name: Patients
+  nameWithType: EatHealthyContext.Patients
+  fullName: EatHealthy.EatHealthyContext.Patients
+  type: Property
+  source:
+    remote:
+      path: D:/documente scoala/Facultate/Anul 3/Sem2/SD/EatHealthy/EatHealthy/EatHealthyContext.cs
+    id: Patients
+    path: EatHealthyContext.cs
+    startLine: 23
+  assemblies:
+  - EatHealthy
+  namespace: EatHealthy
+  syntax:
+    content: public virtual DbSet<Patient> Patients { get; set; }
+    parameters: []
+    return:
+      type: System.Data.Entity.DbSet{EatHealthy.Models.Patient}
+    content.vb: Public Overridable Property Patients As DbSet(Of Patient)
+  overload: EatHealthy.EatHealthyContext.Patients*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: EatHealthy.EatHealthyContext.Users
+  commentId: P:EatHealthy.EatHealthyContext.Users
+  id: Users
+  parent: EatHealthy.EatHealthyContext
+  langs:
+  - csharp
+  - vb
+  name: Users
+  nameWithType: EatHealthyContext.Users
+  fullName: EatHealthy.EatHealthyContext.Users
+  type: Property
+  source:
+    remote:
+      path: D:/documente scoala/Facultate/Anul 3/Sem2/SD/EatHealthy/EatHealthy/EatHealthyContext.cs
+    id: Users
+    path: EatHealthyContext.cs
+    startLine: 24
+  assemblies:
+  - EatHealthy
+  namespace: EatHealthy
+  syntax:
+    content: public virtual DbSet<User> Users { get; set; }
+    parameters: []
+    return:
+      type: System.Data.Entity.DbSet{EatHealthy.Models.User}
+    content.vb: Public Overridable Property Users As DbSet(Of User)
+  overload: EatHealthy.EatHealthyContext.Users*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: EatHealthy.EatHealthyContext.OnModelCreating(System.Data.Entity.DbModelBuilder)
+  commentId: M:EatHealthy.EatHealthyContext.OnModelCreating(System.Data.Entity.DbModelBuilder)
+  id: OnModelCreating(System.Data.Entity.DbModelBuilder)
+  parent: EatHealthy.EatHealthyContext
+  langs:
+  - csharp
+  - vb
+  name: OnModelCreating(DbModelBuilder)
+  nameWithType: EatHealthyContext.OnModelCreating(DbModelBuilder)
+  fullName: EatHealthy.EatHealthyContext.OnModelCreating(System.Data.Entity.DbModelBuilder)
+  type: Method
+  source:
+    remote:
+      path: D:/documente scoala/Facultate/Anul 3/Sem2/SD/EatHealthy/EatHealthy/EatHealthyContext.cs
+    id: OnModelCreating
+    path: EatHealthyContext.cs
+    startLine: 25
+  assemblies:
+  - EatHealthy
+  namespace: EatHealthy
+  syntax:
+    content: protected override void OnModelCreating(DbModelBuilder modelBuilder)
+    parameters:
+    - id: modelBuilder
+      type: System.Data.Entity.DbModelBuilder
+    content.vb: Protected Overrides Sub OnModelCreating(modelBuilder As DbModelBuilder)
+  overridden: System.Data.Entity.DbContext.OnModelCreating(System.Data.Entity.DbModelBuilder)
+  overload: EatHealthy.EatHealthyContext.OnModelCreating*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+references:
+- uid: EatHealthy
+  commentId: N:EatHealthy
+  name: EatHealthy
+  nameWithType: EatHealthy
+  fullName: EatHealthy
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Data.Entity.DbContext
+  commentId: T:System.Data.Entity.DbContext
+  parent: System.Data.Entity
+  isExternal: true
+  name: DbContext
+  nameWithType: DbContext
+  fullName: System.Data.Entity.DbContext
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: System.Data.Entity.Infrastructure.IObjectContextAdapter
+  commentId: T:System.Data.Entity.Infrastructure.IObjectContextAdapter
+  parent: System.Data.Entity.Infrastructure
+  isExternal: true
+  name: IObjectContextAdapter
+  nameWithType: IObjectContextAdapter
+  fullName: System.Data.Entity.Infrastructure.IObjectContextAdapter
+- uid: System.Data.Entity.DbContext.Set``1
+  commentId: M:System.Data.Entity.DbContext.Set``1
+  parent: System.Data.Entity.DbContext
+  isExternal: true
+  name: Set<TEntity>()
+  nameWithType: DbContext.Set<TEntity>()
+  fullName: System.Data.Entity.DbContext.Set<TEntity>()
+  nameWithType.vb: DbContext.Set(Of TEntity)()
+  fullName.vb: System.Data.Entity.DbContext.Set(Of TEntity)()
+  name.vb: Set(Of TEntity)()
+  spec.csharp:
+  - uid: System.Data.Entity.DbContext.Set``1
+    name: Set<TEntity>
+    nameWithType: DbContext.Set<TEntity>
+    fullName: System.Data.Entity.DbContext.Set<TEntity>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Data.Entity.DbContext.Set``1
+    name: Set(Of TEntity)
+    nameWithType: DbContext.Set(Of TEntity)
+    fullName: System.Data.Entity.DbContext.Set(Of TEntity)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Data.Entity.DbContext.Set(System.Type)
+  commentId: M:System.Data.Entity.DbContext.Set(System.Type)
+  parent: System.Data.Entity.DbContext
+  isExternal: true
+  name: Set(Type)
+  nameWithType: DbContext.Set(Type)
+  fullName: System.Data.Entity.DbContext.Set(System.Type)
+  spec.csharp:
+  - uid: System.Data.Entity.DbContext.Set(System.Type)
+    name: Set
+    nameWithType: DbContext.Set
+    fullName: System.Data.Entity.DbContext.Set
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Type
+    name: Type
+    nameWithType: Type
+    fullName: System.Type
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Data.Entity.DbContext.Set(System.Type)
+    name: Set
+    nameWithType: DbContext.Set
+    fullName: System.Data.Entity.DbContext.Set
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Type
+    name: Type
+    nameWithType: Type
+    fullName: System.Type
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Data.Entity.DbContext.SaveChanges
+  commentId: M:System.Data.Entity.DbContext.SaveChanges
+  parent: System.Data.Entity.DbContext
+  isExternal: true
+  name: SaveChanges()
+  nameWithType: DbContext.SaveChanges()
+  fullName: System.Data.Entity.DbContext.SaveChanges()
+  spec.csharp:
+  - uid: System.Data.Entity.DbContext.SaveChanges
+    name: SaveChanges
+    nameWithType: DbContext.SaveChanges
+    fullName: System.Data.Entity.DbContext.SaveChanges
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Data.Entity.DbContext.SaveChanges
+    name: SaveChanges
+    nameWithType: DbContext.SaveChanges
+    fullName: System.Data.Entity.DbContext.SaveChanges
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Data.Entity.DbContext.SaveChangesAsync
+  commentId: M:System.Data.Entity.DbContext.SaveChangesAsync
+  parent: System.Data.Entity.DbContext
+  isExternal: true
+  name: SaveChangesAsync()
+  nameWithType: DbContext.SaveChangesAsync()
+  fullName: System.Data.Entity.DbContext.SaveChangesAsync()
+  spec.csharp:
+  - uid: System.Data.Entity.DbContext.SaveChangesAsync
+    name: SaveChangesAsync
+    nameWithType: DbContext.SaveChangesAsync
+    fullName: System.Data.Entity.DbContext.SaveChangesAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Data.Entity.DbContext.SaveChangesAsync
+    name: SaveChangesAsync
+    nameWithType: DbContext.SaveChangesAsync
+    fullName: System.Data.Entity.DbContext.SaveChangesAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Data.Entity.DbContext.SaveChangesAsync(System.Threading.CancellationToken)
+  commentId: M:System.Data.Entity.DbContext.SaveChangesAsync(System.Threading.CancellationToken)
+  parent: System.Data.Entity.DbContext
+  isExternal: true
+  name: SaveChangesAsync(CancellationToken)
+  nameWithType: DbContext.SaveChangesAsync(CancellationToken)
+  fullName: System.Data.Entity.DbContext.SaveChangesAsync(System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: System.Data.Entity.DbContext.SaveChangesAsync(System.Threading.CancellationToken)
+    name: SaveChangesAsync
+    nameWithType: DbContext.SaveChangesAsync
+    fullName: System.Data.Entity.DbContext.SaveChangesAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Data.Entity.DbContext.SaveChangesAsync(System.Threading.CancellationToken)
+    name: SaveChangesAsync
+    nameWithType: DbContext.SaveChangesAsync
+    fullName: System.Data.Entity.DbContext.SaveChangesAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Data.Entity.DbContext.GetValidationErrors
+  commentId: M:System.Data.Entity.DbContext.GetValidationErrors
+  parent: System.Data.Entity.DbContext
+  isExternal: true
+  name: GetValidationErrors()
+  nameWithType: DbContext.GetValidationErrors()
+  fullName: System.Data.Entity.DbContext.GetValidationErrors()
+  spec.csharp:
+  - uid: System.Data.Entity.DbContext.GetValidationErrors
+    name: GetValidationErrors
+    nameWithType: DbContext.GetValidationErrors
+    fullName: System.Data.Entity.DbContext.GetValidationErrors
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Data.Entity.DbContext.GetValidationErrors
+    name: GetValidationErrors
+    nameWithType: DbContext.GetValidationErrors
+    fullName: System.Data.Entity.DbContext.GetValidationErrors
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Data.Entity.DbContext.ShouldValidateEntity(System.Data.Entity.Infrastructure.DbEntityEntry)
+  commentId: M:System.Data.Entity.DbContext.ShouldValidateEntity(System.Data.Entity.Infrastructure.DbEntityEntry)
+  parent: System.Data.Entity.DbContext
+  isExternal: true
+  name: ShouldValidateEntity(DbEntityEntry)
+  nameWithType: DbContext.ShouldValidateEntity(DbEntityEntry)
+  fullName: System.Data.Entity.DbContext.ShouldValidateEntity(System.Data.Entity.Infrastructure.DbEntityEntry)
+  spec.csharp:
+  - uid: System.Data.Entity.DbContext.ShouldValidateEntity(System.Data.Entity.Infrastructure.DbEntityEntry)
+    name: ShouldValidateEntity
+    nameWithType: DbContext.ShouldValidateEntity
+    fullName: System.Data.Entity.DbContext.ShouldValidateEntity
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Data.Entity.Infrastructure.DbEntityEntry
+    name: DbEntityEntry
+    nameWithType: DbEntityEntry
+    fullName: System.Data.Entity.Infrastructure.DbEntityEntry
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Data.Entity.DbContext.ShouldValidateEntity(System.Data.Entity.Infrastructure.DbEntityEntry)
+    name: ShouldValidateEntity
+    nameWithType: DbContext.ShouldValidateEntity
+    fullName: System.Data.Entity.DbContext.ShouldValidateEntity
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Data.Entity.Infrastructure.DbEntityEntry
+    name: DbEntityEntry
+    nameWithType: DbEntityEntry
+    fullName: System.Data.Entity.Infrastructure.DbEntityEntry
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Data.Entity.DbContext.ValidateEntity(System.Data.Entity.Infrastructure.DbEntityEntry,System.Collections.Generic.IDictionary{System.Object,System.Object})
+  commentId: M:System.Data.Entity.DbContext.ValidateEntity(System.Data.Entity.Infrastructure.DbEntityEntry,System.Collections.Generic.IDictionary{System.Object,System.Object})
+  parent: System.Data.Entity.DbContext
+  isExternal: true
+  name: ValidateEntity(DbEntityEntry, IDictionary<Object, Object>)
+  nameWithType: DbContext.ValidateEntity(DbEntityEntry, IDictionary<Object, Object>)
+  fullName: System.Data.Entity.DbContext.ValidateEntity(System.Data.Entity.Infrastructure.DbEntityEntry, System.Collections.Generic.IDictionary<System.Object, System.Object>)
+  nameWithType.vb: DbContext.ValidateEntity(DbEntityEntry, IDictionary(Of Object, Object))
+  fullName.vb: System.Data.Entity.DbContext.ValidateEntity(System.Data.Entity.Infrastructure.DbEntityEntry, System.Collections.Generic.IDictionary(Of System.Object, System.Object))
+  name.vb: ValidateEntity(DbEntityEntry, IDictionary(Of Object, Object))
+  spec.csharp:
+  - uid: System.Data.Entity.DbContext.ValidateEntity(System.Data.Entity.Infrastructure.DbEntityEntry,System.Collections.Generic.IDictionary{System.Object,System.Object})
+    name: ValidateEntity
+    nameWithType: DbContext.ValidateEntity
+    fullName: System.Data.Entity.DbContext.ValidateEntity
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Data.Entity.Infrastructure.DbEntityEntry
+    name: DbEntityEntry
+    nameWithType: DbEntityEntry
+    fullName: System.Data.Entity.Infrastructure.DbEntityEntry
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: System.Collections.Generic.IDictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Data.Entity.DbContext.ValidateEntity(System.Data.Entity.Infrastructure.DbEntityEntry,System.Collections.Generic.IDictionary{System.Object,System.Object})
+    name: ValidateEntity
+    nameWithType: DbContext.ValidateEntity
+    fullName: System.Data.Entity.DbContext.ValidateEntity
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Data.Entity.Infrastructure.DbEntityEntry
+    name: DbEntityEntry
+    nameWithType: DbEntityEntry
+    fullName: System.Data.Entity.Infrastructure.DbEntityEntry
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: System.Collections.Generic.IDictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Data.Entity.DbContext.Entry``1({TEntity})
+  commentId: M:System.Data.Entity.DbContext.Entry``1(``0)
+  parent: System.Data.Entity.DbContext
+  definition: System.Data.Entity.DbContext.Entry``1(``0)
+  name: Entry<TEntity>(TEntity)
+  nameWithType: DbContext.Entry<TEntity>(TEntity)
+  fullName: System.Data.Entity.DbContext.Entry<TEntity>(TEntity)
+  nameWithType.vb: DbContext.Entry(Of TEntity)(TEntity)
+  fullName.vb: System.Data.Entity.DbContext.Entry(Of TEntity)(TEntity)
+  name.vb: Entry(Of TEntity)(TEntity)
+  spec.csharp:
+  - uid: System.Data.Entity.DbContext.Entry``1(``0)
+    name: Entry<TEntity>
+    nameWithType: DbContext.Entry<TEntity>
+    fullName: System.Data.Entity.DbContext.Entry<TEntity>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TEntity
+    nameWithType: TEntity
+    fullName: TEntity
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Data.Entity.DbContext.Entry``1(``0)
+    name: Entry(Of TEntity)
+    nameWithType: DbContext.Entry(Of TEntity)
+    fullName: System.Data.Entity.DbContext.Entry(Of TEntity)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TEntity
+    nameWithType: TEntity
+    fullName: TEntity
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Data.Entity.DbContext.Entry(System.Object)
+  commentId: M:System.Data.Entity.DbContext.Entry(System.Object)
+  parent: System.Data.Entity.DbContext
+  isExternal: true
+  name: Entry(Object)
+  nameWithType: DbContext.Entry(Object)
+  fullName: System.Data.Entity.DbContext.Entry(System.Object)
+  spec.csharp:
+  - uid: System.Data.Entity.DbContext.Entry(System.Object)
+    name: Entry
+    nameWithType: DbContext.Entry
+    fullName: System.Data.Entity.DbContext.Entry
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Data.Entity.DbContext.Entry(System.Object)
+    name: Entry
+    nameWithType: DbContext.Entry
+    fullName: System.Data.Entity.DbContext.Entry
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Data.Entity.DbContext.Dispose
+  commentId: M:System.Data.Entity.DbContext.Dispose
+  parent: System.Data.Entity.DbContext
+  isExternal: true
+  name: Dispose()
+  nameWithType: DbContext.Dispose()
+  fullName: System.Data.Entity.DbContext.Dispose()
+  spec.csharp:
+  - uid: System.Data.Entity.DbContext.Dispose
+    name: Dispose
+    nameWithType: DbContext.Dispose
+    fullName: System.Data.Entity.DbContext.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Data.Entity.DbContext.Dispose
+    name: Dispose
+    nameWithType: DbContext.Dispose
+    fullName: System.Data.Entity.DbContext.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Data.Entity.DbContext.Dispose(System.Boolean)
+  commentId: M:System.Data.Entity.DbContext.Dispose(System.Boolean)
+  parent: System.Data.Entity.DbContext
+  isExternal: true
+  name: Dispose(Boolean)
+  nameWithType: DbContext.Dispose(Boolean)
+  fullName: System.Data.Entity.DbContext.Dispose(System.Boolean)
+  spec.csharp:
+  - uid: System.Data.Entity.DbContext.Dispose(System.Boolean)
+    name: Dispose
+    nameWithType: DbContext.Dispose
+    fullName: System.Data.Entity.DbContext.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Data.Entity.DbContext.Dispose(System.Boolean)
+    name: Dispose
+    nameWithType: DbContext.Dispose
+    fullName: System.Data.Entity.DbContext.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Data.Entity.DbContext.Database
+  commentId: P:System.Data.Entity.DbContext.Database
+  parent: System.Data.Entity.DbContext
+  isExternal: true
+  name: Database
+  nameWithType: DbContext.Database
+  fullName: System.Data.Entity.DbContext.Database
+- uid: System.Data.Entity.DbContext.System#Data#Entity#Infrastructure#IObjectContextAdapter#ObjectContext
+  commentId: P:System.Data.Entity.DbContext.System#Data#Entity#Infrastructure#IObjectContextAdapter#ObjectContext
+  parent: System.Data.Entity.DbContext
+  isExternal: true
+  name: IObjectContextAdapter.ObjectContext
+  nameWithType: DbContext.IObjectContextAdapter.ObjectContext
+  fullName: System.Data.Entity.DbContext.System.Data.Entity.Infrastructure.IObjectContextAdapter.ObjectContext
+  nameWithType.vb: DbContext.System.Data.Entity.Infrastructure.IObjectContextAdapter.ObjectContext
+  name.vb: System.Data.Entity.Infrastructure.IObjectContextAdapter.ObjectContext
+- uid: System.Data.Entity.DbContext.ChangeTracker
+  commentId: P:System.Data.Entity.DbContext.ChangeTracker
+  parent: System.Data.Entity.DbContext
+  isExternal: true
+  name: ChangeTracker
+  nameWithType: DbContext.ChangeTracker
+  fullName: System.Data.Entity.DbContext.ChangeTracker
+- uid: System.Data.Entity.DbContext.Configuration
+  commentId: P:System.Data.Entity.DbContext.Configuration
+  parent: System.Data.Entity.DbContext
+  isExternal: true
+  name: Configuration
+  nameWithType: DbContext.Configuration
+  fullName: System.Data.Entity.DbContext.Configuration
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Data.Entity
+  commentId: N:System.Data.Entity
+  isExternal: true
+  name: System.Data.Entity
+  nameWithType: System.Data.Entity
+  fullName: System.Data.Entity
+- uid: System.Data.Entity.Infrastructure
+  commentId: N:System.Data.Entity.Infrastructure
+  isExternal: true
+  name: System.Data.Entity.Infrastructure
+  nameWithType: System.Data.Entity.Infrastructure
+  fullName: System.Data.Entity.Infrastructure
+- uid: System.Data.Entity.DbContext.Entry``1(``0)
+  commentId: M:System.Data.Entity.DbContext.Entry``1(``0)
+  isExternal: true
+  name: Entry<TEntity>(TEntity)
+  nameWithType: DbContext.Entry<TEntity>(TEntity)
+  fullName: System.Data.Entity.DbContext.Entry<TEntity>(TEntity)
+  nameWithType.vb: DbContext.Entry(Of TEntity)(TEntity)
+  fullName.vb: System.Data.Entity.DbContext.Entry(Of TEntity)(TEntity)
+  name.vb: Entry(Of TEntity)(TEntity)
+  spec.csharp:
+  - uid: System.Data.Entity.DbContext.Entry``1(``0)
+    name: Entry<TEntity>
+    nameWithType: DbContext.Entry<TEntity>
+    fullName: System.Data.Entity.DbContext.Entry<TEntity>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TEntity
+    nameWithType: TEntity
+    fullName: TEntity
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Data.Entity.DbContext.Entry``1(``0)
+    name: Entry(Of TEntity)
+    nameWithType: DbContext.Entry(Of TEntity)
+    fullName: System.Data.Entity.DbContext.Entry(Of TEntity)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TEntity
+    nameWithType: TEntity
+    fullName: TEntity
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EatHealthy.EatHealthyContext.#ctor*
+  commentId: Overload:EatHealthy.EatHealthyContext.#ctor
+  name: EatHealthyContext
+  nameWithType: EatHealthyContext.EatHealthyContext
+  fullName: EatHealthy.EatHealthyContext.EatHealthyContext
+- uid: EatHealthy.EatHealthyContext.Administrators*
+  commentId: Overload:EatHealthy.EatHealthyContext.Administrators
+  name: Administrators
+  nameWithType: EatHealthyContext.Administrators
+  fullName: EatHealthy.EatHealthyContext.Administrators
+- uid: System.Data.Entity.DbSet{EatHealthy.Models.Administrator}
+  commentId: T:System.Data.Entity.DbSet{EatHealthy.Models.Administrator}
+  parent: System.Data.Entity
+  definition: System.Data.Entity.DbSet`1
+  name: DbSet<Administrator>
+  nameWithType: DbSet<Administrator>
+  fullName: System.Data.Entity.DbSet<EatHealthy.Models.Administrator>
+  nameWithType.vb: DbSet(Of Administrator)
+  fullName.vb: System.Data.Entity.DbSet(Of EatHealthy.Models.Administrator)
+  name.vb: DbSet(Of Administrator)
+  spec.csharp:
+  - uid: System.Data.Entity.DbSet`1
+    name: DbSet
+    nameWithType: DbSet
+    fullName: System.Data.Entity.DbSet
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: EatHealthy.Models.Administrator
+    name: Administrator
+    nameWithType: Administrator
+    fullName: EatHealthy.Models.Administrator
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Data.Entity.DbSet`1
+    name: DbSet
+    nameWithType: DbSet
+    fullName: System.Data.Entity.DbSet
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: EatHealthy.Models.Administrator
+    name: Administrator
+    nameWithType: Administrator
+    fullName: EatHealthy.Models.Administrator
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Data.Entity.DbSet`1
+  commentId: T:System.Data.Entity.DbSet`1
+  isExternal: true
+  name: DbSet<TEntity>
+  nameWithType: DbSet<TEntity>
+  fullName: System.Data.Entity.DbSet<TEntity>
+  nameWithType.vb: DbSet(Of TEntity)
+  fullName.vb: System.Data.Entity.DbSet(Of TEntity)
+  name.vb: DbSet(Of TEntity)
+  spec.csharp:
+  - uid: System.Data.Entity.DbSet`1
+    name: DbSet
+    nameWithType: DbSet
+    fullName: System.Data.Entity.DbSet
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TEntity
+    nameWithType: TEntity
+    fullName: TEntity
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Data.Entity.DbSet`1
+    name: DbSet
+    nameWithType: DbSet
+    fullName: System.Data.Entity.DbSet
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TEntity
+    nameWithType: TEntity
+    fullName: TEntity
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EatHealthy.EatHealthyContext.Appointments*
+  commentId: Overload:EatHealthy.EatHealthyContext.Appointments
+  name: Appointments
+  nameWithType: EatHealthyContext.Appointments
+  fullName: EatHealthy.EatHealthyContext.Appointments
+- uid: System.Data.Entity.DbSet{EatHealthy.Models.Appointment}
+  commentId: T:System.Data.Entity.DbSet{EatHealthy.Models.Appointment}
+  parent: System.Data.Entity
+  definition: System.Data.Entity.DbSet`1
+  name: DbSet<Appointment>
+  nameWithType: DbSet<Appointment>
+  fullName: System.Data.Entity.DbSet<EatHealthy.Models.Appointment>
+  nameWithType.vb: DbSet(Of Appointment)
+  fullName.vb: System.Data.Entity.DbSet(Of EatHealthy.Models.Appointment)
+  name.vb: DbSet(Of Appointment)
+  spec.csharp:
+  - uid: System.Data.Entity.DbSet`1
+    name: DbSet
+    nameWithType: DbSet
+    fullName: System.Data.Entity.DbSet
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: EatHealthy.Models.Appointment
+    name: Appointment
+    nameWithType: Appointment
+    fullName: EatHealthy.Models.Appointment
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Data.Entity.DbSet`1
+    name: DbSet
+    nameWithType: DbSet
+    fullName: System.Data.Entity.DbSet
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: EatHealthy.Models.Appointment
+    name: Appointment
+    nameWithType: Appointment
+    fullName: EatHealthy.Models.Appointment
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EatHealthy.EatHealthyContext.FoodDiaries*
+  commentId: Overload:EatHealthy.EatHealthyContext.FoodDiaries
+  name: FoodDiaries
+  nameWithType: EatHealthyContext.FoodDiaries
+  fullName: EatHealthy.EatHealthyContext.FoodDiaries
+- uid: System.Data.Entity.DbSet{EatHealthy.Models.FoodDiary}
+  commentId: T:System.Data.Entity.DbSet{EatHealthy.Models.FoodDiary}
+  parent: System.Data.Entity
+  definition: System.Data.Entity.DbSet`1
+  name: DbSet<FoodDiary>
+  nameWithType: DbSet<FoodDiary>
+  fullName: System.Data.Entity.DbSet<EatHealthy.Models.FoodDiary>
+  nameWithType.vb: DbSet(Of FoodDiary)
+  fullName.vb: System.Data.Entity.DbSet(Of EatHealthy.Models.FoodDiary)
+  name.vb: DbSet(Of FoodDiary)
+  spec.csharp:
+  - uid: System.Data.Entity.DbSet`1
+    name: DbSet
+    nameWithType: DbSet
+    fullName: System.Data.Entity.DbSet
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: EatHealthy.Models.FoodDiary
+    name: FoodDiary
+    nameWithType: FoodDiary
+    fullName: EatHealthy.Models.FoodDiary
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Data.Entity.DbSet`1
+    name: DbSet
+    nameWithType: DbSet
+    fullName: System.Data.Entity.DbSet
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: EatHealthy.Models.FoodDiary
+    name: FoodDiary
+    nameWithType: FoodDiary
+    fullName: EatHealthy.Models.FoodDiary
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EatHealthy.EatHealthyContext.Ingredients*
+  commentId: Overload:EatHealthy.EatHealthyContext.Ingredients
+  name: Ingredients
+  nameWithType: EatHealthyContext.Ingredients
+  fullName: EatHealthy.EatHealthyContext.Ingredients
+- uid: System.Data.Entity.DbSet{EatHealthy.Models.Ingredient}
+  commentId: T:System.Data.Entity.DbSet{EatHealthy.Models.Ingredient}
+  parent: System.Data.Entity
+  definition: System.Data.Entity.DbSet`1
+  name: DbSet<Ingredient>
+  nameWithType: DbSet<Ingredient>
+  fullName: System.Data.Entity.DbSet<EatHealthy.Models.Ingredient>
+  nameWithType.vb: DbSet(Of Ingredient)
+  fullName.vb: System.Data.Entity.DbSet(Of EatHealthy.Models.Ingredient)
+  name.vb: DbSet(Of Ingredient)
+  spec.csharp:
+  - uid: System.Data.Entity.DbSet`1
+    name: DbSet
+    nameWithType: DbSet
+    fullName: System.Data.Entity.DbSet
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: EatHealthy.Models.Ingredient
+    name: Ingredient
+    nameWithType: Ingredient
+    fullName: EatHealthy.Models.Ingredient
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Data.Entity.DbSet`1
+    name: DbSet
+    nameWithType: DbSet
+    fullName: System.Data.Entity.DbSet
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: EatHealthy.Models.Ingredient
+    name: Ingredient
+    nameWithType: Ingredient
+    fullName: EatHealthy.Models.Ingredient
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EatHealthy.EatHealthyContext.Meals*
+  commentId: Overload:EatHealthy.EatHealthyContext.Meals
+  name: Meals
+  nameWithType: EatHealthyContext.Meals
+  fullName: EatHealthy.EatHealthyContext.Meals
+- uid: System.Data.Entity.DbSet{EatHealthy.Models.Meal}
+  commentId: T:System.Data.Entity.DbSet{EatHealthy.Models.Meal}
+  parent: System.Data.Entity
+  definition: System.Data.Entity.DbSet`1
+  name: DbSet<Meal>
+  nameWithType: DbSet<Meal>
+  fullName: System.Data.Entity.DbSet<EatHealthy.Models.Meal>
+  nameWithType.vb: DbSet(Of Meal)
+  fullName.vb: System.Data.Entity.DbSet(Of EatHealthy.Models.Meal)
+  name.vb: DbSet(Of Meal)
+  spec.csharp:
+  - uid: System.Data.Entity.DbSet`1
+    name: DbSet
+    nameWithType: DbSet
+    fullName: System.Data.Entity.DbSet
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: EatHealthy.Models.Meal
+    name: Meal
+    nameWithType: Meal
+    fullName: EatHealthy.Models.Meal
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Data.Entity.DbSet`1
+    name: DbSet
+    nameWithType: DbSet
+    fullName: System.Data.Entity.DbSet
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: EatHealthy.Models.Meal
+    name: Meal
+    nameWithType: Meal
+    fullName: EatHealthy.Models.Meal
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EatHealthy.EatHealthyContext.MealPlans*
+  commentId: Overload:EatHealthy.EatHealthyContext.MealPlans
+  name: MealPlans
+  nameWithType: EatHealthyContext.MealPlans
+  fullName: EatHealthy.EatHealthyContext.MealPlans
+- uid: System.Data.Entity.DbSet{EatHealthy.Models.MealPlan}
+  commentId: T:System.Data.Entity.DbSet{EatHealthy.Models.MealPlan}
+  parent: System.Data.Entity
+  definition: System.Data.Entity.DbSet`1
+  name: DbSet<MealPlan>
+  nameWithType: DbSet<MealPlan>
+  fullName: System.Data.Entity.DbSet<EatHealthy.Models.MealPlan>
+  nameWithType.vb: DbSet(Of MealPlan)
+  fullName.vb: System.Data.Entity.DbSet(Of EatHealthy.Models.MealPlan)
+  name.vb: DbSet(Of MealPlan)
+  spec.csharp:
+  - uid: System.Data.Entity.DbSet`1
+    name: DbSet
+    nameWithType: DbSet
+    fullName: System.Data.Entity.DbSet
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: EatHealthy.Models.MealPlan
+    name: MealPlan
+    nameWithType: MealPlan
+    fullName: EatHealthy.Models.MealPlan
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Data.Entity.DbSet`1
+    name: DbSet
+    nameWithType: DbSet
+    fullName: System.Data.Entity.DbSet
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: EatHealthy.Models.MealPlan
+    name: MealPlan
+    nameWithType: MealPlan
+    fullName: EatHealthy.Models.MealPlan
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EatHealthy.EatHealthyContext.MealPlanDays*
+  commentId: Overload:EatHealthy.EatHealthyContext.MealPlanDays
+  name: MealPlanDays
+  nameWithType: EatHealthyContext.MealPlanDays
+  fullName: EatHealthy.EatHealthyContext.MealPlanDays
+- uid: System.Data.Entity.DbSet{EatHealthy.Models.MealPlanDay}
+  commentId: T:System.Data.Entity.DbSet{EatHealthy.Models.MealPlanDay}
+  parent: System.Data.Entity
+  definition: System.Data.Entity.DbSet`1
+  name: DbSet<MealPlanDay>
+  nameWithType: DbSet<MealPlanDay>
+  fullName: System.Data.Entity.DbSet<EatHealthy.Models.MealPlanDay>
+  nameWithType.vb: DbSet(Of MealPlanDay)
+  fullName.vb: System.Data.Entity.DbSet(Of EatHealthy.Models.MealPlanDay)
+  name.vb: DbSet(Of MealPlanDay)
+  spec.csharp:
+  - uid: System.Data.Entity.DbSet`1
+    name: DbSet
+    nameWithType: DbSet
+    fullName: System.Data.Entity.DbSet
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: EatHealthy.Models.MealPlanDay
+    name: MealPlanDay
+    nameWithType: MealPlanDay
+    fullName: EatHealthy.Models.MealPlanDay
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Data.Entity.DbSet`1
+    name: DbSet
+    nameWithType: DbSet
+    fullName: System.Data.Entity.DbSet
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: EatHealthy.Models.MealPlanDay
+    name: MealPlanDay
+    nameWithType: MealPlanDay
+    fullName: EatHealthy.Models.MealPlanDay
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EatHealthy.EatHealthyContext.Nutritionists*
+  commentId: Overload:EatHealthy.EatHealthyContext.Nutritionists
+  name: Nutritionists
+  nameWithType: EatHealthyContext.Nutritionists
+  fullName: EatHealthy.EatHealthyContext.Nutritionists
+- uid: System.Data.Entity.DbSet{EatHealthy.Models.Nutritionist}
+  commentId: T:System.Data.Entity.DbSet{EatHealthy.Models.Nutritionist}
+  parent: System.Data.Entity
+  definition: System.Data.Entity.DbSet`1
+  name: DbSet<Nutritionist>
+  nameWithType: DbSet<Nutritionist>
+  fullName: System.Data.Entity.DbSet<EatHealthy.Models.Nutritionist>
+  nameWithType.vb: DbSet(Of Nutritionist)
+  fullName.vb: System.Data.Entity.DbSet(Of EatHealthy.Models.Nutritionist)
+  name.vb: DbSet(Of Nutritionist)
+  spec.csharp:
+  - uid: System.Data.Entity.DbSet`1
+    name: DbSet
+    nameWithType: DbSet
+    fullName: System.Data.Entity.DbSet
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: EatHealthy.Models.Nutritionist
+    name: Nutritionist
+    nameWithType: Nutritionist
+    fullName: EatHealthy.Models.Nutritionist
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Data.Entity.DbSet`1
+    name: DbSet
+    nameWithType: DbSet
+    fullName: System.Data.Entity.DbSet
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: EatHealthy.Models.Nutritionist
+    name: Nutritionist
+    nameWithType: Nutritionist
+    fullName: EatHealthy.Models.Nutritionist
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EatHealthy.EatHealthyContext.Patients*
+  commentId: Overload:EatHealthy.EatHealthyContext.Patients
+  name: Patients
+  nameWithType: EatHealthyContext.Patients
+  fullName: EatHealthy.EatHealthyContext.Patients
+- uid: System.Data.Entity.DbSet{EatHealthy.Models.Patient}
+  commentId: T:System.Data.Entity.DbSet{EatHealthy.Models.Patient}
+  parent: System.Data.Entity
+  definition: System.Data.Entity.DbSet`1
+  name: DbSet<Patient>
+  nameWithType: DbSet<Patient>
+  fullName: System.Data.Entity.DbSet<EatHealthy.Models.Patient>
+  nameWithType.vb: DbSet(Of Patient)
+  fullName.vb: System.Data.Entity.DbSet(Of EatHealthy.Models.Patient)
+  name.vb: DbSet(Of Patient)
+  spec.csharp:
+  - uid: System.Data.Entity.DbSet`1
+    name: DbSet
+    nameWithType: DbSet
+    fullName: System.Data.Entity.DbSet
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: EatHealthy.Models.Patient
+    name: Patient
+    nameWithType: Patient
+    fullName: EatHealthy.Models.Patient
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Data.Entity.DbSet`1
+    name: DbSet
+    nameWithType: DbSet
+    fullName: System.Data.Entity.DbSet
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: EatHealthy.Models.Patient
+    name: Patient
+    nameWithType: Patient
+    fullName: EatHealthy.Models.Patient
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EatHealthy.EatHealthyContext.Users*
+  commentId: Overload:EatHealthy.EatHealthyContext.Users
+  name: Users
+  nameWithType: EatHealthyContext.Users
+  fullName: EatHealthy.EatHealthyContext.Users
+- uid: System.Data.Entity.DbSet{EatHealthy.Models.User}
+  commentId: T:System.Data.Entity.DbSet{EatHealthy.Models.User}
+  parent: System.Data.Entity
+  definition: System.Data.Entity.DbSet`1
+  name: DbSet<User>
+  nameWithType: DbSet<User>
+  fullName: System.Data.Entity.DbSet<EatHealthy.Models.User>
+  nameWithType.vb: DbSet(Of User)
+  fullName.vb: System.Data.Entity.DbSet(Of EatHealthy.Models.User)
+  name.vb: DbSet(Of User)
+  spec.csharp:
+  - uid: System.Data.Entity.DbSet`1
+    name: DbSet
+    nameWithType: DbSet
+    fullName: System.Data.Entity.DbSet
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: EatHealthy.Models.User
+    name: User
+    nameWithType: User
+    fullName: EatHealthy.Models.User
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Data.Entity.DbSet`1
+    name: DbSet
+    nameWithType: DbSet
+    fullName: System.Data.Entity.DbSet
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: EatHealthy.Models.User
+    name: User
+    nameWithType: User
+    fullName: EatHealthy.Models.User
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Data.Entity.DbContext.OnModelCreating(System.Data.Entity.DbModelBuilder)
+  commentId: M:System.Data.Entity.DbContext.OnModelCreating(System.Data.Entity.DbModelBuilder)
+  parent: System.Data.Entity.DbContext
+  isExternal: true
+  name: OnModelCreating(DbModelBuilder)
+  nameWithType: DbContext.OnModelCreating(DbModelBuilder)
+  fullName: System.Data.Entity.DbContext.OnModelCreating(System.Data.Entity.DbModelBuilder)
+  spec.csharp:
+  - uid: System.Data.Entity.DbContext.OnModelCreating(System.Data.Entity.DbModelBuilder)
+    name: OnModelCreating
+    nameWithType: DbContext.OnModelCreating
+    fullName: System.Data.Entity.DbContext.OnModelCreating
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Data.Entity.DbModelBuilder
+    name: DbModelBuilder
+    nameWithType: DbModelBuilder
+    fullName: System.Data.Entity.DbModelBuilder
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Data.Entity.DbContext.OnModelCreating(System.Data.Entity.DbModelBuilder)
+    name: OnModelCreating
+    nameWithType: DbContext.OnModelCreating
+    fullName: System.Data.Entity.DbContext.OnModelCreating
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Data.Entity.DbModelBuilder
+    name: DbModelBuilder
+    nameWithType: DbModelBuilder
+    fullName: System.Data.Entity.DbModelBuilder
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EatHealthy.EatHealthyContext.OnModelCreating*
+  commentId: Overload:EatHealthy.EatHealthyContext.OnModelCreating
+  name: OnModelCreating
+  nameWithType: EatHealthyContext.OnModelCreating
+  fullName: EatHealthy.EatHealthyContext.OnModelCreating
+- uid: System.Data.Entity.DbModelBuilder
+  commentId: T:System.Data.Entity.DbModelBuilder
+  parent: System.Data.Entity
+  isExternal: true
+  name: DbModelBuilder
+  nameWithType: DbModelBuilder
+  fullName: System.Data.Entity.DbModelBuilder

@@ -1,0 +1,216 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>EatHealthy</name>
+    </assembly>
+    <members>
+        <member name="M:EatHealthy.Controllers.AppointmentController.Patient">
+            <summary>
+            Displays the patient appointments page
+            </summary>
+            <returns>The view with the appointments, if the token is valid, login page otherwise</returns>
+        </member>
+        <member name="M:EatHealthy.Controllers.AppointmentController.AddAppointment(EatHealthy.DTO.AppointmentDTO)">
+            <summary>
+            Adds a new appointment
+            </summary>
+            <param name="appointmentDTO">Object containing the appointment info</param>
+            <returns>Appointments page if token is valid, login page otherwise</returns>
+        </member>
+        <member name="M:EatHealthy.Controllers.AppointmentController.Nutritionist">
+            <summary>
+            Displays the nutritionist appointments page
+            </summary>
+            <returns>The view with the appointments, if the token is valid, login page otherwise</returns>
+        </member>
+        <member name="M:EatHealthy.Controllers.AppointmentController.Accept(System.Int32)">
+            <summary>
+            Set status of the appointment to 'Accepted'
+            </summary>
+            <param name="appointmentId">Id of the appointment to be updated</param>
+            <returns>Success if token is valid and appointment can be updated, login page otherwise</returns>
+        </member>
+        <member name="M:EatHealthy.Controllers.AppointmentController.Reject(System.Int32)">
+            <summary>
+            Set status of the appointment to 'Rejected'
+            </summary>
+            <param name="appointmentId">Id of the appointment to be updated</param>
+            <returns>Success if token is valid and appointment can be updated, login page otherwise</returns>
+        </member>
+        <member name="M:EatHealthy.Controllers.FoodDiaryController.Index">
+            <summary>
+            Shows the food diary page
+            </summary>
+            <returns>The food diary page if token is valid, login page otherwise</returns>
+        </member>
+        <member name="M:EatHealthy.Controllers.FoodDiaryController.Add(EatHealthy.DTO.FoodDiaryDTO)">
+            <summary>
+            Adds a new entry to the food diary
+            </summary>
+            <param name="foodDiaryDTO">Object containing the data of the new entry in the food diary</param>
+            <returns>Food diary page if the token is valid, login page otherwise</returns>
+        </member>
+        <member name="M:EatHealthy.Controllers.NutritionistController.Register">
+            <summary>
+            Shows the nutritionist register page
+            </summary>
+            <returns>The nutritionist register page</returns>
+        </member>
+        <member name="M:EatHealthy.Controllers.NutritionistController.Register(EatHealthy.DTO.NutritionistRegisterDTO)">
+            <summary>
+            Registers a new nutritionist
+            </summary>
+            <param name="nutritionistRegisterDTO">Object containing info about the new nutritionist</param>
+            <returns>Login page if the registration is succesful, register page otherwise</returns>
+        </member>
+        <member name="M:EatHealthy.Controllers.NutritionistController.Login">
+            <summary>
+            Show the nutritionist login page
+            </summary>
+            <returns>The nutritionist login page</returns>
+        </member>
+        <member name="M:EatHealthy.Controllers.NutritionistController.Login(EatHealthy.DTO.NutritionistLoginDTO)">
+            <summary>
+            Performs nutritionist login
+            </summary>
+            <param name="nutritionistLoginDTO">Object containing login data</param>
+            <returns>Appointments page if the credentials are valid, login page otherwise</returns>
+        </member>
+        <member name="M:EatHealthy.Controllers.NutritionistController.ViewPatients">
+            <summary>
+            Shows the page with the patients of a nutritionist
+            </summary>
+            <returns>A page with the patients if the token is valid, login page otherwise</returns>
+        </member>
+        <member name="M:EatHealthy.Controllers.PatientController.Register">
+            <summary>
+            Show the patient register page
+            </summary>
+            <returns>The patient register page</returns>
+        </member>
+        <member name="M:EatHealthy.Controllers.PatientController.Register(EatHealthy.DTO.PatientRegisterDTO)">
+            <summary>
+            Perfoms a registration of a patient
+            </summary>
+            <param name="patientRegisterDTO">Object containing the details of the patient</param>
+            <returns>Login page if the registration is succesful, register page otherwise</returns>
+        </member>
+        <member name="M:EatHealthy.Controllers.PatientController.Login">
+            <summary>
+            Shows the patient login page
+            </summary>
+            <returns>The patient login page</returns>
+        </member>
+        <member name="M:EatHealthy.Controllers.PatientController.Login(EatHealthy.DTO.PatientLoginDTO)">
+            <summary>
+            Performs login of a patient
+            </summary>
+            <param name="patientLoginDTO">Object containing the credentials of the patient</param>
+            <returns>Appointments page if the credentials are valid, login page otherwise</returns>
+        </member>
+        <member name="M:EatHealthy.Services.AppointmentService.Add(System.Int32,System.Int32,System.DateTime)">
+            <summary>
+            Adds a new appointment
+            </summary>
+            <param name="patientId">Id of the patient performing the appointment</param>
+            <param name="nutritionistId">Id of the nutritionist</param>
+            <param name="appointmentDate">Date of the appointment</param>
+            <returns>The added appointment</returns>
+        </member>
+        <member name="M:EatHealthy.Services.AppointmentService.GetAppointmentsForPatient(System.Int32)">
+            <summary>
+            Returns all the appointments of a patient
+            </summary>
+            <param name="patientId">The id of the patient performing the request</param>
+            <returns>All the appointments of a patient</returns>
+        </member>
+        <member name="M:EatHealthy.Services.AppointmentService.GetAppointmentsForNutritionist(System.Int32)">
+            <summary>
+            Returns all the appointments of a nutritionist
+            </summary>
+            <param name="nutritionistId">The id of the nutritionist performing the request</param>
+            <returns>All the appointments of a nutritionist</returns>
+        </member>
+        <member name="M:EatHealthy.Services.AppointmentService.Accept(System.Int32)">
+            <summary>
+            Sets the status of an appointment to 'Accepted'
+            </summary>
+            <param name="appointmentId">Id of the appointment to be updated</param>
+            <returns>The number of accepted appointments</returns>
+        </member>
+        <member name="M:EatHealthy.Services.AppointmentService.Reject(System.Int32)">
+            <summary>
+            Sets the status of an appointment to 'Rejected'
+            </summary>
+            <param name="appointmentId">Id of the appointment to be updated</param>
+            <returns>The number of rejected appointments</returns>
+        </member>
+        <member name="M:EatHealthy.Services.FoodDiaryService.Add(System.Int32,System.DateTime,System.String)">
+            <summary>
+            Adds a new entry to the food diary of a patient
+            </summary>
+            <param name="patientId">Id of the patient performing the request</param>
+            <param name="mealDate">Date of the meal</param>
+            <param name="diary">Details about the meal</param>
+            <returns>The newly added entry to the food diary</returns>
+        </member>
+        <member name="M:EatHealthy.Services.FoodDiaryService.GetFoodDiary(System.Int32)">
+            <summary>
+            Gets all the food diary entries of a patient
+            </summary>
+            <param name="patientId">Id of the patient performing the request</param>
+            <returns>All the food diary entris of a patient</returns>
+        </member>
+        <member name="M:EatHealthy.Services.NutritionistService.Register(System.String,System.String,System.String,System.String,System.String)">
+            <summary>
+            Performs the registration of a nutritionist
+            </summary>
+            <param name="name">Name of the nutritionist</param>
+            <param name="email">Email of the nutritionist</param>
+            <param name="password">Password of the nutritionist</param>
+            <param name="phoneNumber">Phone number of the nutritionist</param>
+            <param name="address">Address of the nutritionist</param>
+            <returns>The newly added nutritionist, or null if the email is already in use</returns>
+        </member>
+        <member name="M:EatHealthy.Services.NutritionistService.Login(System.String,System.String)">
+            <summary>
+            Performs login of a nutritionist
+            </summary>
+            <param name="email">Email of the nutritionist</param>
+            <param name="password">Password of the nutritionist</param>
+            <returns>The nutritionist if the credentials are valid, null otherwise</returns>
+        </member>
+        <member name="M:EatHealthy.Services.NutritionistService.GetAll">
+            <summary>
+            Get a list of all the nutritionists in the platform
+            </summary>
+            <returns>A list of all the nutritionists in the platform</returns>
+        </member>
+        <member name="M:EatHealthy.Services.PatientService.Register(System.String,System.String,System.String,System.Double,System.Double)">
+            <summary>
+            Performs the registration of a patient
+            </summary>
+            <param name="name">Name of the patient</param>
+            <param name="email">Email of the patient</param>
+            <param name="password">Password of the patient</param>
+            <param name="height">Height of the patient</param>
+            <param name="weight">Weight of the patient</param>
+            <returns>An object containing the details of the new patient, or null if the email is already in use</returns>
+        </member>
+        <member name="M:EatHealthy.Services.PatientService.Login(System.String,System.String)">
+            <summary>
+            Performs login of a patient
+            </summary>
+            <param name="email">Email of the patient</param>
+            <param name="password">Password of the patient</param>
+            <returns>The patient with the given credentials if valid, null otherwise</returns>
+        </member>
+        <member name="M:EatHealthy.Services.PatientService.GetPatientsByNutritionistId(System.Int32)">
+            <summary>
+            Returns a list of all the patients linked to a nutritionist
+            </summary>
+            <param name="nutritionistId">Id of the nutritionist</param>
+            <returns>A list of all the patients linked to a nutritionist</returns>
+        </member>
+    </members>
+</doc>

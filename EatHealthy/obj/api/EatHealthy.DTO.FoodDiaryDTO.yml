@@ -1,0 +1,558 @@
+### YamlMime:ManagedReference
+items:
+- uid: EatHealthy.DTO.FoodDiaryDTO
+  commentId: T:EatHealthy.DTO.FoodDiaryDTO
+  id: FoodDiaryDTO
+  parent: EatHealthy.DTO
+  children:
+  - EatHealthy.DTO.FoodDiaryDTO.Diary
+  - EatHealthy.DTO.FoodDiaryDTO.FoodDiaryEntries
+  - EatHealthy.DTO.FoodDiaryDTO.MealDate
+  langs:
+  - csharp
+  - vb
+  name: FoodDiaryDTO
+  nameWithType: FoodDiaryDTO
+  fullName: EatHealthy.DTO.FoodDiaryDTO
+  type: Class
+  source:
+    remote:
+      path: D:/documente scoala/Facultate/Anul 3/Sem2/SD/EatHealthy/EatHealthy/DTO/FoodDiaryDTO.cs
+    id: FoodDiaryDTO
+    path: DTO/FoodDiaryDTO.cs
+    startLine: 8
+  assemblies:
+  - EatHealthy
+  namespace: EatHealthy.DTO
+  syntax:
+    content: public class FoodDiaryDTO
+    content.vb: Public Class FoodDiaryDTO
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: EatHealthy.DTO.FoodDiaryDTO.FoodDiaryEntries
+  commentId: P:EatHealthy.DTO.FoodDiaryDTO.FoodDiaryEntries
+  id: FoodDiaryEntries
+  parent: EatHealthy.DTO.FoodDiaryDTO
+  langs:
+  - csharp
+  - vb
+  name: FoodDiaryEntries
+  nameWithType: FoodDiaryDTO.FoodDiaryEntries
+  fullName: EatHealthy.DTO.FoodDiaryDTO.FoodDiaryEntries
+  type: Property
+  source:
+    remote:
+      path: D:/documente scoala/Facultate/Anul 3/Sem2/SD/EatHealthy/EatHealthy/DTO/FoodDiaryDTO.cs
+    id: FoodDiaryEntries
+    path: DTO/FoodDiaryDTO.cs
+    startLine: 10
+  assemblies:
+  - EatHealthy
+  namespace: EatHealthy.DTO
+  syntax:
+    content: public List<FoodDiary> FoodDiaryEntries { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{EatHealthy.Models.FoodDiary}
+    content.vb: Public Property FoodDiaryEntries As List(Of FoodDiary)
+  overload: EatHealthy.DTO.FoodDiaryDTO.FoodDiaryEntries*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: EatHealthy.DTO.FoodDiaryDTO.MealDate
+  commentId: P:EatHealthy.DTO.FoodDiaryDTO.MealDate
+  id: MealDate
+  parent: EatHealthy.DTO.FoodDiaryDTO
+  langs:
+  - csharp
+  - vb
+  name: MealDate
+  nameWithType: FoodDiaryDTO.MealDate
+  fullName: EatHealthy.DTO.FoodDiaryDTO.MealDate
+  type: Property
+  source:
+    remote:
+      path: D:/documente scoala/Facultate/Anul 3/Sem2/SD/EatHealthy/EatHealthy/DTO/FoodDiaryDTO.cs
+    id: MealDate
+    path: DTO/FoodDiaryDTO.cs
+    startLine: 11
+  assemblies:
+  - EatHealthy
+  namespace: EatHealthy.DTO
+  syntax:
+    content: public DateTime MealDate { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Property MealDate As Date
+  overload: EatHealthy.DTO.FoodDiaryDTO.MealDate*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: EatHealthy.DTO.FoodDiaryDTO.Diary
+  commentId: P:EatHealthy.DTO.FoodDiaryDTO.Diary
+  id: Diary
+  parent: EatHealthy.DTO.FoodDiaryDTO
+  langs:
+  - csharp
+  - vb
+  name: Diary
+  nameWithType: FoodDiaryDTO.Diary
+  fullName: EatHealthy.DTO.FoodDiaryDTO.Diary
+  type: Property
+  source:
+    remote:
+      path: D:/documente scoala/Facultate/Anul 3/Sem2/SD/EatHealthy/EatHealthy/DTO/FoodDiaryDTO.cs
+    id: Diary
+    path: DTO/FoodDiaryDTO.cs
+    startLine: 13
+  assemblies:
+  - EatHealthy
+  namespace: EatHealthy.DTO
+  syntax:
+    content: public string Diary { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Diary As String
+  overload: EatHealthy.DTO.FoodDiaryDTO.Diary*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: EatHealthy.DTO
+  commentId: N:EatHealthy.DTO
+  name: EatHealthy.DTO
+  nameWithType: EatHealthy.DTO
+  fullName: EatHealthy.DTO
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EatHealthy.DTO.FoodDiaryDTO.FoodDiaryEntries*
+  commentId: Overload:EatHealthy.DTO.FoodDiaryDTO.FoodDiaryEntries
+  name: FoodDiaryEntries
+  nameWithType: FoodDiaryDTO.FoodDiaryEntries
+  fullName: EatHealthy.DTO.FoodDiaryDTO.FoodDiaryEntries
+- uid: System.Collections.Generic.List{EatHealthy.Models.FoodDiary}
+  commentId: T:System.Collections.Generic.List{EatHealthy.Models.FoodDiary}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<FoodDiary>
+  nameWithType: List<FoodDiary>
+  fullName: System.Collections.Generic.List<EatHealthy.Models.FoodDiary>
+  nameWithType.vb: List(Of FoodDiary)
+  fullName.vb: System.Collections.Generic.List(Of EatHealthy.Models.FoodDiary)
+  name.vb: List(Of FoodDiary)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: EatHealthy.Models.FoodDiary
+    name: FoodDiary
+    nameWithType: FoodDiary
+    fullName: EatHealthy.Models.FoodDiary
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: EatHealthy.Models.FoodDiary
+    name: FoodDiary
+    nameWithType: FoodDiary
+    fullName: EatHealthy.Models.FoodDiary
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: EatHealthy.DTO.FoodDiaryDTO.MealDate*
+  commentId: Overload:EatHealthy.DTO.FoodDiaryDTO.MealDate
+  name: MealDate
+  nameWithType: FoodDiaryDTO.MealDate
+  fullName: EatHealthy.DTO.FoodDiaryDTO.MealDate
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: EatHealthy.DTO.FoodDiaryDTO.Diary*
+  commentId: Overload:EatHealthy.DTO.FoodDiaryDTO.Diary
+  name: Diary
+  nameWithType: FoodDiaryDTO.Diary
+  fullName: EatHealthy.DTO.FoodDiaryDTO.Diary
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

@@ -1,0 +1,28 @@
+### YamlMime:ManagedReference
+items:
+- uid: EatHealthy.Migrations
+  commentId: N:EatHealthy.Migrations
+  id: EatHealthy.Migrations
+  children:
+  - EatHealthy.Migrations.Added_Appointment_Status
+  - EatHealthy.Migrations.initial
+  langs:
+  - csharp
+  - vb
+  name: EatHealthy.Migrations
+  nameWithType: EatHealthy.Migrations
+  fullName: EatHealthy.Migrations
+  type: Namespace
+  assemblies:
+  - EatHealthy
+references:
+- uid: EatHealthy.Migrations.initial
+  commentId: T:EatHealthy.Migrations.initial
+  name: initial
+  nameWithType: initial
+  fullName: EatHealthy.Migrations.initial
+- uid: EatHealthy.Migrations.Added_Appointment_Status
+  commentId: T:EatHealthy.Migrations.Added_Appointment_Status
+  name: Added_Appointment_Status
+  nameWithType: Added_Appointment_Status
+  fullName: EatHealthy.Migrations.Added_Appointment_Status

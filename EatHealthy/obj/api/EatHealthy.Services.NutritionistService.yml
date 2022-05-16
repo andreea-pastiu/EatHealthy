@@ -1,0 +1,633 @@
+### YamlMime:ManagedReference
+items:
+- uid: EatHealthy.Services.NutritionistService
+  commentId: T:EatHealthy.Services.NutritionistService
+  id: NutritionistService
+  parent: EatHealthy.Services
+  children:
+  - EatHealthy.Services.NutritionistService.#ctor(EatHealthy.EatHealthyContext)
+  - EatHealthy.Services.NutritionistService.GetAll
+  - EatHealthy.Services.NutritionistService.Login(System.String,System.String)
+  - EatHealthy.Services.NutritionistService.Register(System.String,System.String,System.String,System.String,System.String)
+  langs:
+  - csharp
+  - vb
+  name: NutritionistService
+  nameWithType: NutritionistService
+  fullName: EatHealthy.Services.NutritionistService
+  type: Class
+  source:
+    remote:
+      path: D:/documente scoala/Facultate/Anul 3/Sem2/SD/EatHealthy/EatHealthy/Services/NutritionistService.cs
+    id: NutritionistService
+    path: Services/NutritionistService.cs
+    startLine: 8
+  assemblies:
+  - EatHealthy
+  namespace: EatHealthy.Services
+  syntax:
+    content: public class NutritionistService
+    content.vb: Public Class NutritionistService
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: EatHealthy.Services.NutritionistService.#ctor(EatHealthy.EatHealthyContext)
+  commentId: M:EatHealthy.Services.NutritionistService.#ctor(EatHealthy.EatHealthyContext)
+  id: '#ctor(EatHealthy.EatHealthyContext)'
+  parent: EatHealthy.Services.NutritionistService
+  langs:
+  - csharp
+  - vb
+  name: NutritionistService(EatHealthyContext)
+  nameWithType: NutritionistService.NutritionistService(EatHealthyContext)
+  fullName: EatHealthy.Services.NutritionistService.NutritionistService(EatHealthy.EatHealthyContext)
+  type: Constructor
+  source:
+    remote:
+      path: D:/documente scoala/Facultate/Anul 3/Sem2/SD/EatHealthy/EatHealthy/Services/NutritionistService.cs
+    id: .ctor
+    path: Services/NutritionistService.cs
+    startLine: 12
+  assemblies:
+  - EatHealthy
+  namespace: EatHealthy.Services
+  syntax:
+    content: public NutritionistService(EatHealthyContext context)
+    parameters:
+    - id: context
+      type: EatHealthy.EatHealthyContext
+    content.vb: Public Sub New(context As EatHealthyContext)
+  overload: EatHealthy.Services.NutritionistService.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: EatHealthy.Services.NutritionistService.Register(System.String,System.String,System.String,System.String,System.String)
+  commentId: M:EatHealthy.Services.NutritionistService.Register(System.String,System.String,System.String,System.String,System.String)
+  id: Register(System.String,System.String,System.String,System.String,System.String)
+  parent: EatHealthy.Services.NutritionistService
+  langs:
+  - csharp
+  - vb
+  name: Register(String, String, String, String, String)
+  nameWithType: NutritionistService.Register(String, String, String, String, String)
+  fullName: EatHealthy.Services.NutritionistService.Register(System.String, System.String, System.String, System.String, System.String)
+  type: Method
+  source:
+    remote:
+      path: D:/documente scoala/Facultate/Anul 3/Sem2/SD/EatHealthy/EatHealthy/Services/NutritionistService.cs
+    id: Register
+    path: Services/NutritionistService.cs
+    startLine: 26
+  assemblies:
+  - EatHealthy
+  namespace: EatHealthy.Services
+  summary: "\nPerforms the registration of a nutritionist\n"
+  example: []
+  syntax:
+    content: public Nutritionist Register(string name, string email, string password, string phoneNumber, string address)
+    parameters:
+    - id: name
+      type: System.String
+      description: Name of the nutritionist
+    - id: email
+      type: System.String
+      description: Email of the nutritionist
+    - id: password
+      type: System.String
+      description: Password of the nutritionist
+    - id: phoneNumber
+      type: System.String
+      description: Phone number of the nutritionist
+    - id: address
+      type: System.String
+      description: Address of the nutritionist
+    return:
+      type: EatHealthy.Models.Nutritionist
+      description: The newly added nutritionist, or null if the email is already in use
+    content.vb: Public Function Register(name As String, email As String, password As String, phoneNumber As String, address As String) As Nutritionist
+  overload: EatHealthy.Services.NutritionistService.Register*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: EatHealthy.Services.NutritionistService.Login(System.String,System.String)
+  commentId: M:EatHealthy.Services.NutritionistService.Login(System.String,System.String)
+  id: Login(System.String,System.String)
+  parent: EatHealthy.Services.NutritionistService
+  langs:
+  - csharp
+  - vb
+  name: Login(String, String)
+  nameWithType: NutritionistService.Login(String, String)
+  fullName: EatHealthy.Services.NutritionistService.Login(System.String, System.String)
+  type: Method
+  source:
+    remote:
+      path: D:/documente scoala/Facultate/Anul 3/Sem2/SD/EatHealthy/EatHealthy/Services/NutritionistService.cs
+    id: Login
+    path: Services/NutritionistService.cs
+    startLine: 57
+  assemblies:
+  - EatHealthy
+  namespace: EatHealthy.Services
+  summary: "\nPerforms login of a nutritionist\n"
+  example: []
+  syntax:
+    content: public Nutritionist Login(string email, string password)
+    parameters:
+    - id: email
+      type: System.String
+      description: Email of the nutritionist
+    - id: password
+      type: System.String
+      description: Password of the nutritionist
+    return:
+      type: EatHealthy.Models.Nutritionist
+      description: The nutritionist if the credentials are valid, null otherwise
+    content.vb: Public Function Login(email As String, password As String) As Nutritionist
+  overload: EatHealthy.Services.NutritionistService.Login*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: EatHealthy.Services.NutritionistService.GetAll
+  commentId: M:EatHealthy.Services.NutritionistService.GetAll
+  id: GetAll
+  parent: EatHealthy.Services.NutritionistService
+  langs:
+  - csharp
+  - vb
+  name: GetAll()
+  nameWithType: NutritionistService.GetAll()
+  fullName: EatHealthy.Services.NutritionistService.GetAll()
+  type: Method
+  source:
+    remote:
+      path: D:/documente scoala/Facultate/Anul 3/Sem2/SD/EatHealthy/EatHealthy/Services/NutritionistService.cs
+    id: GetAll
+    path: Services/NutritionistService.cs
+    startLine: 69
+  assemblies:
+  - EatHealthy
+  namespace: EatHealthy.Services
+  summary: "\nGet a list of all the nutritionists in the platform\n"
+  example: []
+  syntax:
+    content: public List<Nutritionist> GetAll()
+    return:
+      type: System.Collections.Generic.List{EatHealthy.Models.Nutritionist}
+      description: A list of all the nutritionists in the platform
+    content.vb: Public Function GetAll As List(Of Nutritionist)
+  overload: EatHealthy.Services.NutritionistService.GetAll*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: EatHealthy.Services
+  commentId: N:EatHealthy.Services
+  name: EatHealthy.Services
+  nameWithType: EatHealthy.Services
+  fullName: EatHealthy.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EatHealthy.Services.NutritionistService.#ctor*
+  commentId: Overload:EatHealthy.Services.NutritionistService.#ctor
+  name: NutritionistService
+  nameWithType: NutritionistService.NutritionistService
+  fullName: EatHealthy.Services.NutritionistService.NutritionistService
+- uid: EatHealthy.EatHealthyContext
+  commentId: T:EatHealthy.EatHealthyContext
+  parent: EatHealthy
+  name: EatHealthyContext
+  nameWithType: EatHealthyContext
+  fullName: EatHealthy.EatHealthyContext
+- uid: EatHealthy
+  commentId: N:EatHealthy
+  name: EatHealthy
+  nameWithType: EatHealthy
+  fullName: EatHealthy
+- uid: EatHealthy.Services.NutritionistService.Register*
+  commentId: Overload:EatHealthy.Services.NutritionistService.Register
+  name: Register
+  nameWithType: NutritionistService.Register
+  fullName: EatHealthy.Services.NutritionistService.Register
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: EatHealthy.Models.Nutritionist
+  commentId: T:EatHealthy.Models.Nutritionist
+  parent: EatHealthy.Models
+  name: Nutritionist
+  nameWithType: Nutritionist
+  fullName: EatHealthy.Models.Nutritionist
+- uid: EatHealthy.Models
+  commentId: N:EatHealthy.Models
+  name: EatHealthy.Models
+  nameWithType: EatHealthy.Models
+  fullName: EatHealthy.Models
+- uid: EatHealthy.Services.NutritionistService.Login*
+  commentId: Overload:EatHealthy.Services.NutritionistService.Login
+  name: Login
+  nameWithType: NutritionistService.Login
+  fullName: EatHealthy.Services.NutritionistService.Login
+- uid: EatHealthy.Services.NutritionistService.GetAll*
+  commentId: Overload:EatHealthy.Services.NutritionistService.GetAll
+  name: GetAll
+  nameWithType: NutritionistService.GetAll
+  fullName: EatHealthy.Services.NutritionistService.GetAll
+- uid: System.Collections.Generic.List{EatHealthy.Models.Nutritionist}
+  commentId: T:System.Collections.Generic.List{EatHealthy.Models.Nutritionist}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<Nutritionist>
+  nameWithType: List<Nutritionist>
+  fullName: System.Collections.Generic.List<EatHealthy.Models.Nutritionist>
+  nameWithType.vb: List(Of Nutritionist)
+  fullName.vb: System.Collections.Generic.List(Of EatHealthy.Models.Nutritionist)
+  name.vb: List(Of Nutritionist)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: EatHealthy.Models.Nutritionist
+    name: Nutritionist
+    nameWithType: Nutritionist
+    fullName: EatHealthy.Models.Nutritionist
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: EatHealthy.Models.Nutritionist
+    name: Nutritionist
+    nameWithType: Nutritionist
+    fullName: EatHealthy.Models.Nutritionist
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic

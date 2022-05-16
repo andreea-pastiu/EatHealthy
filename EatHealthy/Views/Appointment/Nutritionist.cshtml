@@ -1,0 +1,44 @@
+﻿@using EatHealthy.DTO
+@using EatHealthy.Models
+@model AppointmentDTO
+
+<a href="\nutritionist\viewpatients">View patients</a>
+@if (Model.Appointments != null)
+{
+    for (int i = 0; i < Model.Appointments.Count; i++)
+    {
+        Appointment appointment = Model.Appointments[i];
+        <div>
+            Patient: @appointment.Patient.Name <br />
+            Date: @appointment.Date <br />
+            @if (appointment.Status == 0)
+            {
+                <button type="button" id="btnAccept" onclick="Accept(@appointment.ID)">Accept</button>
+                <button type="button" id="btnAccept" onclick="Reject(@appointment.ID)">Reject</button>
+                <p>Status: Waiting <br /></p>
+            }
+            @if (appointment.Status == 1)
+            {
+                <p>Status: Accepted <br /></p>
+            }
+            @if (appointment.Status == 2)
+            {
+                <p>Status: Rejected <br /></p>
+            }
+        </div>
+    }
+}
+
+<script>
+    function Accept(appointmentId) {
+        $.post('/appointment/accept', { appointmentId: appointmentId}).done(function (response) {
+            alert("Appointment accepted");
+        });
+    }
+
+    function Reject(appointmentId) {
+        $.post('/appointment/reject', { appointmentId: appointmentId }).done(function (response) {
+            alert("Appointment rejected");
+        });
+    }
+</script>

@@ -1,0 +1,62 @@
+﻿@using EatHealthy.DTO
+@using EatHealthy.Models
+@model FoodDiaryDTO
+
+<a href="\appointment\patient">Go to appointments</a>
+
+@using (Html.BeginForm("Add", "FoodDiary", FormMethod.Post))
+{
+    <table cellpadding="0" cellspacing="0">
+        <tr>
+            <th colspan="2" align="center">Add food diary</th>
+        </tr>
+        <tr>
+            <td>Meal Date: </td>
+            <td>
+                <div style="position: relative">
+                    @Html.TextBoxFor(m => m.MealDate, new { @id = "datetimepicker1" })
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>Diary: </td>
+            <td>
+                @Html.EditorFor(m => m.Diary)
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input type="submit" value="Add food diary" /></td>
+        </tr>
+    </table>
+}
+
+@if (Model.FoodDiaryEntries != null)
+{
+    for (int i = 0; i < Model.FoodDiaryEntries.Count; i++)
+    {
+        FoodDiary foodDiary = Model.FoodDiaryEntries[i];
+        <div>
+            Meal Date: @foodDiary.Date <br />
+            Diary: @foodDiary.Diary <br />
+        </div>
+    }
+}
+
+@section scripts
+{
+    <script type="text/javascript" src="~/Scripts/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="~/scripts/moment.min.js"></script>
+    <script type="text/javascript" src="~/scripts/bootstrap.min.js"></script>
+    <script type="text/javascript" src="~/scripts/bootstrap-datetimepicker.min.js"></script>
+    <link rel="stylesheet" href="~/Content/bootstrap-datetimepicker.css" />
+    <script>
+        $(function () {
+            $('#datetimepicker1').datetimepicker(
+                {
+                    daysOfWeekDisabled: [0, 6],
+                    format: 'MM/DD/YYYY HH:00'
+                });
+        });
+    </script>
+}

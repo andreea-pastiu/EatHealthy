@@ -1,0 +1,49 @@
+### YamlMime:ManagedReference
+items:
+- uid: EatHealthy.Services
+  commentId: N:EatHealthy.Services
+  id: EatHealthy.Services
+  children:
+  - EatHealthy.Services.AppointmentService
+  - EatHealthy.Services.FoodDiaryService
+  - EatHealthy.Services.NutritionistService
+  - EatHealthy.Services.PatientService
+  langs:
+  - csharp
+  - vb
+  name: EatHealthy.Services
+  nameWithType: EatHealthy.Services
+  fullName: EatHealthy.Services
+  type: Namespace
+  assemblies:
+  - EatHealthy
+references:
+- uid: EatHealthy.Services.AppointmentService
+  commentId: T:EatHealthy.Services.AppointmentService
+  parent: EatHealthy.Services
+  name: AppointmentService
+  nameWithType: AppointmentService
+  fullName: EatHealthy.Services.AppointmentService
+- uid: EatHealthy.Services.FoodDiaryService
+  commentId: T:EatHealthy.Services.FoodDiaryService
+  parent: EatHealthy.Services
+  name: FoodDiaryService
+  nameWithType: FoodDiaryService
+  fullName: EatHealthy.Services.FoodDiaryService
+- uid: EatHealthy.Services.NutritionistService
+  commentId: T:EatHealthy.Services.NutritionistService
+  parent: EatHealthy.Services
+  name: NutritionistService
+  nameWithType: NutritionistService
+  fullName: EatHealthy.Services.NutritionistService
+- uid: EatHealthy.Services.PatientService
+  commentId: T:EatHealthy.Services.PatientService
+  parent: EatHealthy.Services
+  name: PatientService
+  nameWithType: PatientService
+  fullName: EatHealthy.Services.PatientService
+- uid: EatHealthy.Services
+  commentId: N:EatHealthy.Services
+  name: EatHealthy.Services
+  nameWithType: EatHealthy.Services
+  fullName: EatHealthy.Services

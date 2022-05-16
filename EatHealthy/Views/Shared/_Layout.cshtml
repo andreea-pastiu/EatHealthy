@@ -23,6 +23,22 @@
                     <li>@Html.ActionLink("Home", "Index", "Home")</li>
                     <li>@Html.ActionLink("About", "About", "Home")</li>
                     <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+                    @if (HttpContext.Current.Session["Token"] == null)
+                    {
+                        <li>@Html.ActionLink("Nutritionist Login", "Login", "Nutritionist")</li>
+                        <li>@Html.ActionLink("Patient Login", "Login", "Patient")</li>
+                    }
+                    else
+                    {
+                        if (HttpContext.Current.Session["PatientId"] != null)
+                        {
+                            <li>@Html.ActionLink("Logout", "Logout", "Patient")</li>
+                        }
+                        else
+                        {
+                            <li>@Html.ActionLink("Logout", "Logout", "Nutritionist")</li>
+                        }
+                    }
                 </ul>
             </div>
         </div>

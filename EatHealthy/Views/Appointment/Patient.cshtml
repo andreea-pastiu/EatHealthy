@@ -1,0 +1,74 @@
+﻿@using EatHealthy.DTO
+@using EatHealthy.Models
+@model AppointmentDTO
+
+<a href="\fooddiary">Go to food diary</a>
+
+@using (Html.BeginForm("AddAppointment", "Appointment", FormMethod.Post))
+{
+    <table cellpadding="0" cellspacing="0">
+        <tr>
+            <th colspan="2" align="center">Add appointment</th>
+        </tr>
+        <tr>
+            <td>AppointmentDate: </td>
+            <td>
+                <div style="position: relative">
+                    @Html.TextBoxFor(m => m.AppointmentDate, new { @id = "datetimepicker1" })
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>Nutritionist: </td>
+            <td>
+                @Html.DropDownListFor(m => m.NutritionistId, new SelectList(Model.Nutritionists, "ID", "Name"))
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input type="submit" value="Add appointment" /></td>
+        </tr>
+    </table>
+}
+
+@if (Model.Appointments != null)
+{
+    for (int i = 0; i < Model.Appointments.Count; i++)
+    {
+        Appointment appointment = Model.Appointments[i];
+        <div>
+            Nutritionist: @appointment.Nutritionist.Name <br />
+            Date: @appointment.Date <br />
+            @if (appointment.Status == 0)
+            {
+                <p>Status: Waiting <br /></p>
+            }
+            @if (appointment.Status == 1)
+            {
+                <p>Status: Accepted <br /></p>
+            }
+            @if (appointment.Status == 2)
+            {
+                <p>Status: Rejected <br /></p>
+            }
+        </div>
+    }
+}
+
+@section scripts
+{
+    <script type="text/javascript" src="~/Scripts/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="~/scripts/moment.min.js"></script>
+    <script type="text/javascript" src="~/scripts/bootstrap.min.js"></script>
+    <script type="text/javascript" src="~/scripts/bootstrap-datetimepicker.min.js"></script>
+    <link rel="stylesheet" href="~/Content/bootstrap-datetimepicker.css" />
+    <script>
+        $(function () {
+            $('#datetimepicker1').datetimepicker(
+                {
+                    daysOfWeekDisabled: [0, 6],
+                    format: 'MM/DD/YYYY HH:00'
+                });
+        });
+    </script>
+}

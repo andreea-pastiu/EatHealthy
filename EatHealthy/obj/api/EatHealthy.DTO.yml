@@ -1,0 +1,69 @@
+### YamlMime:ManagedReference
+items:
+- uid: EatHealthy.DTO
+  commentId: N:EatHealthy.DTO
+  id: EatHealthy.DTO
+  children:
+  - EatHealthy.DTO.AppointmentDTO
+  - EatHealthy.DTO.FoodDiaryDTO
+  - EatHealthy.DTO.NutritionistLoginDTO
+  - EatHealthy.DTO.NutritionistRegisterDTO
+  - EatHealthy.DTO.PatientLoginDTO
+  - EatHealthy.DTO.PatientRegisterDTO
+  - EatHealthy.DTO.PatientsDTO
+  langs:
+  - csharp
+  - vb
+  name: EatHealthy.DTO
+  nameWithType: EatHealthy.DTO
+  fullName: EatHealthy.DTO
+  type: Namespace
+  assemblies:
+  - EatHealthy
+references:
+- uid: EatHealthy.DTO.AppointmentDTO
+  commentId: T:EatHealthy.DTO.AppointmentDTO
+  parent: EatHealthy.DTO
+  name: AppointmentDTO
+  nameWithType: AppointmentDTO
+  fullName: EatHealthy.DTO.AppointmentDTO
+- uid: EatHealthy.DTO.FoodDiaryDTO
+  commentId: T:EatHealthy.DTO.FoodDiaryDTO
+  parent: EatHealthy.DTO
+  name: FoodDiaryDTO
+  nameWithType: FoodDiaryDTO
+  fullName: EatHealthy.DTO.FoodDiaryDTO
+- uid: EatHealthy.DTO.NutritionistLoginDTO
+  commentId: T:EatHealthy.DTO.NutritionistLoginDTO
+  parent: EatHealthy.DTO
+  name: NutritionistLoginDTO
+  nameWithType: NutritionistLoginDTO
+  fullName: EatHealthy.DTO.NutritionistLoginDTO
+- uid: EatHealthy.DTO.NutritionistRegisterDTO
+  commentId: T:EatHealthy.DTO.NutritionistRegisterDTO
+  parent: EatHealthy.DTO
+  name: NutritionistRegisterDTO
+  nameWithType: NutritionistRegisterDTO
+  fullName: EatHealthy.DTO.NutritionistRegisterDTO
+- uid: EatHealthy.DTO.PatientLoginDTO
+  commentId: T:EatHealthy.DTO.PatientLoginDTO
+  parent: EatHealthy.DTO
+  name: PatientLoginDTO
+  nameWithType: PatientLoginDTO
+  fullName: EatHealthy.DTO.PatientLoginDTO
+- uid: EatHealthy.DTO.PatientRegisterDTO
+  commentId: T:EatHealthy.DTO.PatientRegisterDTO
+  parent: EatHealthy.DTO
+  name: PatientRegisterDTO
+  nameWithType: PatientRegisterDTO
+  fullName: EatHealthy.DTO.PatientRegisterDTO
+- uid: EatHealthy.DTO.PatientsDTO
+  commentId: T:EatHealthy.DTO.PatientsDTO
+  name: PatientsDTO
+  nameWithType: PatientsDTO
+  fullName: EatHealthy.DTO.PatientsDTO
+- uid: EatHealthy.DTO
+  commentId: N:EatHealthy.DTO
+  name: EatHealthy.DTO
+  nameWithType: EatHealthy.DTO
+  fullName: EatHealthy.DTO

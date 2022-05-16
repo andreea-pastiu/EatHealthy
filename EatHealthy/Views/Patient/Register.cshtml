@@ -1,0 +1,45 @@
+﻿@using EatHealthy.DTO
+@model PatientRegisterDTO
+
+@using (Html.BeginForm("Register", "Patient", FormMethod.Post))
+{
+    <table cellpadding="0" cellspacing="0">
+        <tr>
+            <th colspan="2" align="center">Register</th>
+        </tr>
+        <tr>
+            <td>Name: </td>
+            <td>
+                @Html.TextBoxFor(m => m.Name)
+            </td>
+        </tr>
+        <tr>
+            <td>Email: </td>
+            <td>
+                @Html.TextBoxFor(m => m.Email)
+            </td>
+        </tr>
+        <tr>
+            <td>Password: </td>
+            <td>
+                @Html.PasswordFor(m => m.Password)
+            </td>
+        </tr>
+        <tr>
+            <td>Weight: </td>
+            <td>
+                @Html.TextBoxFor(m => m.Weight, new { @type = "number", @min = "0" })
+            </td>
+        </tr>
+        <tr>
+            <td>Height: </td>
+            <td>
+                @Html.TextBoxFor(m => m.Height, new { @type = "number", @min = "0" })
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input type="submit" value="Register" /></td>
+        </tr>
+    </table>
+}

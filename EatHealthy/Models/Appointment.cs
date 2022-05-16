@@ -9,6 +9,8 @@ namespace EatHealthy.Models
     {
         public int ID { get; set; }
         public DateTime Date { get; set; }
+        public Patient Patient { get; set; }
         public Nutritionist Nutritionist { get; set; }
+        public int Status { get; set; }
     }
 }

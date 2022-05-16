@@ -1,0 +1,46 @@
+### YamlMime:ManagedReference
+items:
+- uid: EatHealthy.Controllers
+  commentId: N:EatHealthy.Controllers
+  id: EatHealthy.Controllers
+  children:
+  - EatHealthy.Controllers.AppointmentController
+  - EatHealthy.Controllers.FoodDiaryController
+  - EatHealthy.Controllers.HomeController
+  - EatHealthy.Controllers.NutritionistController
+  - EatHealthy.Controllers.PatientController
+  langs:
+  - csharp
+  - vb
+  name: EatHealthy.Controllers
+  nameWithType: EatHealthy.Controllers
+  fullName: EatHealthy.Controllers
+  type: Namespace
+  assemblies:
+  - EatHealthy
+references:
+- uid: EatHealthy.Controllers.AppointmentController
+  commentId: T:EatHealthy.Controllers.AppointmentController
+  name: AppointmentController
+  nameWithType: AppointmentController
+  fullName: EatHealthy.Controllers.AppointmentController
+- uid: EatHealthy.Controllers.FoodDiaryController
+  commentId: T:EatHealthy.Controllers.FoodDiaryController
+  name: FoodDiaryController
+  nameWithType: FoodDiaryController
+  fullName: EatHealthy.Controllers.FoodDiaryController
+- uid: EatHealthy.Controllers.HomeController
+  commentId: T:EatHealthy.Controllers.HomeController
+  name: HomeController
+  nameWithType: HomeController
+  fullName: EatHealthy.Controllers.HomeController
+- uid: EatHealthy.Controllers.NutritionistController
+  commentId: T:EatHealthy.Controllers.NutritionistController
+  name: NutritionistController
+  nameWithType: NutritionistController
+  fullName: EatHealthy.Controllers.NutritionistController
+- uid: EatHealthy.Controllers.PatientController
+  commentId: T:EatHealthy.Controllers.PatientController
+  name: PatientController
+  nameWithType: PatientController
+  fullName: EatHealthy.Controllers.PatientController

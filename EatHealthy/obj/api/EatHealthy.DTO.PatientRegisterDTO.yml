@@ -1,0 +1,549 @@
+### YamlMime:ManagedReference
+items:
+- uid: EatHealthy.DTO.PatientRegisterDTO
+  commentId: T:EatHealthy.DTO.PatientRegisterDTO
+  id: PatientRegisterDTO
+  parent: EatHealthy.DTO
+  children:
+  - EatHealthy.DTO.PatientRegisterDTO.Email
+  - EatHealthy.DTO.PatientRegisterDTO.Height
+  - EatHealthy.DTO.PatientRegisterDTO.Name
+  - EatHealthy.DTO.PatientRegisterDTO.Password
+  - EatHealthy.DTO.PatientRegisterDTO.Weight
+  langs:
+  - csharp
+  - vb
+  name: PatientRegisterDTO
+  nameWithType: PatientRegisterDTO
+  fullName: EatHealthy.DTO.PatientRegisterDTO
+  type: Class
+  source:
+    remote:
+      path: D:/documente scoala/Facultate/Anul 3/Sem2/SD/EatHealthy/EatHealthy/DTO/PatientRegisterDTO.cs
+    id: PatientRegisterDTO
+    path: DTO/PatientRegisterDTO.cs
+    startLine: 7
+  assemblies:
+  - EatHealthy
+  namespace: EatHealthy.DTO
+  syntax:
+    content: public class PatientRegisterDTO
+    content.vb: Public Class PatientRegisterDTO
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: EatHealthy.DTO.PatientRegisterDTO.Name
+  commentId: P:EatHealthy.DTO.PatientRegisterDTO.Name
+  id: Name
+  parent: EatHealthy.DTO.PatientRegisterDTO
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: PatientRegisterDTO.Name
+  fullName: EatHealthy.DTO.PatientRegisterDTO.Name
+  type: Property
+  source:
+    remote:
+      path: D:/documente scoala/Facultate/Anul 3/Sem2/SD/EatHealthy/EatHealthy/DTO/PatientRegisterDTO.cs
+    id: Name
+    path: DTO/PatientRegisterDTO.cs
+    startLine: 9
+  assemblies:
+  - EatHealthy
+  namespace: EatHealthy.DTO
+  syntax:
+    content: public string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Name As String
+  overload: EatHealthy.DTO.PatientRegisterDTO.Name*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: EatHealthy.DTO.PatientRegisterDTO.Email
+  commentId: P:EatHealthy.DTO.PatientRegisterDTO.Email
+  id: Email
+  parent: EatHealthy.DTO.PatientRegisterDTO
+  langs:
+  - csharp
+  - vb
+  name: Email
+  nameWithType: PatientRegisterDTO.Email
+  fullName: EatHealthy.DTO.PatientRegisterDTO.Email
+  type: Property
+  source:
+    remote:
+      path: D:/documente scoala/Facultate/Anul 3/Sem2/SD/EatHealthy/EatHealthy/DTO/PatientRegisterDTO.cs
+    id: Email
+    path: DTO/PatientRegisterDTO.cs
+    startLine: 10
+  assemblies:
+  - EatHealthy
+  namespace: EatHealthy.DTO
+  syntax:
+    content: public string Email { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Email As String
+  overload: EatHealthy.DTO.PatientRegisterDTO.Email*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: EatHealthy.DTO.PatientRegisterDTO.Password
+  commentId: P:EatHealthy.DTO.PatientRegisterDTO.Password
+  id: Password
+  parent: EatHealthy.DTO.PatientRegisterDTO
+  langs:
+  - csharp
+  - vb
+  name: Password
+  nameWithType: PatientRegisterDTO.Password
+  fullName: EatHealthy.DTO.PatientRegisterDTO.Password
+  type: Property
+  source:
+    remote:
+      path: D:/documente scoala/Facultate/Anul 3/Sem2/SD/EatHealthy/EatHealthy/DTO/PatientRegisterDTO.cs
+    id: Password
+    path: DTO/PatientRegisterDTO.cs
+    startLine: 11
+  assemblies:
+  - EatHealthy
+  namespace: EatHealthy.DTO
+  syntax:
+    content: public string Password { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Password As String
+  overload: EatHealthy.DTO.PatientRegisterDTO.Password*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: EatHealthy.DTO.PatientRegisterDTO.Weight
+  commentId: P:EatHealthy.DTO.PatientRegisterDTO.Weight
+  id: Weight
+  parent: EatHealthy.DTO.PatientRegisterDTO
+  langs:
+  - csharp
+  - vb
+  name: Weight
+  nameWithType: PatientRegisterDTO.Weight
+  fullName: EatHealthy.DTO.PatientRegisterDTO.Weight
+  type: Property
+  source:
+    remote:
+      path: D:/documente scoala/Facultate/Anul 3/Sem2/SD/EatHealthy/EatHealthy/DTO/PatientRegisterDTO.cs
+    id: Weight
+    path: DTO/PatientRegisterDTO.cs
+    startLine: 12
+  assemblies:
+  - EatHealthy
+  namespace: EatHealthy.DTO
+  syntax:
+    content: public double Weight { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Property Weight As Double
+  overload: EatHealthy.DTO.PatientRegisterDTO.Weight*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: EatHealthy.DTO.PatientRegisterDTO.Height
+  commentId: P:EatHealthy.DTO.PatientRegisterDTO.Height
+  id: Height
+  parent: EatHealthy.DTO.PatientRegisterDTO
+  langs:
+  - csharp
+  - vb
+  name: Height
+  nameWithType: PatientRegisterDTO.Height
+  fullName: EatHealthy.DTO.PatientRegisterDTO.Height
+  type: Property
+  source:
+    remote:
+      path: D:/documente scoala/Facultate/Anul 3/Sem2/SD/EatHealthy/EatHealthy/DTO/PatientRegisterDTO.cs
+    id: Height
+    path: DTO/PatientRegisterDTO.cs
+    startLine: 13
+  assemblies:
+  - EatHealthy
+  namespace: EatHealthy.DTO
+  syntax:
+    content: public double Height { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Property Height As Double
+  overload: EatHealthy.DTO.PatientRegisterDTO.Height*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: EatHealthy.DTO
+  commentId: N:EatHealthy.DTO
+  name: EatHealthy.DTO
+  nameWithType: EatHealthy.DTO
+  fullName: EatHealthy.DTO
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EatHealthy.DTO.PatientRegisterDTO.Name*
+  commentId: Overload:EatHealthy.DTO.PatientRegisterDTO.Name
+  name: Name
+  nameWithType: PatientRegisterDTO.Name
+  fullName: EatHealthy.DTO.PatientRegisterDTO.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: EatHealthy.DTO.PatientRegisterDTO.Email*
+  commentId: Overload:EatHealthy.DTO.PatientRegisterDTO.Email
+  name: Email
+  nameWithType: PatientRegisterDTO.Email
+  fullName: EatHealthy.DTO.PatientRegisterDTO.Email
+- uid: EatHealthy.DTO.PatientRegisterDTO.Password*
+  commentId: Overload:EatHealthy.DTO.PatientRegisterDTO.Password
+  name: Password
+  nameWithType: PatientRegisterDTO.Password
+  fullName: EatHealthy.DTO.PatientRegisterDTO.Password
+- uid: EatHealthy.DTO.PatientRegisterDTO.Weight*
+  commentId: Overload:EatHealthy.DTO.PatientRegisterDTO.Weight
+  name: Weight
+  nameWithType: PatientRegisterDTO.Weight
+  fullName: EatHealthy.DTO.PatientRegisterDTO.Weight
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  name: Double
+  nameWithType: Double
+  fullName: System.Double
+- uid: EatHealthy.DTO.PatientRegisterDTO.Height*
+  commentId: Overload:EatHealthy.DTO.PatientRegisterDTO.Height
+  name: Height
+  nameWithType: PatientRegisterDTO.Height
+  fullName: EatHealthy.DTO.PatientRegisterDTO.Height

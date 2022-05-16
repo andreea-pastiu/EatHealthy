@@ -1,0 +1,185 @@
+﻿
+<div id="sidetoggle">
+  <div>
+    <div class="sidefilter">
+      <form class="toc-filter">
+        <span class="glyphicon glyphicon-filter filter-icon"></span>
+        <span class="glyphicon glyphicon-remove clear-icon" id="toc_filter_clear"></span>
+        <input type="text" id="toc_filter_input" placeholder="Enter here to filter..." onkeypress="if(event.keyCode==13) {return false;}">
+      </form>
+    </div>
+    <div class="sidetoc">
+      <div class="toc" id="toc">
+          
+          <ul class="nav level1">
+                <li>
+                    <span class="expand-stub"></span>
+                    <a href="EatHealthy.html" name="" title="EatHealthy">EatHealthy</a>
+                    
+                    <ul class="nav level2">
+                          <li>
+                              <a href="EatHealthy.BundleConfig.html" name="" title="BundleConfig">BundleConfig</a>
+                          </li>
+                          <li>
+                              <a href="EatHealthy.EatHealthyContext.html" name="" title="EatHealthyContext">EatHealthyContext</a>
+                          </li>
+                          <li>
+                              <a href="EatHealthy.FilterConfig.html" name="" title="FilterConfig">FilterConfig</a>
+                          </li>
+                          <li>
+                              <a href="EatHealthy.IEatHealthyContext.html" name="" title="IEatHealthyContext">IEatHealthyContext</a>
+                          </li>
+                          <li>
+                              <a href="EatHealthy.MvcApplication.html" name="" title="MvcApplication">MvcApplication</a>
+                          </li>
+                          <li>
+                              <a href="EatHealthy.PasswordHelper.html" name="" title="PasswordHelper">PasswordHelper</a>
+                          </li>
+                          <li>
+                              <a href="EatHealthy.RouteConfig.html" name="" title="RouteConfig">RouteConfig</a>
+                          </li>
+                          <li>
+                              <a href="EatHealthy.SwaggerConfig.html" name="" title="SwaggerConfig">SwaggerConfig</a>
+                          </li>
+                          <li>
+                              <a href="EatHealthy.TokenDecoder.html" name="" title="TokenDecoder">TokenDecoder</a>
+                          </li>
+                          <li>
+                              <a href="EatHealthy.UnityConfig.html" name="" title="UnityConfig">UnityConfig</a>
+                          </li>
+                    </ul>
+                </li>
+                <li>
+                    <span class="expand-stub"></span>
+                    <a href="EatHealthy.App_Start.html" name="" title="EatHealthy.App_Start">EatHealthy.App_Start</a>
+                    
+                    <ul class="nav level2">
+                          <li>
+                              <a href="EatHealthy.App_Start.WebApiConfig.html" name="" title="WebApiConfig">WebApiConfig</a>
+                          </li>
+                    </ul>
+                </li>
+                <li>
+                    <span class="expand-stub"></span>
+                    <a href="EatHealthy.Controllers.html" name="" title="EatHealthy.Controllers">EatHealthy.Controllers</a>
+                    
+                    <ul class="nav level2">
+                          <li>
+                              <a href="EatHealthy.Controllers.AppointmentController.html" name="" title="AppointmentController">AppointmentController</a>
+                          </li>
+                          <li>
+                              <a href="EatHealthy.Controllers.FoodDiaryController.html" name="" title="FoodDiaryController">FoodDiaryController</a>
+                          </li>
+                          <li>
+                              <a href="EatHealthy.Controllers.HomeController.html" name="" title="HomeController">HomeController</a>
+                          </li>
+                          <li>
+                              <a href="EatHealthy.Controllers.NutritionistController.html" name="" title="NutritionistController">NutritionistController</a>
+                          </li>
+                          <li>
+                              <a href="EatHealthy.Controllers.PatientController.html" name="" title="PatientController">PatientController</a>
+                          </li>
+                    </ul>
+                </li>
+                <li>
+                    <span class="expand-stub"></span>
+                    <a href="EatHealthy.DTO.html" name="" title="EatHealthy.DTO">EatHealthy.DTO</a>
+                    
+                    <ul class="nav level2">
+                          <li>
+                              <a href="EatHealthy.DTO.AppointmentDTO.html" name="" title="AppointmentDTO">AppointmentDTO</a>
+                          </li>
+                          <li>
+                              <a href="EatHealthy.DTO.FoodDiaryDTO.html" name="" title="FoodDiaryDTO">FoodDiaryDTO</a>
+                          </li>
+                          <li>
+                              <a href="EatHealthy.DTO.NutritionistLoginDTO.html" name="" title="NutritionistLoginDTO">NutritionistLoginDTO</a>
+                          </li>
+                          <li>
+                              <a href="EatHealthy.DTO.NutritionistRegisterDTO.html" name="" title="NutritionistRegisterDTO">NutritionistRegisterDTO</a>
+                          </li>
+                          <li>
+                              <a href="EatHealthy.DTO.PatientLoginDTO.html" name="" title="PatientLoginDTO">PatientLoginDTO</a>
+                          </li>
+                          <li>
+                              <a href="EatHealthy.DTO.PatientRegisterDTO.html" name="" title="PatientRegisterDTO">PatientRegisterDTO</a>
+                          </li>
+                          <li>
+                              <a href="EatHealthy.DTO.PatientsDTO.html" name="" title="PatientsDTO">PatientsDTO</a>
+                          </li>
+                    </ul>
+                </li>
+                <li>
+                    <span class="expand-stub"></span>
+                    <a href="EatHealthy.Migrations.html" name="" title="EatHealthy.Migrations">EatHealthy.Migrations</a>
+                    
+                    <ul class="nav level2">
+                          <li>
+                              <a href="EatHealthy.Migrations.Added_Appointment_Status.html" name="" title="Added_Appointment_Status">Added_Appointment_Status</a>
+                          </li>
+                          <li>
+                              <a href="EatHealthy.Migrations.initial.html" name="" title="initial">initial</a>
+                          </li>
+                    </ul>
+                </li>
+                <li>
+                    <span class="expand-stub"></span>
+                    <a href="EatHealthy.Models.html" name="" title="EatHealthy.Models">EatHealthy.Models</a>
+                    
+                    <ul class="nav level2">
+                          <li>
+                              <a href="EatHealthy.Models.Administrator.html" name="" title="Administrator">Administrator</a>
+                          </li>
+                          <li>
+                              <a href="EatHealthy.Models.Appointment.html" name="" title="Appointment">Appointment</a>
+                          </li>
+                          <li>
+                              <a href="EatHealthy.Models.FoodDiary.html" name="" title="FoodDiary">FoodDiary</a>
+                          </li>
+                          <li>
+                              <a href="EatHealthy.Models.Ingredient.html" name="" title="Ingredient">Ingredient</a>
+                          </li>
+                          <li>
+                              <a href="EatHealthy.Models.Meal.html" name="" title="Meal">Meal</a>
+                          </li>
+                          <li>
+                              <a href="EatHealthy.Models.MealPlan.html" name="" title="MealPlan">MealPlan</a>
+                          </li>
+                          <li>
+                              <a href="EatHealthy.Models.MealPlanDay.html" name="" title="MealPlanDay">MealPlanDay</a>
+                          </li>
+                          <li>
+                              <a href="EatHealthy.Models.Nutritionist.html" name="" title="Nutritionist">Nutritionist</a>
+                          </li>
+                          <li>
+                              <a href="EatHealthy.Models.Patient.html" name="" title="Patient">Patient</a>
+                          </li>
+                          <li>
+                              <a href="EatHealthy.Models.User.html" name="" title="User">User</a>
+                          </li>
+                    </ul>
+                </li>
+                <li>
+                    <span class="expand-stub"></span>
+                    <a href="EatHealthy.Services.html" name="" title="EatHealthy.Services">EatHealthy.Services</a>
+                    
+                    <ul class="nav level2">
+                          <li>
+                              <a href="EatHealthy.Services.AppointmentService.html" name="" title="AppointmentService">AppointmentService</a>
+                          </li>
+                          <li>
+                              <a href="EatHealthy.Services.FoodDiaryService.html" name="" title="FoodDiaryService">FoodDiaryService</a>
+                          </li>
+                          <li>
+                              <a href="EatHealthy.Services.NutritionistService.html" name="" title="NutritionistService">NutritionistService</a>
+                          </li>
+                          <li>
+                              <a href="EatHealthy.Services.PatientService.html" name="" title="PatientService">PatientService</a>
+                          </li>
+                    </ul>
+                </li>
+          </ul>
+      </div>
+    </div>
+  </div>
+</div>

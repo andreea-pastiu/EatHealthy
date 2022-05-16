@@ -1,0 +1,721 @@
+### YamlMime:ManagedReference
+items:
+- uid: EatHealthy.Services.AppointmentService
+  commentId: T:EatHealthy.Services.AppointmentService
+  id: AppointmentService
+  parent: EatHealthy.Services
+  children:
+  - EatHealthy.Services.AppointmentService.#ctor(EatHealthy.EatHealthyContext)
+  - EatHealthy.Services.AppointmentService.Accept(System.Int32)
+  - EatHealthy.Services.AppointmentService.Add(System.Int32,System.Int32,System.DateTime)
+  - EatHealthy.Services.AppointmentService.GetAppointmentsForNutritionist(System.Int32)
+  - EatHealthy.Services.AppointmentService.GetAppointmentsForPatient(System.Int32)
+  - EatHealthy.Services.AppointmentService.Reject(System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: AppointmentService
+  nameWithType: AppointmentService
+  fullName: EatHealthy.Services.AppointmentService
+  type: Class
+  source:
+    remote:
+      path: D:/documente scoala/Facultate/Anul 3/Sem2/SD/EatHealthy/EatHealthy/Services/AppointmentService.cs
+    id: AppointmentService
+    path: Services/AppointmentService.cs
+    startLine: 8
+  assemblies:
+  - EatHealthy
+  namespace: EatHealthy.Services
+  syntax:
+    content: public class AppointmentService
+    content.vb: Public Class AppointmentService
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: EatHealthy.Services.AppointmentService.#ctor(EatHealthy.EatHealthyContext)
+  commentId: M:EatHealthy.Services.AppointmentService.#ctor(EatHealthy.EatHealthyContext)
+  id: '#ctor(EatHealthy.EatHealthyContext)'
+  parent: EatHealthy.Services.AppointmentService
+  langs:
+  - csharp
+  - vb
+  name: AppointmentService(EatHealthyContext)
+  nameWithType: AppointmentService.AppointmentService(EatHealthyContext)
+  fullName: EatHealthy.Services.AppointmentService.AppointmentService(EatHealthy.EatHealthyContext)
+  type: Constructor
+  source:
+    remote:
+      path: D:/documente scoala/Facultate/Anul 3/Sem2/SD/EatHealthy/EatHealthy/Services/AppointmentService.cs
+    id: .ctor
+    path: Services/AppointmentService.cs
+    startLine: 12
+  assemblies:
+  - EatHealthy
+  namespace: EatHealthy.Services
+  syntax:
+    content: public AppointmentService(EatHealthyContext context)
+    parameters:
+    - id: context
+      type: EatHealthy.EatHealthyContext
+    content.vb: Public Sub New(context As EatHealthyContext)
+  overload: EatHealthy.Services.AppointmentService.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: EatHealthy.Services.AppointmentService.Add(System.Int32,System.Int32,System.DateTime)
+  commentId: M:EatHealthy.Services.AppointmentService.Add(System.Int32,System.Int32,System.DateTime)
+  id: Add(System.Int32,System.Int32,System.DateTime)
+  parent: EatHealthy.Services.AppointmentService
+  langs:
+  - csharp
+  - vb
+  name: Add(Int32, Int32, DateTime)
+  nameWithType: AppointmentService.Add(Int32, Int32, DateTime)
+  fullName: EatHealthy.Services.AppointmentService.Add(System.Int32, System.Int32, System.DateTime)
+  type: Method
+  source:
+    remote:
+      path: D:/documente scoala/Facultate/Anul 3/Sem2/SD/EatHealthy/EatHealthy/Services/AppointmentService.cs
+    id: Add
+    path: Services/AppointmentService.cs
+    startLine: 24
+  assemblies:
+  - EatHealthy
+  namespace: EatHealthy.Services
+  summary: "\nAdds a new appointment\n"
+  example: []
+  syntax:
+    content: public Appointment Add(int patientId, int nutritionistId, DateTime appointmentDate)
+    parameters:
+    - id: patientId
+      type: System.Int32
+      description: Id of the patient performing the appointment
+    - id: nutritionistId
+      type: System.Int32
+      description: Id of the nutritionist
+    - id: appointmentDate
+      type: System.DateTime
+      description: Date of the appointment
+    return:
+      type: EatHealthy.Models.Appointment
+      description: The added appointment
+    content.vb: Public Function Add(patientId As Integer, nutritionistId As Integer, appointmentDate As Date) As Appointment
+  overload: EatHealthy.Services.AppointmentService.Add*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: EatHealthy.Services.AppointmentService.GetAppointmentsForPatient(System.Int32)
+  commentId: M:EatHealthy.Services.AppointmentService.GetAppointmentsForPatient(System.Int32)
+  id: GetAppointmentsForPatient(System.Int32)
+  parent: EatHealthy.Services.AppointmentService
+  langs:
+  - csharp
+  - vb
+  name: GetAppointmentsForPatient(Int32)
+  nameWithType: AppointmentService.GetAppointmentsForPatient(Int32)
+  fullName: EatHealthy.Services.AppointmentService.GetAppointmentsForPatient(System.Int32)
+  type: Method
+  source:
+    remote:
+      path: D:/documente scoala/Facultate/Anul 3/Sem2/SD/EatHealthy/EatHealthy/Services/AppointmentService.cs
+    id: GetAppointmentsForPatient
+    path: Services/AppointmentService.cs
+    startLine: 48
+  assemblies:
+  - EatHealthy
+  namespace: EatHealthy.Services
+  summary: "\nReturns all the appointments of a patient\n"
+  example: []
+  syntax:
+    content: public List<Appointment> GetAppointmentsForPatient(int patientId)
+    parameters:
+    - id: patientId
+      type: System.Int32
+      description: The id of the patient performing the request
+    return:
+      type: System.Collections.Generic.List{EatHealthy.Models.Appointment}
+      description: All the appointments of a patient
+    content.vb: Public Function GetAppointmentsForPatient(patientId As Integer) As List(Of Appointment)
+  overload: EatHealthy.Services.AppointmentService.GetAppointmentsForPatient*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: EatHealthy.Services.AppointmentService.GetAppointmentsForNutritionist(System.Int32)
+  commentId: M:EatHealthy.Services.AppointmentService.GetAppointmentsForNutritionist(System.Int32)
+  id: GetAppointmentsForNutritionist(System.Int32)
+  parent: EatHealthy.Services.AppointmentService
+  langs:
+  - csharp
+  - vb
+  name: GetAppointmentsForNutritionist(Int32)
+  nameWithType: AppointmentService.GetAppointmentsForNutritionist(Int32)
+  fullName: EatHealthy.Services.AppointmentService.GetAppointmentsForNutritionist(System.Int32)
+  type: Method
+  source:
+    remote:
+      path: D:/documente scoala/Facultate/Anul 3/Sem2/SD/EatHealthy/EatHealthy/Services/AppointmentService.cs
+    id: GetAppointmentsForNutritionist
+    path: Services/AppointmentService.cs
+    startLine: 58
+  assemblies:
+  - EatHealthy
+  namespace: EatHealthy.Services
+  summary: "\nReturns all the appointments of a nutritionist\n"
+  example: []
+  syntax:
+    content: public List<Appointment> GetAppointmentsForNutritionist(int nutritionistId)
+    parameters:
+    - id: nutritionistId
+      type: System.Int32
+      description: The id of the nutritionist performing the request
+    return:
+      type: System.Collections.Generic.List{EatHealthy.Models.Appointment}
+      description: All the appointments of a nutritionist
+    content.vb: Public Function GetAppointmentsForNutritionist(nutritionistId As Integer) As List(Of Appointment)
+  overload: EatHealthy.Services.AppointmentService.GetAppointmentsForNutritionist*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: EatHealthy.Services.AppointmentService.Accept(System.Int32)
+  commentId: M:EatHealthy.Services.AppointmentService.Accept(System.Int32)
+  id: Accept(System.Int32)
+  parent: EatHealthy.Services.AppointmentService
+  langs:
+  - csharp
+  - vb
+  name: Accept(Int32)
+  nameWithType: AppointmentService.Accept(Int32)
+  fullName: EatHealthy.Services.AppointmentService.Accept(System.Int32)
+  type: Method
+  source:
+    remote:
+      path: D:/documente scoala/Facultate/Anul 3/Sem2/SD/EatHealthy/EatHealthy/Services/AppointmentService.cs
+    id: Accept
+    path: Services/AppointmentService.cs
+    startLine: 68
+  assemblies:
+  - EatHealthy
+  namespace: EatHealthy.Services
+  summary: "\nSets the status of an appointment to &apos;Accepted&apos;\n"
+  example: []
+  syntax:
+    content: public int Accept(int appointmentId)
+    parameters:
+    - id: appointmentId
+      type: System.Int32
+      description: Id of the appointment to be updated
+    return:
+      type: System.Int32
+      description: The number of accepted appointments
+    content.vb: Public Function Accept(appointmentId As Integer) As Integer
+  overload: EatHealthy.Services.AppointmentService.Accept*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: EatHealthy.Services.AppointmentService.Reject(System.Int32)
+  commentId: M:EatHealthy.Services.AppointmentService.Reject(System.Int32)
+  id: Reject(System.Int32)
+  parent: EatHealthy.Services.AppointmentService
+  langs:
+  - csharp
+  - vb
+  name: Reject(Int32)
+  nameWithType: AppointmentService.Reject(Int32)
+  fullName: EatHealthy.Services.AppointmentService.Reject(System.Int32)
+  type: Method
+  source:
+    remote:
+      path: D:/documente scoala/Facultate/Anul 3/Sem2/SD/EatHealthy/EatHealthy/Services/AppointmentService.cs
+    id: Reject
+    path: Services/AppointmentService.cs
+    startLine: 80
+  assemblies:
+  - EatHealthy
+  namespace: EatHealthy.Services
+  summary: "\nSets the status of an appointment to &apos;Rejected&apos;\n"
+  example: []
+  syntax:
+    content: public int Reject(int appointmentId)
+    parameters:
+    - id: appointmentId
+      type: System.Int32
+      description: Id of the appointment to be updated
+    return:
+      type: System.Int32
+      description: The number of rejected appointments
+    content.vb: Public Function Reject(appointmentId As Integer) As Integer
+  overload: EatHealthy.Services.AppointmentService.Reject*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: EatHealthy.Services
+  commentId: N:EatHealthy.Services
+  name: EatHealthy.Services
+  nameWithType: EatHealthy.Services
+  fullName: EatHealthy.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EatHealthy.Services.AppointmentService.#ctor*
+  commentId: Overload:EatHealthy.Services.AppointmentService.#ctor
+  name: AppointmentService
+  nameWithType: AppointmentService.AppointmentService
+  fullName: EatHealthy.Services.AppointmentService.AppointmentService
+- uid: EatHealthy.EatHealthyContext
+  commentId: T:EatHealthy.EatHealthyContext
+  parent: EatHealthy
+  name: EatHealthyContext
+  nameWithType: EatHealthyContext
+  fullName: EatHealthy.EatHealthyContext
+- uid: EatHealthy
+  commentId: N:EatHealthy
+  name: EatHealthy
+  nameWithType: EatHealthy
+  fullName: EatHealthy
+- uid: EatHealthy.Services.AppointmentService.Add*
+  commentId: Overload:EatHealthy.Services.AppointmentService.Add
+  name: Add
+  nameWithType: AppointmentService.Add
+  fullName: EatHealthy.Services.AppointmentService.Add
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: EatHealthy.Models.Appointment
+  commentId: T:EatHealthy.Models.Appointment
+  parent: EatHealthy.Models
+  name: Appointment
+  nameWithType: Appointment
+  fullName: EatHealthy.Models.Appointment
+- uid: EatHealthy.Models
+  commentId: N:EatHealthy.Models
+  name: EatHealthy.Models
+  nameWithType: EatHealthy.Models
+  fullName: EatHealthy.Models
+- uid: EatHealthy.Services.AppointmentService.GetAppointmentsForPatient*
+  commentId: Overload:EatHealthy.Services.AppointmentService.GetAppointmentsForPatient
+  name: GetAppointmentsForPatient
+  nameWithType: AppointmentService.GetAppointmentsForPatient
+  fullName: EatHealthy.Services.AppointmentService.GetAppointmentsForPatient
+- uid: System.Collections.Generic.List{EatHealthy.Models.Appointment}
+  commentId: T:System.Collections.Generic.List{EatHealthy.Models.Appointment}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<Appointment>
+  nameWithType: List<Appointment>
+  fullName: System.Collections.Generic.List<EatHealthy.Models.Appointment>
+  nameWithType.vb: List(Of Appointment)
+  fullName.vb: System.Collections.Generic.List(Of EatHealthy.Models.Appointment)
+  name.vb: List(Of Appointment)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: EatHealthy.Models.Appointment
+    name: Appointment
+    nameWithType: Appointment
+    fullName: EatHealthy.Models.Appointment
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: EatHealthy.Models.Appointment
+    name: Appointment
+    nameWithType: Appointment
+    fullName: EatHealthy.Models.Appointment
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: EatHealthy.Services.AppointmentService.GetAppointmentsForNutritionist*
+  commentId: Overload:EatHealthy.Services.AppointmentService.GetAppointmentsForNutritionist
+  name: GetAppointmentsForNutritionist
+  nameWithType: AppointmentService.GetAppointmentsForNutritionist
+  fullName: EatHealthy.Services.AppointmentService.GetAppointmentsForNutritionist
+- uid: EatHealthy.Services.AppointmentService.Accept*
+  commentId: Overload:EatHealthy.Services.AppointmentService.Accept
+  name: Accept
+  nameWithType: AppointmentService.Accept
+  fullName: EatHealthy.Services.AppointmentService.Accept
+- uid: EatHealthy.Services.AppointmentService.Reject*
+  commentId: Overload:EatHealthy.Services.AppointmentService.Reject
+  name: Reject
+  nameWithType: AppointmentService.Reject
+  fullName: EatHealthy.Services.AppointmentService.Reject
